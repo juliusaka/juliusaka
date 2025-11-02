@@ -26,8 +26,11 @@ website:
       #   href: talks.qmd
       # - text: Projects
       #   href: projects.qmd
+      
     right:
       - about.qmd
+      - text: Blog Archive
+        href: http://wordpress-archive.juliusaka.de/
       - icon: github
         href: https://github.com/
       - icon: linkedin

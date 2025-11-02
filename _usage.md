@@ -64,3 +64,9 @@ To update the publications list from ORCID, run:
 ```bash
 uv run fetch_orcid.py
 ```
+
+### Use a custom domain
+
+- https://docs.github.com/de/pages/configuring-a-custom-domain-for-your-github-pages-site
+- https://quarto.org/docs/publishing/github-pages.html
+- https://www.schminkel.de/articles/github-pages-with-strato
