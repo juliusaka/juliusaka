@@ -30,7 +30,10 @@ quarto preview
 This will start a local server and open the site in your default web browser. Any changes you make to the source files will automatically refresh the browser.
 
 ## Deploy the Site
-To deploy the site, you can push the changes to your GitHub repository if you have set up GitHub Pages or any other hosting service. Make sure to commit and push all changes before deployment.
+
+Documentation for deploying the site on github pages can be found in [quarto's documentation](https://quarto.org/docs/publishing/github-pages.html).
+
+Briefly, to deploy the site, you can push the changes to your GitHub repository if you have set up GitHub Pages or any other hosting service. Make sure to commit and push all changes before deployment.
 ```bash
 git add .
 git commit -m "Update site"
