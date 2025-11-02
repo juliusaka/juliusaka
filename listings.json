@@ -1,0 +1,13 @@
+[
+  {
+    "listing": "/blog_ger.html",
+    "items": []
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/welcome/index.html",
+      "/blog/post-with-code/index.html"
+    ]
+  }
+]
