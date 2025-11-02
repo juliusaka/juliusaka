@@ -1,0 +1,9 @@
+---
+title: "Publications"
+bibliography: publications.bib
+csl: styles/no-sort.csl
+nocite: |
+  @*
+---
+
+::: {#refs}

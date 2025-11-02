@@ -1,0 +1,4 @@
+# Ignore quarto output directories
+/.quarto/
+/_site/
+**/*.quarto_ipynb

@@ -1,0 +1,16 @@
+---
+title: "Post With Code"
+author: "Harlow Malloc"
+date: "2025-01-02"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+This is a post with executable code.
+
+
+```{python}
+    print('hello world')
+```
+
+This is a simple example of how code is used in quarto.

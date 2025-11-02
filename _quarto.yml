@@ -1,0 +1,42 @@
+project:
+  type: website
+
+website:
+  description: "A blog built with Quarto"
+  site-url: "https://www.juliusaka.de"
+  title: "juliusaka.de"
+  navbar:
+    background: white
+    search: true
+    left: 
+      - text: Home
+        href: index.qmd
+      - text: Blog
+        href: blog.qmd
+      # - text: Blog (DE)
+      #   href: blog_ger.qmd
+      - text: CV
+        href: cv.qmd
+      - text: Publications
+        href: publications.qmd
+      # - text: Talks
+      #   href: talks.qmd
+      # - text: Projects
+      #   href: projects.qmd
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: linkedin
+        href: https://www.linkedin.com/in/juliusaka/
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+execute: 
+  freeze: auto
+
+
+
