@@ -1,6 +1,9 @@
 project:
   type: website
 
+execute: # only render locally
+  freeze: auto
+
 website:
   description: "A blog built with Quarto"
   site-url: "https://www.juliusaka.de"
@@ -35,8 +38,6 @@ format:
       - cosmo
       - brand
     css: styles.css
-execute: 
-  freeze: auto
 
 
 

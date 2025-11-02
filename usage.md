@@ -29,6 +29,14 @@ quarto preview
 ```
 This will start a local server and open the site in your default web browser. Any changes you make to the source files will automatically refresh the browser.
 
+## Render the Site Locally
+To render the site locally, you can use the following command:
+
+```bash
+quarto render
+```
+This will generate the static files for the site in the `_site` directory. Additionally, it will save the results of computatations in the `_freeze` directory, that should be checked into version control, such that the site can be deployed (e.g. with GitHub Actions) without re-running computations.
+
 ## Deploy the Site
 
 Documentation for deploying the site on github pages can be found in [quarto's documentation](https://quarto.org/docs/publishing/github-pages.html).
@@ -39,8 +47,20 @@ git add .
 git commit -m "Update site"
 git push origin main
 ```
-Then, to build the site locally, run:
+
+### Publish locally to GitHub Pages
+
+Then, to build the site locally, run (on the main branch):
 ```bash
 quarto publish gh-pages
 ```
 This command will build the site and publish it to the `gh-pages` branch of your GitHub repository.
+
+To update the publications list from ORCID, run:
+```bash
+uv run fetch_orcid.py
+```
+
+### Publish via GitHub Actions
+
+Is done using the CI workflow defined in `.github/workflows/deploy.yml`, which is triggered on pushes to the `main` branch.
