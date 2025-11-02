@@ -8,6 +8,13 @@ website:
   description: "A blog built with Quarto"
   site-url: "https://www.juliusaka.de"
   title: "juliusaka.de"
+  google-analytics: 
+    tracking-id: "G-6DDCYRJNSW"
+    anonymize-ip: false
+    storage: cookies
+  cookie-consent: 
+    enabled: true
+    style: headline
   navbar:
     background: white
     search: true
