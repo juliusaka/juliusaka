@@ -28,39 +28,11 @@
     "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 30, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 2, 2025\n\n\nHarlow Malloc\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "usage.html",
-    "href": "usage.html",
-    "title": "Usage",
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
     "section": "",
-    "text": "Follow the instructions on the Quarto website.\nInstall also the extension for your code editor, e.g., Quarto for VS Code.\n\n\n\nInstall the uv package manager for using python in this repository. Follow the instructions in the uv documentation.\nTo run a script with uv, use the command:\nuv run &lt;my_script.py&gt;\nTo build a environment reflecting the dependencies in pyproject.toml, use:\nuv sync\n\n\n\n\nTo preview the site locally with a live server, you can use the following command:\nquarto preview\nThis will start a local server and open the site in your default web browser. Any changes you make to the source files will automatically refresh the browser.\n\n\n\nTo render the site locally, you can use the following command:\nquarto render\nThis will generate the static files for the site in the _site directory. Additionally, it will save the results of computatations in the _freeze directory, that should be checked into version control, such that the site can be deployed (e.g. with GitHub Actions) without re-running computations.\n\n\n\nDocumentation for deploying the site on github pages can be found in quarto’s documentation.\nBriefly, to deploy the site, you can push the changes to your GitHub repository if you have set up GitHub Pages or any other hosting service. Make sure to commit and push all changes before deployment.\ngit add .\ngit commit -m \"Update site\"\ngit push origin main\n\n\nThen, to build the site locally, run (on the main branch):\nquarto publish gh-pages\nThis command will build the site and publish it to the gh-pages branch of your GitHub repository.\nTo update the publications list from ORCID, run:\nuv run fetch_orcid.py\n\n\n\nIs done using the CI workflow defined in .github/workflows/deploy.yml, which is triggered on pushes to the main branch."
-  },
-  {
-    "objectID": "usage.html#installation",
-    "href": "usage.html#installation",
-    "title": "Usage",
-    "section": "",
-    "text": "Follow the instructions on the Quarto website.\nInstall also the extension for your code editor, e.g., Quarto for VS Code.\n\n\n\nInstall the uv package manager for using python in this repository. Follow the instructions in the uv documentation.\nTo run a script with uv, use the command:\nuv run &lt;my_script.py&gt;\nTo build a environment reflecting the dependencies in pyproject.toml, use:\nuv sync"
-  },
-  {
-    "objectID": "usage.html#preview-the-site-locally",
-    "href": "usage.html#preview-the-site-locally",
-    "title": "Usage",
-    "section": "",
-    "text": "To preview the site locally with a live server, you can use the following command:\nquarto preview\nThis will start a local server and open the site in your default web browser. Any changes you make to the source files will automatically refresh the browser."
-  },
-  {
-    "objectID": "usage.html#render-the-site-locally",
-    "href": "usage.html#render-the-site-locally",
-    "title": "Usage",
-    "section": "",
-    "text": "To render the site locally, you can use the following command:\nquarto render\nThis will generate the static files for the site in the _site directory. Additionally, it will save the results of computatations in the _freeze directory, that should be checked into version control, such that the site can be deployed (e.g. with GitHub Actions) without re-running computations."
-  },
-  {
-    "objectID": "usage.html#deploy-the-site",
-    "href": "usage.html#deploy-the-site",
-    "title": "Usage",
-    "section": "",
-    "text": "Documentation for deploying the site on github pages can be found in quarto’s documentation.\nBriefly, to deploy the site, you can push the changes to your GitHub repository if you have set up GitHub Pages or any other hosting service. Make sure to commit and push all changes before deployment.\ngit add .\ngit commit -m \"Update site\"\ngit push origin main\n\n\nThen, to build the site locally, run (on the main branch):\nquarto publish gh-pages\nThis command will build the site and publish it to the gh-pages branch of your GitHub repository.\nTo update the publications list from ORCID, run:\nuv run fetch_orcid.py\n\n\n\nIs done using the CI workflow defined in .github/workflows/deploy.yml, which is triggered on pushes to the main branch."
+    "text": "under construction…"
   },
   {
     "objectID": "index.html",
@@ -68,13 +40,6 @@
     "title": "Julius Aka - personal blog",
     "section": "",
     "text": "Hi, this is my blog. My newest posts are:"
-  },
-  {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
-    "section": "",
-    "text": "under construction…"
   },
   {
     "objectID": "cv.html",
