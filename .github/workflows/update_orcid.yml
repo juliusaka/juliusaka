@@ -1,4 +1,4 @@
-name: Update ORCID Publications (Weekly)
+name: Update ORCID Publications (Weekly and on Push)
 
 on:
   schedule:
