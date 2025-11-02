@@ -1,47 +1,5 @@
 [
   {
-    "objectID": "usage.html",
-    "href": "usage.html",
-    "title": "Usage",
-    "section": "",
-    "text": "Follow the instructions on the Quarto website.\nInstall also the extension for your code editor, e.g., Quarto for VS Code.\n\n\n\nInstall the uv package manager for using python in this repository. Follow the instructions in the uv documentation.\nTo run a script with uv, use the command:\nuv run &lt;my_script.py&gt;\nTo build a environment reflecting the dependencies in pyproject.toml, use:\nuv sync\n\n\n\n\nTo preview the site locally with a live server, you can use the following command:\nquarto preview\nThis will start a local server and open the site in your default web browser. Any changes you make to the source files will automatically refresh the browser.\n\n\n\nDocumentation for deploying the site on github pages can be found in quarto’s documentation.\nBriefly, to deploy the site, you can push the changes to your GitHub repository if you have set up GitHub Pages or any other hosting service. Make sure to commit and push all changes before deployment.\ngit add .\ngit commit -m \"Update site\"\ngit push origin main\nThen, to build the site locally, run (on the main branch):\nquarto publish gh-pages\nThis command will build the site and publish it to the gh-pages branch of your GitHub repository."
-  },
-  {
-    "objectID": "usage.html#installation",
-    "href": "usage.html#installation",
-    "title": "Usage",
-    "section": "",
-    "text": "Follow the instructions on the Quarto website.\nInstall also the extension for your code editor, e.g., Quarto for VS Code.\n\n\n\nInstall the uv package manager for using python in this repository. Follow the instructions in the uv documentation.\nTo run a script with uv, use the command:\nuv run &lt;my_script.py&gt;\nTo build a environment reflecting the dependencies in pyproject.toml, use:\nuv sync"
-  },
-  {
-    "objectID": "usage.html#preview-the-site-locally",
-    "href": "usage.html#preview-the-site-locally",
-    "title": "Usage",
-    "section": "",
-    "text": "To preview the site locally with a live server, you can use the following command:\nquarto preview\nThis will start a local server and open the site in your default web browser. Any changes you make to the source files will automatically refresh the browser."
-  },
-  {
-    "objectID": "usage.html#deploy-the-site",
-    "href": "usage.html#deploy-the-site",
-    "title": "Usage",
-    "section": "",
-    "text": "Documentation for deploying the site on github pages can be found in quarto’s documentation.\nBriefly, to deploy the site, you can push the changes to your GitHub repository if you have set up GitHub Pages or any other hosting service. Make sure to commit and push all changes before deployment.\ngit add .\ngit commit -m \"Update site\"\ngit push origin main\nThen, to build the site locally, run (on the main branch):\nquarto publish gh-pages\nThis command will build the site and publish it to the gh-pages branch of your GitHub repository."
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "E. Henningsson, C. Schulze, J. Aka, M. Gräber, D. Brück, E. Nahodovic, & O. Lenord. (2025). Input smoothing for faster co-simulation using FMI. Linköping Electronic Conference Proceedings. https://doi.org: 10.3384/ecp218653.\n\n\nJ. Aka, J. Brunnemann, J. Eiden, A. Speerforck, & L. Mikelsons. (2024). Balanced neural ODEs: Nonlinear model order reduction and koopman operator approximations. arXiv. https://doi.org: 10.48550/ARXIV.2410.10174.\n\n\nJ. Aka, J. Brunnemann, S. Freund, & A. Speerforck. (2023). Efficient global multi parameter calibration for complex system models using machine-learning surrogates. Modelica conferences, 107–120. https://doi.org: 10.3384/ecp204107."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Julius Aka - personal blog",
-    "section": "",
-    "text": "Hi, this is my blog. My newest posts are:"
-  },
-  {
     "objectID": "blog_ger.html",
     "href": "blog_ger.html",
     "title": "Blog (auf Deutsch)",
@@ -63,18 +21,60 @@
     "text": "About this blog"
   },
   {
-    "objectID": "blog/post-with-code/index.html",
-    "href": "blog/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n    print('hello world')\n\nhello world\n\n\nThis is a simple example of how code is used in quarto."
-  },
-  {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
     "section": "",
     "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 30, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 2, 2025\n\n\nHarlow Malloc\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "usage.html",
+    "href": "usage.html",
+    "title": "Usage",
+    "section": "",
+    "text": "Follow the instructions on the Quarto website.\nInstall also the extension for your code editor, e.g., Quarto for VS Code.\n\n\n\nInstall the uv package manager for using python in this repository. Follow the instructions in the uv documentation.\nTo run a script with uv, use the command:\nuv run &lt;my_script.py&gt;\nTo build a environment reflecting the dependencies in pyproject.toml, use:\nuv sync\n\n\n\n\nTo preview the site locally with a live server, you can use the following command:\nquarto preview\nThis will start a local server and open the site in your default web browser. Any changes you make to the source files will automatically refresh the browser.\n\n\n\nTo render the site locally, you can use the following command:\nquarto render\nThis will generate the static files for the site in the _site directory. Additionally, it will save the results of computatations in the _freeze directory, that should be checked into version control, such that the site can be deployed (e.g. with GitHub Actions) without re-running computations.\n\n\n\nDocumentation for deploying the site on github pages can be found in quarto’s documentation.\nBriefly, to deploy the site, you can push the changes to your GitHub repository if you have set up GitHub Pages or any other hosting service. Make sure to commit and push all changes before deployment.\ngit add .\ngit commit -m \"Update site\"\ngit push origin main\n\n\nThen, to build the site locally, run (on the main branch):\nquarto publish gh-pages\nThis command will build the site and publish it to the gh-pages branch of your GitHub repository.\nTo update the publications list from ORCID, run:\nuv run fetch_orcid.py\n\n\n\nIs done using the CI workflow defined in .github/workflows/deploy.yml, which is triggered on pushes to the main branch."
+  },
+  {
+    "objectID": "usage.html#installation",
+    "href": "usage.html#installation",
+    "title": "Usage",
+    "section": "",
+    "text": "Follow the instructions on the Quarto website.\nInstall also the extension for your code editor, e.g., Quarto for VS Code.\n\n\n\nInstall the uv package manager for using python in this repository. Follow the instructions in the uv documentation.\nTo run a script with uv, use the command:\nuv run &lt;my_script.py&gt;\nTo build a environment reflecting the dependencies in pyproject.toml, use:\nuv sync"
+  },
+  {
+    "objectID": "usage.html#preview-the-site-locally",
+    "href": "usage.html#preview-the-site-locally",
+    "title": "Usage",
+    "section": "",
+    "text": "To preview the site locally with a live server, you can use the following command:\nquarto preview\nThis will start a local server and open the site in your default web browser. Any changes you make to the source files will automatically refresh the browser."
+  },
+  {
+    "objectID": "usage.html#render-the-site-locally",
+    "href": "usage.html#render-the-site-locally",
+    "title": "Usage",
+    "section": "",
+    "text": "To render the site locally, you can use the following command:\nquarto render\nThis will generate the static files for the site in the _site directory. Additionally, it will save the results of computatations in the _freeze directory, that should be checked into version control, such that the site can be deployed (e.g. with GitHub Actions) without re-running computations."
+  },
+  {
+    "objectID": "usage.html#deploy-the-site",
+    "href": "usage.html#deploy-the-site",
+    "title": "Usage",
+    "section": "",
+    "text": "Documentation for deploying the site on github pages can be found in quarto’s documentation.\nBriefly, to deploy the site, you can push the changes to your GitHub repository if you have set up GitHub Pages or any other hosting service. Make sure to commit and push all changes before deployment.\ngit add .\ngit commit -m \"Update site\"\ngit push origin main\n\n\nThen, to build the site locally, run (on the main branch):\nquarto publish gh-pages\nThis command will build the site and publish it to the gh-pages branch of your GitHub repository.\nTo update the publications list from ORCID, run:\nuv run fetch_orcid.py\n\n\n\nIs done using the CI workflow defined in .github/workflows/deploy.yml, which is triggered on pushes to the main branch."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Julius Aka - personal blog",
+    "section": "",
+    "text": "Hi, this is my blog. My newest posts are:"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "under construction…"
   },
   {
     "objectID": "cv.html",
@@ -84,16 +84,23 @@
     "text": "under construction…"
   },
   {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "E. Henningsson, C. Schulze, J. Aka, M. Gräber, D. Brück, E. Nahodovic, & O. Lenord. (2025). Input smoothing for faster co-simulation using FMI. Linköping Electronic Conference Proceedings. https://doi.org: 10.3384/ecp218653.\n\n\nJ. Aka, J. Brunnemann, J. Eiden, A. Speerforck, & L. Mikelsons. (2024). Balanced neural ODEs: Nonlinear model order reduction and koopman operator approximations. arXiv. https://doi.org: 10.48550/ARXIV.2410.10174.\n\n\nJ. Aka, J. Brunnemann, S. Freund, & A. Speerforck. (2023). Efficient global multi parameter calibration for complex system models using machine-learning surrogates. Modelica conferences, 107–120. https://doi.org: 10.3384/ecp204107."
+  },
+  {
+    "objectID": "blog/post-with-code/index.html",
+    "href": "blog/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n    print('hello world')\n\nhello world\n\n\nThis is a simple example of how code is used in quarto."
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
-    "section": "",
-    "text": "under construction…"
-  },
-  {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
     "section": "",
     "text": "under construction…"
   }

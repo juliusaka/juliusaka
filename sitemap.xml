@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.juliusaka.de/usage.html</loc>
-    <lastmod>2025-11-02T16:59:30.012Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.juliusaka.de/publications.html</loc>
-    <lastmod>2025-11-02T16:59:01.556Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.juliusaka.de/index.html</loc>
-    <lastmod>2025-11-02T16:59:01.555Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.juliusaka.de/blog_ger.html</loc>
-    <lastmod>2025-11-02T16:59:01.553Z</lastmod>
+    <lastmod>2025-11-02T17:11:12.438Z</lastmod>
   </url>
   <url>
     <loc>https://www.juliusaka.de/blog/welcome/index.html</loc>
-    <lastmod>2025-11-02T16:59:01.552Z</lastmod>
+    <lastmod>2025-11-02T17:11:12.438Z</lastmod>
   </url>
   <url>
     <loc>https://www.juliusaka.de/about.html</loc>
-    <lastmod>2025-11-02T16:59:01.550Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.juliusaka.de/blog/post-with-code/index.html</loc>
-    <lastmod>2025-11-02T16:59:01.552Z</lastmod>
+    <lastmod>2025-11-02T17:11:12.437Z</lastmod>
   </url>
   <url>
     <loc>https://www.juliusaka.de/blog.html</loc>
-    <lastmod>2025-11-02T16:59:01.551Z</lastmod>
+    <lastmod>2025-11-02T17:11:12.437Z</lastmod>
   </url>
   <url>
-    <loc>https://www.juliusaka.de/cv.html</loc>
-    <lastmod>2025-11-02T16:59:01.554Z</lastmod>
+    <loc>https://www.juliusaka.de/usage.html</loc>
+    <lastmod>2025-11-02T17:11:12.439Z</lastmod>
   </url>
   <url>
-    <loc>https://www.juliusaka.de/projects.html</loc>
-    <lastmod>2025-11-02T16:59:01.556Z</lastmod>
+    <loc>https://www.juliusaka.de/index.html</loc>
+    <lastmod>2025-11-02T17:11:12.438Z</lastmod>
   </url>
   <url>
     <loc>https://www.juliusaka.de/talks.html</loc>
-    <lastmod>2025-11-02T16:59:01.557Z</lastmod>
+    <lastmod>2025-11-02T17:11:12.439Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.juliusaka.de/cv.html</loc>
+    <lastmod>2025-11-02T17:11:12.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.juliusaka.de/publications.html</loc>
+    <lastmod>2025-11-02T17:11:12.439Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.juliusaka.de/blog/post-with-code/index.html</loc>
+    <lastmod>2025-11-02T17:11:12.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.juliusaka.de/projects.html</loc>
+    <lastmod>2025-11-02T17:11:12.438Z</lastmod>
   </url>
 </urlset>
