@@ -47,10 +47,14 @@ git add .
 git commit -m "Update site"
 git push origin main
 ```
+### Publish via GitHub Actions
+
+Is done using the CI workflow defined in `.github/workflows/deploy.yml`, which is triggered on pushes to the `main` branch. This can be done only, if at least one time the  ```quarto publish gh-pages
+``` (see quarto documentation) command has been run locally to set up the `gh-pages` branch.
 
 ### Publish locally to GitHub Pages
 
-Then, to build the site locally, run (on the main branch):
+To build the site locally, run (on the main branch):
 ```bash
 quarto publish gh-pages
 ```
@@ -60,7 +64,3 @@ To update the publications list from ORCID, run:
 ```bash
 uv run fetch_orcid.py
 ```
-
-### Publish via GitHub Actions
-
-Is done using the CI workflow defined in `.github/workflows/deploy.yml`, which is triggered on pushes to the `main` branch.
