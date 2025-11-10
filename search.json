@@ -4,69 +4,76 @@
     "href": "blog_ger.html",
     "title": "Blog (auf Deutsch)",
     "section": "",
-    "text": "No matching items"
+    "text": "No matching items\n© 2025 Julius Aka. All rights reserved. Impressum"
   },
   {
     "objectID": "blog/welcome/index.html",
     "href": "blog/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "impressum.html",
+    "href": "impressum.html",
+    "title": "Impressum",
     "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 30, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 2, 2025\n\n\nHarlow Malloc\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
-    "section": "",
-    "text": "under construction…"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Julius Aka - personal blog",
-    "section": "",
-    "text": "Hi, this is my blog. My newest posts are:"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "under construction…"
+    "text": "Impressum\nAngaben gemäß § 5 DDG\nJulius Aka\nVertreten durch: Julius Aka\nKontakt: E-Mail: thomaner@googlemail.com\nVerantwortlich für den Inhalt nach § 18 Abs. 2 MStV: Julius Aka\nVerbraucherstreitbeilegung / Universalschlichtungsstelle Wir nehmen nicht an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil und sind dazu auch nicht verpflichtet.\nHaftungsausschluss:\nHaftung für Inhalte Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 DDG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 DDG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.\nHaftung für Links Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.\nUrheberrecht Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.\n\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
   },
   {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "E. Henningsson, C. Schulze, J. Aka, M. Gräber, D. Brück, E. Nahodovic, & O. Lenord. (2025). Input smoothing for faster co-simulation using FMI. Linköping Electronic Conference Proceedings. https://doi.org: 10.3384/ecp218653.\n\n\nJ. Aka, J. Brunnemann, J. Eiden, A. Speerforck, & L. Mikelsons. (2024). Balanced neural ODEs: Nonlinear model order reduction and koopman operator approximations. arXiv. https://doi.org: 10.48550/ARXIV.2410.10174.\n\n\nJ. Aka, J. Brunnemann, S. Freund, & A. Speerforck. (2023). Efficient global multi parameter calibration for complex system models using machine-learning surrogates. Modelica conferences, 107–120. https://doi.org: 10.3384/ecp204107."
+    "text": "E. Henningsson, C. Schulze, J. Aka, M. Gräber, D. Brück, E. Nahodovic, & O. Lenord. (2025). Input smoothing for faster co-simulation using FMI. Linköping Electronic Conference Proceedings. https://doi.org: 10.3384/ecp218653.\n\n\nJ. Aka, J. Brunnemann, J. Eiden, A. Speerforck, & L. Mikelsons. (2024). Balanced neural ODEs: Nonlinear model order reduction and koopman operator approximations. arXiv. https://doi.org: 10.48550/ARXIV.2410.10174.\n\n\nJ. Aka, J. Brunnemann, S. Freund, & A. Speerforck. (2023). Efficient global multi parameter calibration for complex system models using machine-learning surrogates. Modelica conferences, 107–120. https://doi.org: 10.3384/ecp204107.\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "under construction…\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Julius Aka - personal blog",
+    "section": "",
+    "text": "Hi, this is my blog. My newest posts are:\n\n\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "under construction…\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 30, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 2, 2025\n\n\nHarlow Malloc\n\n\n\n\n\nNo matching items\n© 2025 Julius Aka. All rights reserved. Impressum"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
   },
   {
     "objectID": "blog/post-with-code/index.html",
     "href": "blog/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code.\n\n    print('hello world')\n\nhello world\n\n\nThis is a simple example of how code is used in quarto."
+    "text": "This is a post with executable code.\n\n    print('hello world')\n\nhello world\n\n\nThis is a simple example of how code is used in quarto.\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "under construction…"
+    "text": "under construction…\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
   }
 ]
