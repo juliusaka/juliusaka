@@ -1,6 +1,7 @@
 name: Update ORCID Publications (Weekly and on Push)
 
 on:
+  workflow_dispatch:
   schedule:
     # ┌───────────── minute (0 - 59)
     # │ ┌───────────── hour (0 - 23)
