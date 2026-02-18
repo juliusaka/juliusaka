@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.juliusaka.de/blog_ger.html</loc>
-    <lastmod>2026-02-11T06:21:10.111Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.juliusaka.de/blog/welcome/index.html</loc>
-    <lastmod>2026-02-11T06:21:10.110Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.juliusaka.de/impressum.html</loc>
-    <lastmod>2026-02-11T06:21:10.111Z</lastmod>
+    <loc>https://www.juliusaka.de/about.html</loc>
+    <lastmod>2026-02-18T06:20:08.979Z</lastmod>
   </url>
   <url>
     <loc>https://www.juliusaka.de/publications.html</loc>
-    <lastmod>2026-02-11T06:21:10.111Z</lastmod>
+    <lastmod>2026-02-18T06:20:08.981Z</lastmod>
   </url>
   <url>
-    <loc>https://www.juliusaka.de/cv.html</loc>
-    <lastmod>2026-02-11T06:21:10.111Z</lastmod>
+    <loc>https://www.juliusaka.de/blog_ger.html</loc>
+    <lastmod>2026-02-18T06:20:08.980Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.juliusaka.de/blog/welcome/index.html</loc>
+    <lastmod>2026-02-18T06:20:08.980Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.juliusaka.de/impressum.html</loc>
+    <lastmod>2026-02-18T06:20:08.980Z</lastmod>
   </url>
   <url>
     <loc>https://www.juliusaka.de/index.html</loc>
-    <lastmod>2026-02-11T06:21:10.111Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.juliusaka.de/talks.html</loc>
-    <lastmod>2026-02-11T06:21:10.112Z</lastmod>
+    <lastmod>2026-02-18T06:20:08.980Z</lastmod>
   </url>
   <url>
     <loc>https://www.juliusaka.de/blog.html</loc>
-    <lastmod>2026-02-11T06:21:10.110Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.juliusaka.de/about.html</loc>
-    <lastmod>2026-02-11T06:21:10.110Z</lastmod>
+    <lastmod>2026-02-18T06:20:08.979Z</lastmod>
   </url>
   <url>
     <loc>https://www.juliusaka.de/blog/post-with-code/index.html</loc>
-    <lastmod>2026-02-11T06:21:10.110Z</lastmod>
+    <lastmod>2026-02-18T06:20:08.980Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.juliusaka.de/talks.html</loc>
+    <lastmod>2026-02-18T06:20:08.981Z</lastmod>
   </url>
   <url>
     <loc>https://www.juliusaka.de/projects.html</loc>
-    <lastmod>2026-02-11T06:21:10.111Z</lastmod>
+    <lastmod>2026-02-18T06:20:08.981Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.juliusaka.de/cv.html</loc>
+    <lastmod>2026-02-18T06:20:08.980Z</lastmod>
   </url>
 </urlset>
