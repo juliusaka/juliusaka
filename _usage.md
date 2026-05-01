@@ -70,3 +70,7 @@ uv run fetch_orcid.py
 - https://docs.github.com/de/pages/configuring-a-custom-domain-for-your-github-pages-site
 - https://quarto.org/docs/publishing/github-pages.html
 - https://www.schminkel.de/articles/github-pages-with-strato
+
+### Insert list of publications hosted on orcid
+
+see `fetch_orcid.py` and the corresponding github workflow `.github\workflows\update_orcid.yml`

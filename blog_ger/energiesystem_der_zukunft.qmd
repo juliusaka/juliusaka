@@ -1,0 +1,252 @@
+---
+title: "Das Energiesystem der Zukunft - und was man als Privatperson tun kann"
+author: "Julius Aka"
+bibliography: energiesystem.bib
+link-citations: true
+csl: ieee.csl
+format: 
+    revealjs:
+        css: ../styles.css
+        scrollable: true
+        incremental: false
+        footer: Das Energiesystem der Zukunft
+        slide-number: true
+        # https://quarto.org/docs/reference/formats/html.html#table-of-contents
+        toc: true
+        toc-title: Gliederung
+        toc-depth: 1
+        number-sections: true
+---
+
+# Einführung
+
+## Die Klimakatastrophe
+
+- Treibhausgase:
+  - $\text{CO}_2$
+  - Methan
+- Emissionsbudget
+- Wesentlich mehr fossiler Brennstoffe, als die Erde verkraften kann
+  
+## Klimaziele
+  
+## aktuelle Zielerreichung
+
+### Welt
+- Treibhausgase
+- Strom
+  - z.B. auch China
+
+### Deutschland
+- Treibhausgase nach Sektoren
+- Strom
+
+## Energiebedarf Deutschland
+- 1. Hauptsatz der Thermodynamik
+  - $\sum E_{in} = \sum E_{out}$
+- Primärenergiebedarf $\neq$ Endenergiebedarf
+  - Effiziensteigerungen
+    - Mobilität: ~30% $\rightarrow$ ~85%
+    - Wärmeversorgung: ~90% $\rightarrow$ ~ 300-400%
+
+## Primärenergie der Zukunft
+- Photovoltaik und Wind $\rightarrow$ Strom
+- eher nicht: 
+  - ~~Wasserstoff~~
+
+# Die Energiequellen der Zukunft
+
+- Preisentwicklung
+- CO2-Bilanz
+- Charakteristik
+- Beschränkungen
+
+## Wind
+
+## Sonne
+
+## Wasserkraft
+
+## Bioenergie
+- Biogas
+- Biomasse
+- zumeist Nutzung von Strom & Abwärme
+
+# Speicher
+- Kurzzeitspeicher (gelöst)
+- Langzeitspeicher (schwieriger)
+
+## Batterien (Kurzzeit)
+
+## Pumpspeicher (Kurzzeit)
+
+## Wasserstoff (Langzeit)
+- und Derivate
+- Gaskavernenspeicher in Deutschland
+
+## Bioenergie
+- flexibilisierte Biogasanlagen
+- Methanspeicherung in Erdgaskavernen
+
+# Sektorenkopplung
+
+## Was ist Power-to-X?
+- Verknüpfung von verschiedenen Energieträgern
+
+## Exkurs: Wandelbarkeit von Energie
+
+- Wirkungsgrad: $\eta=\frac{Nutzen}{Aufwand}$
+- Thermodynamik, N.Carnot (1824): Wärme ist nicht uneingeschränkt in Arbeit wandelbar
+- Arbeit dahingegen vollständig in Wärme wandelbar
+- Beispiele
+  - Wasserkocher: Strom (Arbeit) $\rightarrow$ Wärme: 100% Wirkungsgrad
+  - Auto mit Verbrennungsmotor: chemische Energie in Form von Wärme $\rightarrow$ Antrieb: ~30-40% Wirkungsgrad
+- je höher die Temperatur der Wärme, desto wertvoller (mehr Arbeit erzeugbar, Carnot-Faktor)
+
+## Klassiker: Kombi-Kraftwerke
+- Grundlagen: 
+  - : Wärme nie uneingeschränkt in Arbeit wandelbar
+  - Arbeit dahingegen immer vollständig in Wärme wandelbar
+  - Wärme stellt (je nach Temperatur) niedrigst-wertvollste Energieform dar
+- Kraftwerke mit Wärmeauskopplung (Fernwärme)
+  - bis ca. 65% Wirkungsgrad (Gas-und-Dampfkraftwerk, GuD) [@siemens_energy_combined_cycle]
+- Blockheizkraftwerke (BHKW)
+  - bis ca. 50% Wirkungsgrad [@innio_jenbacher_j920_flextra]
+- strombasierte oder wärmebasierte Steuerung
+
+## Power-to-Mobility
+- Zeitpunkt der Ladung von E-Autos, E-LKWs, E-Busse verschieben
+- meist geringe Komforteinbußen
+- "~~Marginalerzeugungsansatz~~"
+
+## Power-to-Heat
+- Wärmepumpen
+  - z.B. in ...
+- Großwärmepumpen
+  - z.B. in ...
+- "Tauchsieder"
+- Hochtemperaturspeicher
+
+## Power-to-Gas
+- Wasserstoff-Herstellung
+  - Effizienz
+  - 1kg Wasserstoff: ca xx kWh
+    - mit Wasserstoff-Auto: ca. 100km
+    - mit E-Auto: ca xx kWh
+  - Hauptkosten: Strom
+  - Handhabung teuer: Flüchtigkeit, hoher Druck, Explosionsgefahr
+
+---
+
+- weitere Gase, ggf. Herstellung Derivate
+  - Ammoniak ($\text{NH}_3$)
+  - Power-to-Liquid (eFuels) $\rightarrow$ Kerosin
+    - Fischer-Tropsch-Verfahren
+      - grob: $\text{Wasserstoff} + \text{CO}_2 \rightarrow \text{Kraftstoffe} (\text{C}_{x}H_{y})$
+- Exkurs: Direkte Syngasherstellung
+  - Synhelion
+
+## Fazit
+Kopplung von im Tagesverlauf fluktuierender erneuerbare Erzeugung mit anderen Energieformen bedarf marktwirtschaftlicher Signale, die Knappheit und Überfluss widerspiegeln können.
+
+
+# Strommarkt
+
+## Aufbau der Stromnetze in Deutschland
+- 3 Spannungsebenen
+  - Hochspannung (ab xxx kV) $\rightarrow$ Übertragung von Energien über weite Entfernungen
+  - Mittelspannung (xxx bis xxx kV) $\rightarrow$ 
+  - Niederspannung (400V) $\rightarrow$ Versorgung von Endverbrauchern
+  - TODO: Bilder in rechter Spalte hinzufügen, Aufbau-Schema + Aussehen der Leitungen
+- Integration ins europäische Stromnetz
+  - größte Maschine der Welt
+  - TODO: Bild der räumlichen Ausdehnung
+  - Vorteile:
+    - potenziell geringere Preise
+    - größere Stabilität 
+
+--- 
+
+:::: {.columns .columns-vcenter}
+
+::: {.column width="50%"}
+- Übertragungsnetzbetreiber [@smard_uebertragungsnetzbetreiber]: 
+  - Tennet
+  - Amprion
+  - TransnetBW
+  - 50 Hertz 
+:::
+
+::: {.column width="50%" .figure-vcenter}
+![Übertragungsnetzbetreiber in Deutschland @smard_uebertragungsnetzbetreiber](assets/210811-smard-marktgebiete-01-p-beschriftet-data.png)
+:::
+
+::::
+
+--- 
+
+- Verteilnetzbetreiber: xxx Unternehmen
+  - ineffiziente Prozesse
+- gebaut für die Versorgung von Großkraftwerken zu Verbrauchern
+
+## Charakteristika des Strommarktes
+- Markt **ohne** Möglichkeit zur Lagerhaltung
+  - Bedingung: Erzeugung = Verbrauch (im Schnitt mehrerer Sekunden)
+  - Abweichung: Veränderung der Netzfrequenz von 50Hz
+- Verbrauch ist netzgebunden - Monopol des Stromnetzbetreibers
+- keine eindeutige Zuordnung von Verbraucher zu Erzeuger
+- Strom ist (zumeist) **Kuppelprodukt**:
+  - elektrische Energie + jederzeitige Verfügbarkeit der Energie
+
+## Einheiten elektrischer Energie
+
+- Leistung und Energie ist etwas unterschiedliches!
+- **Energie**: Arbeit, die verrichtet wurde [in W oder kW]
+- **Leistung**: Geschwindigkeit der Arbeitsverrichtung [in Wh, kWh, MWh]
+
+- am gebräuchlichsten: kWh - **k**ilo**w**att**h**our (Kilowattstunde)
+
+---
+
+- Berechnung: $$E = \int P(t) dt$$
+- Beispiele
+- 1h E-Auto laden mit 11kW
+  - $11 \text{kW} \cdot 1\text{h} = 11 \text{kWh}$
+- 5min Wasserkocher mit 2000W
+  - $2000 \text{W} \cdot 5/60\text{h} = 166 \text{Wh} = 0.166 \text{kWh}$
+- Strompreis privat: ca. 0.3€/kWh
+
+## aktuelle Entwicklungen
+
+### PV-Produktion an Feiertagen im Frühjahr
+
+---
+
+### Groß-Batteriespeicher
+
+---
+
+### Redispatch-Vorbehalt
+
+# Energiewende Zuhause
+- überschlägige Rechnung der Ökonomie
+- Lebensdauer
+- zu beachten
+- Flexibilisierung
+- Blick in die Zukunft
+  
+## dynamische Stromtarife
+- Smart-Meter nötig
+  - stockender Smart-Meter Rollout: Deutschland x%, vs. Europa xx% Quote
+
+## PV & Speicher
+
+## Wärmepumpe
+
+## E-Auto
+
+# Quellen {.smaller}
+
+
+::: {#refs}
+:::

@@ -1,1 +1,17 @@
 /* css styles */
+
+.reveal .columns.columns-vcenter {
+	display: flex;
+	min-height: 100%;
+	align-items: stretch;
+}
+
+.reveal .columns.columns-vcenter > .column {
+	display: block;
+}
+
+.reveal .columns.columns-vcenter > .column.figure-vcenter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
