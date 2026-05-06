@@ -12,9 +12,9 @@ website:
     tracking-id: "G-6DDCYRJNSW"
     anonymize-ip: false
     storage: cookies
-  cookie-consent: 
-    enabled: true
-    style: headline
+  # cookie-consent: 
+  #   enabled: true
+  #   style: headline
   navbar:
     background: white
     search: true
@@ -23,8 +23,8 @@ website:
         href: index.qmd
       - text: Blog
         href: blog.qmd
-      # - text: Blog (DE)
-      #   href: blog_ger.qmd
+      - text: Blog (DE)
+        href: blog_ger.qmd
       - text: CV
         href: cv.qmd
       - text: Publications

@@ -16,26 +16,64 @@ format:
         toc-title: Gliederung
         toc-depth: 1
         number-sections: true
+        smaller: true
 ---
+# TODO:
+- Durchgehen: direkt Aussage nennen, dann Begründung
+
+# Vorstellung
+
+- Julius Aka, 28 Jahre alt
+- Doktorand am Lehrstuhl für Mechatronk der Universität Augsburg
+- Thema: Energiesystemsimulation und Scientific Machine Learning ("KI")
+- Master in Energietechnik (Maschinenbau), TU Hamburg
+  - Auslandsjahr an UC Berkeley, Kalifornien
+- Bachelor in Allgemeine Ingenieurwissenschaften, TU Hamburg
+  - Vertiefung Energie- und Umwelttechnik
+
+- Tätigkeiten bei XRG-Simulation, Siemens Gamesa, Institut für technische Thermodynamik
+- Deutschlandstipendien 2017-2022, VDI-Preis Hamburg, (BA & MA), bidt graduate center Stipendiant
 
 # Einführung
 
 ## Die Klimakatastrophe
 
-- Treibhausgase:
+:::{.column width="50%"}
+- wesentliche Treibhausgase:
   - $\text{CO}_2$
-  - Methan
+  - Methan, ca 80x klimaschädlicher als $\text{CO}_2$ über 20 Jahre
+  - weitere: Lachgas, F-Gase, ...
 - Emissionsbudget
 - Wesentlich mehr fossiler Brennstoffe, als die Erde verkraften kann
+:::   
+
+:::{.column width="50%"}
+
+<iframe src="https://www.pik-potsdam.de/Carbonclock/Carbonclock.htm" style="width:600px; height:340px;"></iframe>
+(Quelle: [Potsdam-Institut für Klimafolgenforschung](https://www.pik-potsdam.de/de/institut/abteilungen/klimaoekonomie-und-politik/verbleibendes-co2-budget/so-schnell-tickt-die-co2-uhr))
+
+:::
   
-## Klimaziele
-  
-## aktuelle Zielerreichung
+## aktuelle Zielerreichung in Deutschland
+
+:::{.column width="50%"}
+![Stand der Energiewende in Deutschland 2025 @agora_energiewende_stand_der_dinge_2025](assets/agora_energiewene_stand.png)
+:::
+
+:::{.column width="50%"}
+- Climate Action Tracker: 
+  - [Deutschland](https://climateactiontracker.org/countries/germany/) "Insufficient", derzeitige Maßnahmen reichen **fast** für <+2°C aus @climate_action_tracker_germany_2026
+  - [Weltweite Maßnahmen](https://climateactiontracker.org/global/cat-thermometer/): +2.6°C, aktuelle Ziele: +2.2°C @climate_action_tracker_cat_thermometer_2025
+:::
+
+---
 
 ### Welt
 - Treibhausgase
 - Strom
   - z.B. auch China
+
+---
 
 ### Deutschland
 - Treibhausgase nach Sektoren
@@ -49,6 +87,9 @@ format:
     - Mobilität: ~30% $\rightarrow$ ~85%
     - Wärmeversorgung: ~90% $\rightarrow$ ~ 300-400%
 
+TODO: Grafik Primärenergiebedarf vs Endenergiebedarf
+TODO: Grafik Endenergiebedarf vs Endenergiebedarf der Zukunft
+
 ## Primärenergie der Zukunft
 - Photovoltaik und Wind $\rightarrow$ Strom
 - eher nicht: 
@@ -61,11 +102,25 @@ format:
 - Charakteristik
 - Beschränkungen
 
+TODO: aktuelle erneuerbare Stromerzeugung im Jahr 2025 (energy-charts)
+
 ## Wind
+
+TODO: Lastgang Starkwind, Lastgang Schwachwind (von energy-charts, mit gleicher Achse)
 
 ## Sonne
 
+TODO: Lastgang Sommer, Lastgang Winter
+
 ## Wasserkraft
+
+- aktuell xx% des Strom in Deutschland
+- Vorteile:
+  - Regelbarkeit
+  - je nach Anlage Speicher- bzw. Pufferfähigkeit
+- Nachteile:
+  - in Deutschland ausgeschöpftes Ausbaupotenzial
+  - starke Umweltfolgen
 
 ## Bioenergie
 - Biogas
@@ -105,19 +160,23 @@ format:
 
 ## Klassiker: Kombi-Kraftwerke
 - Grundlagen: 
-  - : Wärme nie uneingeschränkt in Arbeit wandelbar
+  - Wärme nie uneingeschränkt in Arbeit wandelbar
   - Arbeit dahingegen immer vollständig in Wärme wandelbar
   - Wärme stellt (je nach Temperatur) niedrigst-wertvollste Energieform dar
 - Kraftwerke mit Wärmeauskopplung (Fernwärme)
-  - bis ca. 65% Wirkungsgrad (Gas-und-Dampfkraftwerk, GuD) [@siemens_energy_combined_cycle]
-- Blockheizkraftwerke (BHKW)
-  - bis ca. 50% Wirkungsgrad [@innio_jenbacher_j920_flextra]
-- strombasierte oder wärmebasierte Steuerung
+  - Gas-und-Dampfkraftwerk (GuD) bis ca. 65% Wirkungsgrad [@siemens_energy_combined_cycle]
+  - Blockheizkraftwerke (BHKW) bis ca. 50% Wirkungsgrad [@innio_jenbacher_j920_flextra]
+  - mit Wärmenutzung (Fernwärmenetz) bis 90% Nutzungsgrad
+  - strombasierte oder wärmebasierte Steuerung
+  - Flexibilisierung durch Wärmespeicher
+- neue Motoren und Turbinen prinzipiell mit Wasserstoff möglich
+  - 20 Vol-% Wasserstoff sind nur x% CO2-Reduktion, da $\text{H}_2$ nur x/x der Energiedichte von Erdgas hat
+  - $\rightarrow$ nur 100% Wasserstoff ist klimaneutral!
 
 ## Power-to-Mobility
 - Zeitpunkt der Ladung von E-Autos, E-LKWs, E-Busse verschieben
 - meist geringe Komforteinbußen
-- "~~Marginalerzeugungsansatz~~"
+- "~~Marginalerzeugungsansatz~~" (z.B. VDI-Studie)
 
 ## Power-to-Heat
 - Wärmepumpen
@@ -152,29 +211,32 @@ Kopplung von im Tagesverlauf fluktuierender erneuerbare Erzeugung mit anderen En
 
 # Strommarkt
 
-## Aufbau der Stromnetze in Deutschland
-- 3 Spannungsebenen
-  - Hochspannung (ab xxx kV) $\rightarrow$ Übertragung von Energien über weite Entfernungen
-  - Mittelspannung (xxx bis xxx kV) $\rightarrow$ 
-  - Niederspannung (400V) $\rightarrow$ Versorgung von Endverbrauchern
-  - TODO: Bilder in rechter Spalte hinzufügen, Aufbau-Schema + Aussehen der Leitungen
-- Integration ins europäische Stromnetz
-  - größte Maschine der Welt
-  - TODO: Bild der räumlichen Ausdehnung
-  - Vorteile:
-    - potenziell geringere Preise
-    - größere Stabilität 
+## Aufbau der Stromnetze
+![Aufbau des Stromnetzes @bdew_energiewende_verteilnetz](assets/ELLERY-BDEW-VNBNetz-03-Netzebenen.jpg)
+
+---
+
+## Europäisches Verbundnetz
+
+![Europäisches Verbundnetz @kimdime_european_electricity_grid](assets/European_electricity_grid.svg){.r-stretch}
+
+- größte Maschine der Welt
+- Vorteile:
+  - geringere Preise
+  - größere Systemstabilität 
 
 --- 
 
 :::: {.columns .columns-vcenter}
 
 ::: {.column width="50%"}
-- Übertragungsnetzbetreiber [@smard_uebertragungsnetzbetreiber]: 
+- Übertragungsnetzbetreiber (ÜNB) [@smard_uebertragungsnetzbetreiber], betreiben Hochspannung:
   - Tennet
   - Amprion
   - TransnetBW
   - 50 Hertz 
+- ["Wächter der Netzstabilität"](https://www.alamy.de/lehrte-deutschland-august-2023-ein-mitarbeiter-des-stromubertragungsnetzbetreibers-tennet-steht-und-sitzt-vor-mehreren-monitoren-im-schaltschrank-am-standort-lehrte-des-unternehmens-quelle-michael-mattheydpaalamy-live-news-image562205527.html)
+
 :::
 
 ::: {.column width="50%" .figure-vcenter}
@@ -183,15 +245,15 @@ Kopplung von im Tagesverlauf fluktuierender erneuerbare Erzeugung mit anderen En
 
 ::::
 
---- 
-
-- Verteilnetzbetreiber: xxx Unternehmen
-  - ineffiziente Prozesse
-- gebaut für die Versorgung von Großkraftwerken zu Verbrauchern
+## Verteilnetzbetreiber (VNB) 
+- Verteilnetzbetreiber: 851 Unternehmen @stratmann_stromnetzbetreiber_2026
+  - Kritik: kleinteilige Struktur kann ineffizient sein
+  - Gegenargument: lokale Nähe und kommunale Verankerung
+  - mögliche Antwort: Kooperationen und gemeinsame Plattformen statt sofortiger Konsolidierung
 
 ## Charakteristika des Strommarktes
 - Markt **ohne** Möglichkeit zur Lagerhaltung
-  - Bedingung: Erzeugung = Verbrauch (im Schnitt mehrerer Sekunden)
+  - Bedingung: Erzeugung = Verbrauch
   - Abweichung: Veränderung der Netzfrequenz von 50Hz
 - Verbrauch ist netzgebunden - Monopol des Stromnetzbetreibers
 - keine eindeutige Zuordnung von Verbraucher zu Erzeuger
@@ -205,28 +267,98 @@ Kopplung von im Tagesverlauf fluktuierender erneuerbare Erzeugung mit anderen En
 - **Leistung**: Geschwindigkeit der Arbeitsverrichtung [in Wh, kWh, MWh]
 
 - am gebräuchlichsten: kWh - **k**ilo**w**att**h**our (Kilowattstunde)
+- Zusammenhang: $E = \int P(t) dt$
 
 ---
 
-- Berechnung: $$E = \int P(t) dt$$
-- Beispiele
-- 1h E-Auto laden mit 11kW
-  - $11 \text{kW} \cdot 1\text{h} = 11 \text{kWh}$
-- 5min Wasserkocher mit 2000W
-  - $2000 \text{W} \cdot 5/60\text{h} = 166 \text{Wh} = 0.166 \text{kWh}$
+- Rechenbeispiele
+  - 1h E-Auto laden mit 11kW
+    - $11 \text{kW} \cdot 1\text{h} = 11 \text{kWh}$
+  - 5min Wasserkocher mit 2000W
+    - $2000 \text{W} \cdot 5/60\text{h} = 166 \text{Wh} = 0.166 \text{kWh}$
 - Strompreis privat: ca. 0.3€/kWh
 
-## aktuelle Entwicklungen
+## typischer Lastgang Deutschland
 
-### PV-Produktion an Feiertagen im Frühjahr
+![[Lastgang der KW 16 2026 von energy-charts.info (Fraunhofer)](https://www.energy-charts.info/charts/power_forecast/chart.htm?l=de&c=DE&dataType=load&week=16&timeslider=0&timezone=ec_country&print-type=chart)](assets/energy-charts_Prognosen_und_Ist-Wert_in_Deutschland_in_Woche_16_2026.svg){.r-stretch}
+
+::: {.column width="50%"}
+- Last in der Nacht niedrig
+- steigt bis zum Mittag an
+- Abflachen zum Nachmittag
+:::
+
+::: {.column width="50%"}
+- Anstieg zum Abend 
+- niedriger am Wochenende
+- zw. 40-70 GW
+:::
+
+## Strompreis- und Erneuerbare Energien
+
+### Sommer
+
+- TODO: Grafik Anteil (CO2-Emission) Erneuerbare am Stromverbrauch über Tag (energy-charts)
+- TODO: Grafik Strompreis
+
+### Winter
+
+- TODO: Grafik Anteil (CO2-Emission) Erneuerbare am Stromverbrauch über Tag (energy-charts)
+- TODO: Grafik Strompreis
+
+## Strommarkt nach Liberalisierung
+- Entflechtung von Erzeugung und Verteilung
+- Strom handelbar über:
+  - Termingeschäfte, Power-Purchase Agreements (PPA) (langfristig, z.B. Jahre im Vorraus) @next_kraftwerke_ppa
+  - Day-Ahead-Markt(in 15min Stücken, Gebotabgabe bis 12 Uhr am Vortag)
+  - Intraday-Markt (in 15min Stücken, bis 30/5min vor Lieferung)
+- basierend auf Last- und Erzeugungsprognose (Wettervorhersage)
+
+## Ablauf des Strommarktes
+![Merit Order @next_kraftwerke_merit_order](assets/merit_order.jpg){.r-stretch}
+
+- Angebot nach variablen Grenzkosten
+- letztes eingesetztes Kraftwerk bestimmt Preis
+- Erneuerbare mit Grenzkosten 0€ drücken den Preis
+- Aber: EEG garantiert bestimmte Vergütung
 
 ---
 
-### Groß-Batteriespeicher
+- ÜNB als Wächter der Netzstabilität
+  - Bilanzkreis: virtuelles Energiemengenkonto eines Energiehändlers @next_kraftwerke_bilanzkreis
+    - Einspeisung
+    - Entnahme
+  - Bilanzkreisverantwortliche reichen Fahrplan einen Tag vorher ein
+  - ÜNB überprüfen Fahrplan 
+  - Basierend auf Fahrplänen: Lastflussrechnungen identifizieren Engpässe
+  - Unstimmigkeiten: werden von ÜNB durch (teuere) Ausgleichsenergie behoben
+  
+## Redispatch
 
----
+:::: {.columns}
 
-### Redispatch-Vorbehalt
+::: {.column width="50%"}
+![Höchstspannungsnetz @vde_fnn_hoechstspannungsnetz_2024](assets/hoechstspannungsnetz.png){width="40%"}
+:::
+
+::: {.column width="50%"}
+
+![Redispatch @next_kraftwerke_dispatch_redispatch](assets/redispatch.jpg)
+:::
+
+:::: 
+
+- Stromhandel: Deutschland = eine Preiszone
+- Vernachlässigung der Übertragungskapazitäten ("Kupferplatte")
+- Ausgleich identifizierter Engpässe durch ÜNB
+- Kosten werden auf Netzentgelte umgelegt (steigend, 2024: ca 1.8 Mrd. €)^[zum Vergleich: ca. 50 Mrd. € Gesamtvolumen Börsenstromhandel (eigene Hochrechnung basierend auf @monitoringbericht_energie_2025) ] @monitoringbericht_energie_2025
+
+# Energiesystem der Zukunft
+
+- dezentralisierte Erzeugung
+- Flexibilisierung von Verbrauch, insbesondere durch Sektorenkopplung
+- Kurzzeitspeicher: Batterien
+- Langzeitspeicher: Wasserstoff, Bioenergie ("Kalt-Dunkel-Flaute")
 
 # Energiewende Zuhause
 - überschlägige Rechnung der Ökonomie
@@ -235,9 +367,29 @@ Kopplung von im Tagesverlauf fluktuierender erneuerbare Erzeugung mit anderen En
 - Flexibilisierung
 - Blick in die Zukunft
   
-## dynamische Stromtarife
-- Smart-Meter nötig
-  - stockender Smart-Meter Rollout: Deutschland x%, vs. Europa xx% Quote
+## Smart-Meter
+:::: {.columns}
+
+::: {.column width="50%"}
+- Smart-Meter nötig für dynamische Stromtarife
+- stockender Smart-Meter Rollout
+  - Deutschland 5.5% @bnetza_imsys_rollout_q42025
+  - Europa 63% Quote, Skandinavien, Frankeich, Spanien > 90% @bakkenbuell_smart_meter_2025
+  - "500 der ca. 900 VNB hätten keine Smart-Meter installiert" @bakkenbuell_smart_meter_2025
+:::
+
+::: {.column width="50%"}
+![Smart-Meter @verbraucherzentrale_smart_meter_2025](assets/grafik_smartmeter_1200x675px.jpg)
+:::
+
+::::
+  - Gründe:
+    - politisch bewusst verschleppter Rollout, Vorwand Datenschutzbedenken
+    - Ineffizienzen bei kleinen VNB
+
+---
+
+### dynamische Stromtarife
 
 ## PV & Speicher
 
@@ -250,3 +402,44 @@ Kopplung von im Tagesverlauf fluktuierender erneuerbare Erzeugung mit anderen En
 
 ::: {#refs}
 :::
+
+# Backup-Folien
+
+
+![EEG-Zahlungen @monitoringbericht_energie_2025](assets/eeg_zahlungen.png){.r-stretch}
+
+---
+
+![Strom Aufkommen 2024 @monitoringbericht_energie_2025](assets/strom_aufkommen_2024.png){.r-stretch}
+
+---
+
+![Zusammensetzung privater Strompreise @monitoringbericht_energie_2025](assets/zusammensetzung_strompreis_privat.png){.r-stretch}
+
+---
+
+![Kosten der Systemdienstleistungen @monitoringbericht_energie_2025](assets/kosten_systemdienstleistungen.png){.r-stretch}
+
+---
+
+Das "Atomenergie-Paradox"
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7445361824750850049?collapsed=1" height="513" width="504" frameborder="0" allowfullscreen="" title="Eingebetteter Beitrag"></iframe>
+
+---
+
+Energieeffizienz bewirkt größere Fortschritte als man denkt
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7261647198113644544?collapsed=1" height="672" width="504" frameborder="0" allowfullscreen="" title="Eingebetteter Beitrag"></iframe>
+
+## aktuelle Entwicklungen
+
+### PV-Produktion an Feiertagen im Frühjahr
+
+---
+
+### Groß-Batteriespeicher
+
+---
+
+### Redispatch-Vorbehalt
