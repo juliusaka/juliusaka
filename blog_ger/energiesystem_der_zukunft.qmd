@@ -53,8 +53,24 @@ format:
 (Quelle: [Potsdam-Institut für Klimafolgenforschung](https://www.pik-potsdam.de/de/institut/abteilungen/klimaoekonomie-und-politik/verbleibendes-co2-budget/so-schnell-tickt-die-co2-uhr))
 
 :::
-  
-## aktuelle Zielerreichung in Deutschland
+
+## Emissionen weltweit
+
+:::{.column width="50%"}
+- Peak ist noch nicht erreicht
+<iframe src="https://ourworldindata.org/explorers/co2?time=1950..2024&hideControls=true&Gas+or+Warming=CO%E2%82%82&Accounting=Territorial&Fuel+or+Land+Use+Change=Fossil+%2B+land+use+change&Count=Per+country&country=CHN~USA~IND~OWID_WRL~European+Union+%2828%29&tab=line" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+@owid-co2-and-greenhouse-gas-emissions
+
+:::
+
+:::{.column width="50%"}
+- China: Erfolg der EE im Stromsektor
+<iframe src="https://ourworldindata.org/grapher/share-electricity-low-carbon?tab=line&country=OWID_WRL~OWID_EU27~USA~CHN~DEU" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+@ritchie2023-data-page-low-carbon-electricity
+
+:::
+
+## aktueller Stand der Zielerreichung
 
 :::{.column width="50%"}
 ![Stand der Energiewende in Deutschland 2025 @agora_energiewende_stand_der_dinge_2025](assets/agora_energiewene_stand.png)
@@ -65,19 +81,6 @@ format:
   - [Deutschland](https://climateactiontracker.org/countries/germany/) "Insufficient", derzeitige Maßnahmen reichen **fast** für <+2°C aus @climate_action_tracker_germany_2026
   - [Weltweite Maßnahmen](https://climateactiontracker.org/global/cat-thermometer/): +2.6°C, aktuelle Ziele: +2.2°C @climate_action_tracker_cat_thermometer_2025
 :::
-
----
-
-### Welt
-- Treibhausgase
-- Strom
-  - z.B. auch China
-
----
-
-### Deutschland
-- Treibhausgase nach Sektoren
-- Strom
 
 ## Energiebedarf Deutschland
 - 1. Hauptsatz der Thermodynamik
@@ -143,7 +146,7 @@ TODO: Lastgang Sommer, Lastgang Winter
 - flexibilisierte Biogasanlagen
 - Methanspeicherung in Erdgaskavernen
 
-# Sektorenkopplung
+# Sektorenkopplung und Speicher
 
 ## Was ist Power-to-X?
 - Verknüpfung von verschiedenen Energieträgern
