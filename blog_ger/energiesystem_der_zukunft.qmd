@@ -98,22 +98,90 @@ TODO: Grafik Endenergiebedarf vs Endenergiebedarf der Zukunft
 - eher nicht: 
   - ~~Wasserstoff~~
 
-# Die Energiequellen der Zukunft
+# Energiequellen der Zukunft
 
-- Preisentwicklung
-- CO2-Bilanz
-- Charakteristik
-- Beschränkungen
+## Boom von Wind & Solar weltweit
 
-TODO: aktuelle erneuerbare Stromerzeugung im Jahr 2025 (energy-charts)
+:::{.column width="50%"}
+
+<iframe src="https://ourworldindata.org/grapher/modern-renewable-prod?tab=line" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+
+@owid-renewable-energy
+
+:::
+
+:::{.column width="50%"}
+
+- Boom von Solar und Wind weltweit
+- Wasserkraftspotenziale in Deutschland ausgeschöpft
+  - Vorteile:
+    - Regelbarkeit
+    - in begrenzten Umfang Speicherfähigkeit
+
+:::
+
+## Solar & Wind sind am günstigsten
+
+:::{.column width="50%"}
+
+![Kosten pro erzeugter kWh Strom @fraunhofer_ise_lcoe_2024](assets/Levelized-Cost-of-electricity-2024.png)
+
+:::
+
+:::{.column width="50%"}
+
+- Solar und Wind sind in Dt. am günstigsten
+- Biogas nach Nuklearenergie teuerste Form der Stromerzeugung
+  - Folgen für Biodiversität & Konkurrenz mit weltweiter Nahrungsmittelproduktion
+- meine Meinung: 
+  - besser PV (32x mehr Strom) bzw. Wind (850x mehr) @thuenen_energie_vom_acker_2023
+  - ggf. in Kombination mit Wasserstoffproduktion
+
+:::
+
+---
+
+![erneuerbare Stromerzeugung in Deutschland 2024](assets/ee_stromerzeugung_2024.svg)
+
+- Wind & Solarenergie ergänzen sich im Jahresverlauf
+- jedoch: Wind deutlich volatiler, Feb. 2025 z.B. 9GWh anstatt 16GWh 2024
+
+<!-- Ich gehe im folgenden nicht auf Preise (ausreichend gering) und Emissionen (ausreichend gering) ein -->
 
 ## Wind
 
-TODO: Lastgang Starkwind, Lastgang Schwachwind (von energy-charts, mit gleicher Achse)
+:::{.column width="50%"}
+
+![[Wochenverlauf](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=ew2w6&week=11): stark abhängig von Wetter @energy_charts_deutschland](assets/wind_woche.svg)
+
+:::
+
+:::{.column width="50%"}
+
+![[Produktion](https://www.energy-charts.info/charts/energy/chart.htm?l=de&c=DE&interval=day&legendItems=fw2w2) pro Tag @energy_charts_deutschland](assets/wind_anfang_2026.svg)
+
+:::
+
+- $\rightarrow$ Starkwindphasen über mehrere Tage senken den Börsen-Strompreis deutlich
+- $\rightarrow$ Flauten erhöhen den Strompreis deutlich (v.a. im Winter)
 
 ## Sonne
 
-TODO: Lastgang Sommer, Lastgang Winter
+:::{.column width="50%"}
+
+![[Produktion](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=myg&week=18) mit Peak am Mittag @energy_charts_deutschland](assets/solar_woche.svg)
+
+:::
+
+:::{.column width="50%"}
+
+![[Produktion](https://www.energy-charts.info/charts/energy/chart.htm?l=de&c=DE&interval=day&legendItems=jyh) pro Tag @energy_charts_deutschland](assets/solar_anfang_2026.svg)
+
+:::
+
+- $\rightarrow$ täglicher Peak: ganzjährig Börsenstrompreis mittags am niedrigsten
+- $\rightarrow$ im Sommer regelmäßig mittags negative Strompreise
+  - Gründe: starre EEG-Vergütung, geringe Flexibilisierung, fehlende Speicher
 
 ## Wasserkraft
 
@@ -126,9 +194,11 @@ TODO: Lastgang Sommer, Lastgang Winter
   - starke Umweltfolgen
 
 ## Bioenergie
-- Biogas
-- Biomasse
-- zumeist Nutzung von Strom & Abwärme
+
+![[Biogaserzeugung](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&interval=week&legendItems=3x0e801) & fossile Kraftwerke vs. Börsenstrompreis: fixe EEG-Vergütung verhindert Flexibilisierung @energy_charts_deutschland](assets/biogas_mangelnde_flexibilisierung.svg)
+
+- ungenutztes Potenzial: keine Flexibilisierung durch fehlende Anreize bei Bestandsanlagen (EEG-Vergütung zeitlich konstant)
+- hohe Umrüstungskosten (zusätzliche BHKW und Gasspeicher)
 
 # Speicher
 - Kurzzeitspeicher (gelöst)
@@ -283,7 +353,7 @@ Kopplung von im Tagesverlauf fluktuierender erneuerbare Erzeugung mit anderen En
 
 ## typischer Lastgang Deutschland
 
-![[Lastgang der KW 16 2026 von energy-charts.info (Fraunhofer)](https://www.energy-charts.info/charts/power_forecast/chart.htm?l=de&c=DE&dataType=load&week=16&timeslider=0&timezone=ec_country&print-type=chart)](assets/energy-charts_Prognosen_und_Ist-Wert_in_Deutschland_in_Woche_16_2026.svg){.r-stretch}
+![[Lastgang der KW 16 2026 von energy-charts.info (Fraunhofer)](https://www.energy-charts.info/charts/power_forecast/chart.htm?l=de&c=DE&dataType=load&week=16&timeslider=0&timezone=ec_country&print-type=chart) @energy_charts_deutschland](assets/energy-charts_Prognosen_und_Ist-Wert_in_Deutschland_in_Woche_16_2026.svg){.r-stretch}
 
 ::: {.column width="50%"}
 - Last in der Nacht niedrig
@@ -392,7 +462,13 @@ Kopplung von im Tagesverlauf fluktuierender erneuerbare Erzeugung mit anderen En
 
 ---
 
-### dynamische Stromtarife
+## CO2 Emmissionen / Strompreis überprüfen
+
+- [smard.de](https://www.smard.de/) (Strommarkttransparenzstelle)
+- [energy-charts.info](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=3x0vvvk) (Fraunhofer ISE)
+- [Electricity Maps](https://app.electricitymaps.com/map/zone/DE/live/fifteen_minutes) (App zu weltweiter Emissionsintensität)
+
+## dynamische Stromtarife
 
 ## PV & Speicher
 
