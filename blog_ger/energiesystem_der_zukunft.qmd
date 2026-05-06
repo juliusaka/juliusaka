@@ -17,9 +17,8 @@ format:
         toc-depth: 1
         number-sections: true
         smaller: true
+        
 ---
-# TODO:
-- Durchgehen: direkt Aussage nennen, dann Begründung
 
 # Vorstellung
 
@@ -73,33 +72,31 @@ format:
 ## aktueller Stand der Zielerreichung
 
 :::{.column width="50%"}
+
 ![Stand der Energiewende in Deutschland 2025 @agora_energiewende_stand_der_dinge_2025](assets/agora_energiewene_stand.png)
+
 :::
 
 :::{.column width="50%"}
+
+- Energiewirtschaft (Stromerzeugung) auf Kurs
+- Industrie: Effizienzgewinne und Verlagerung ins Ausland (Bezugsjahr 1990)
+- Verkehr & Gebäude: großer Nachholbedarf
 - Climate Action Tracker: 
   - [Deutschland](https://climateactiontracker.org/countries/germany/) "Insufficient", derzeitige Maßnahmen reichen **fast** für <+2°C aus @climate_action_tracker_germany_2026
   - [Weltweite Maßnahmen](https://climateactiontracker.org/global/cat-thermometer/): +2.6°C, aktuelle Ziele: +2.2°C @climate_action_tracker_cat_thermometer_2025
+
 :::
-
-## Energiebedarf Deutschland
-- 1. Hauptsatz der Thermodynamik
-  - $\sum E_{in} = \sum E_{out}$
-- Primärenergiebedarf $\neq$ Endenergiebedarf
-  - Effiziensteigerungen
-    - Mobilität: ~30% $\rightarrow$ ~85%
-    - Wärmeversorgung: ~90% $\rightarrow$ ~ 300-400%
-
-TODO: Grafik Primärenergiebedarf vs Endenergiebedarf
-TODO: Grafik Endenergiebedarf vs Endenergiebedarf der Zukunft
-
-## Primärenergie der Zukunft
-- Photovoltaik und Wind $\rightarrow$ Strom
-- eher nicht: 
-  - ~~Wasserstoff~~
 
 # Energiequellen der Zukunft
 
+## "Primärenergie" der Zukunft
+- Photovoltaik und Wind $\rightarrow$ Strom: "All Electric Society"
+- eher nicht: 
+  - ~~Wasserstoff~~ (ineffizient, teuer, ["Champagner der Energiewende"](https://live.handelsblatt.com/wasserstoff-champagner-der-energiewende/))
+- ganz sicher nicht:
+  - ~~Kernenergie~~ (Energiewende jetzt nötig, nicht in 20 Jahren)
+ 
 ## Boom von Wind & Solar weltweit
 
 :::{.column width="50%"}
@@ -130,7 +127,7 @@ TODO: Grafik Endenergiebedarf vs Endenergiebedarf der Zukunft
 
 :::{.column width="50%"}
 
-- Solar und Wind sind in Dt. am günstigsten
+- Solar und Wind sind in Deutschland am günstigsten
 - Biogas nach Nuklearenergie teuerste Form der Stromerzeugung
   - Folgen für Biodiversität & Konkurrenz mit weltweiter Nahrungsmittelproduktion
 - meine Meinung: 
@@ -183,16 +180,6 @@ TODO: Grafik Endenergiebedarf vs Endenergiebedarf der Zukunft
 - $\rightarrow$ im Sommer regelmäßig mittags negative Strompreise
   - Gründe: starre EEG-Vergütung, geringe Flexibilisierung, fehlende Speicher
 
-## Wasserkraft
-
-- aktuell xx% des Strom in Deutschland
-- Vorteile:
-  - Regelbarkeit
-  - je nach Anlage Speicher- bzw. Pufferfähigkeit
-- Nachteile:
-  - in Deutschland ausgeschöpftes Ausbaupotenzial
-  - starke Umweltfolgen
-
 ## Bioenergie
 
 ![[Biogaserzeugung](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&interval=week&legendItems=3x0e801) & fossile Kraftwerke vs. Börsenstrompreis: fixe EEG-Vergütung verhindert Flexibilisierung @energy_charts_deutschland](assets/biogas_mangelnde_flexibilisierung.svg)
@@ -200,51 +187,85 @@ TODO: Grafik Endenergiebedarf vs Endenergiebedarf der Zukunft
 - ungenutztes Potenzial: keine Flexibilisierung durch fehlende Anreize bei Bestandsanlagen (EEG-Vergütung zeitlich konstant)
 - hohe Umrüstungskosten (zusätzliche BHKW und Gasspeicher)
 
-# Speicher
-- Kurzzeitspeicher (gelöst)
-- Langzeitspeicher (schwieriger)
+# Wärmepumpen und Elektromobilität
+"Das beste was der Effizienz je passiert ist"
 
-## Batterien (Kurzzeit)
+Puzzlestück 1: Energieverbrauch verringern
 
-## Pumpspeicher (Kurzzeit)
+## Elektromobilität
 
-## Wasserstoff (Langzeit)
-- und Derivate
-- Gaskavernenspeicher in Deutschland
+- fossile Mobilität: 30-40% Wirkungsgrad
+- elektrische Mobilität: 80-90% Wirkungsgrad
+  - $\rightarrow$ Faktor 3 effizienter
+  - Emissionsabnahme über Lebenszyklus durch fortschreitende Dekarbonisierung der Stromerzeugung
 
-## Bioenergie
-- flexibilisierte Biogasanlagen
-- Methanspeicherung in Erdgaskavernen
+TODO: Wirkungsgradvergleich, auch vs. e-fuels
+
+
+## Wärmepumpen
+
+- fossile Heizung: 80-90% Wirkungsgrad
+- Wärmepumpe: 300-700% Wirkungsgrad (COP 3-7)
+  - Wirkungsgraddefinition $ \text{COP} = \frac{\text{Nutzen}}{\text{Aufwand}} $, Umweltwärme kostenlos, nur Strom als Aufwand
+  - $\rightarrow$ Faktor 4-8 effizienter
+  - Emissionsabnahme über Lebenszyklus durch fortschreitende Dekarbonisierung der Stromerzeugung
+- mit E-Fuels heizen ist "politische Nebelkerze": Wirkungsgrad xx% (TODO: genaue Zahl)
+
+TODO: WP Bild & Sankey Diagram, 
+TODO: e-fuels vs. Wärmepumpe
+
+## Bedeutung für die Energiewende 1
+
+:::{.column width="50%"}
+
+- Energieerhaltung
+  - $\sum E_{in} = \sum E_{out}$
+- Energieflussdiagramm:
+  - Primärenergie: Energie vor erster Umwandlung
+  - Nutzenergie: Energie, die Aufgaben erfüllt (z.B. Heizen, Fahren)
+
+:::
+
+:::{.column width="50%"}
+
+![[Link](https://www.bdew.de/media/documents/2_Energieflussbild_Deutschland_2023_TWh_vereinfacht.svg) @bdew_nutzenergiebilanz_2025](assets/2_Energieflussbild_Deutschland_2023_TWh_vereinfacht.svg)
+
+- 46% Verlust von Primär- zu Nutzenergie in Deutschland:
+  - Verkehr, Kraftwerke, (Gebäudeheizung)
+- "Erneuerbare Energien erreichen 19% am Primärenergiebedarf" @bdew_nutzenergiebilanz_2025
+
+:::
+
+## Bedeutung für die Energiewende 2
+
+:::{.column width="50%"}
+
+![Pre- und Post Transformation Nutzenergiebedarf @ritchie_electrification_efficiency_2023](assets/post_transition_final_energy.png){width="67%"}
+
+:::
+
+:::{.column width="50%"}
+
+![Effizienzgewinne in Industrie, Gebäude und Verkehr @ritchie_electrification_efficiency_2023](assets/post_transition_final_energy_sectors.png)
+
+:::
+
+- Wärmepumpen und Elektromobilität $\rightarrow$ Halbierung des Endenergiebedarfs in Gebäuden und Mobilität, -40% Endenergiebedarf weltweit
+- "primary energy fallacy" @rosenow_primary_energy_fallacy_2024: Das Problem wird kleiner, je mehr wir uns ihm nähern
+- Endenergiebedarf: Energie die von Verbraucher bezogen werden muss
 
 # Sektorenkopplung und Speicher
 
-## Was ist Power-to-X?
+Puzzlestück 2: Das was geht, an Erzeugung anpassen
+
+Puzzlestück 3: Energie kurz- und langfristig speichern
+
+## Speicher 1: Batterien (kurzfristig Speicherung)
+
+TODO: stark gesunkene Preise, Lebensdauer, Energieeinsat bei Produktion, Rohstoffe
+
+## Was ist Power-to-X / Sektorenkopplung?
 - Verknüpfung von verschiedenen Energieträgern
-
-## Exkurs: Wandelbarkeit von Energie
-
-- Wirkungsgrad: $\eta=\frac{Nutzen}{Aufwand}$
-- Thermodynamik, N.Carnot (1824): Wärme ist nicht uneingeschränkt in Arbeit wandelbar
-- Arbeit dahingegen vollständig in Wärme wandelbar
-- Beispiele
-  - Wasserkocher: Strom (Arbeit) $\rightarrow$ Wärme: 100% Wirkungsgrad
-  - Auto mit Verbrennungsmotor: chemische Energie in Form von Wärme $\rightarrow$ Antrieb: ~30-40% Wirkungsgrad
-- je höher die Temperatur der Wärme, desto wertvoller (mehr Arbeit erzeugbar, Carnot-Faktor)
-
-## Klassiker: Kombi-Kraftwerke
-- Grundlagen: 
-  - Wärme nie uneingeschränkt in Arbeit wandelbar
-  - Arbeit dahingegen immer vollständig in Wärme wandelbar
-  - Wärme stellt (je nach Temperatur) niedrigst-wertvollste Energieform dar
-- Kraftwerke mit Wärmeauskopplung (Fernwärme)
-  - Gas-und-Dampfkraftwerk (GuD) bis ca. 65% Wirkungsgrad [@siemens_energy_combined_cycle]
-  - Blockheizkraftwerke (BHKW) bis ca. 50% Wirkungsgrad [@innio_jenbacher_j920_flextra]
-  - mit Wärmenutzung (Fernwärmenetz) bis 90% Nutzungsgrad
-  - strombasierte oder wärmebasierte Steuerung
-  - Flexibilisierung durch Wärmespeicher
-- neue Motoren und Turbinen prinzipiell mit Wasserstoff möglich
-  - 20 Vol-% Wasserstoff sind nur x% CO2-Reduktion, da $\text{H}_2$ nur x/x der Energiedichte von Erdgas hat
-  - $\rightarrow$ nur 100% Wasserstoff ist klimaneutral!
 
 ## Power-to-Mobility
 - Zeitpunkt der Ladung von E-Autos, E-LKWs, E-Busse verschieben
@@ -252,22 +273,23 @@ TODO: Grafik Endenergiebedarf vs Endenergiebedarf der Zukunft
 - "~~Marginalerzeugungsansatz~~" (z.B. VDI-Studie)
 
 ## Power-to-Heat
-- Wärmepumpen
+- Wärmepumpen.
   - z.B. in ...
 - Großwärmepumpen
   - z.B. in ...
 - "Tauchsieder"
 - Hochtemperaturspeicher
 
-## Power-to-Gas
+## Speicher 2: Power-to-Gas (langfristige Speicherung)
 - Wasserstoff-Herstellung
+  - Energie-Speicher und Industrie-Rohstoff (chemische & Schwerindustrie)
   - Effizienz
   - 1kg Wasserstoff: ca xx kWh
     - mit Wasserstoff-Auto: ca. 100km
     - mit E-Auto: ca xx kWh
   - Hauptkosten: Strom
   - Handhabung teuer: Flüchtigkeit, hoher Druck, Explosionsgefahr
-
+  
 ---
 
 - weitere Gase, ggf. Herstellung Derivate
@@ -275,6 +297,7 @@ TODO: Grafik Endenergiebedarf vs Endenergiebedarf der Zukunft
   - Power-to-Liquid (eFuels) $\rightarrow$ Kerosin
     - Fischer-Tropsch-Verfahren
       - grob: $\text{Wasserstoff} + \text{CO}_2 \rightarrow \text{Kraftstoffe} (\text{C}_{x}H_{y})$
+    - TODO: Wirkungsgrad
 - Exkurs: Direkte Syngasherstellung
   - Synhelion
 
@@ -283,6 +306,8 @@ Kopplung von im Tagesverlauf fluktuierender erneuerbare Erzeugung mit anderen En
 
 
 # Strommarkt
+
+zentraler Drehpunkt des zukünftigen Energiesystems: Elektrizität als "Primärenergie" der Zukunft
 
 ## Aufbau der Stromnetze
 ![Aufbau des Stromnetzes @bdew_energiewende_verteilnetz](assets/ELLERY-BDEW-VNBNetz-03-Netzebenen.jpg)
@@ -322,7 +347,7 @@ Kopplung von im Tagesverlauf fluktuierender erneuerbare Erzeugung mit anderen En
 - Verteilnetzbetreiber: 851 Unternehmen @stratmann_stromnetzbetreiber_2026
   - Kritik: kleinteilige Struktur kann ineffizient sein
   - Gegenargument: lokale Nähe und kommunale Verankerung
-  - mögliche Antwort: Kooperationen und gemeinsame Plattformen statt sofortiger Konsolidierung
+  - mögliche Antwort: Kooperationen und gemeinsame Plattformen
 
 ## Charakteristika des Strommarktes
 - Markt **ohne** Möglichkeit zur Lagerhaltung
@@ -332,24 +357,6 @@ Kopplung von im Tagesverlauf fluktuierender erneuerbare Erzeugung mit anderen En
 - keine eindeutige Zuordnung von Verbraucher zu Erzeuger
 - Strom ist (zumeist) **Kuppelprodukt**:
   - elektrische Energie + jederzeitige Verfügbarkeit der Energie
-
-## Einheiten elektrischer Energie
-
-- Leistung und Energie ist etwas unterschiedliches!
-- **Energie**: Arbeit, die verrichtet wurde [in W oder kW]
-- **Leistung**: Geschwindigkeit der Arbeitsverrichtung [in Wh, kWh, MWh]
-
-- am gebräuchlichsten: kWh - **k**ilo**w**att**h**our (Kilowattstunde)
-- Zusammenhang: $E = \int P(t) dt$
-
----
-
-- Rechenbeispiele
-  - 1h E-Auto laden mit 11kW
-    - $11 \text{kW} \cdot 1\text{h} = 11 \text{kWh}$
-  - 5min Wasserkocher mit 2000W
-    - $2000 \text{W} \cdot 5/60\text{h} = 166 \text{Wh} = 0.166 \text{kWh}$
-- Strompreis privat: ca. 0.3€/kWh
 
 ## typischer Lastgang Deutschland
 
@@ -387,24 +394,22 @@ Kopplung von im Tagesverlauf fluktuierender erneuerbare Erzeugung mit anderen En
   - Intraday-Markt (in 15min Stücken, bis 30/5min vor Lieferung)
 - basierend auf Last- und Erzeugungsprognose (Wettervorhersage)
 
-## Ablauf des Strommarktes
-![Merit Order @next_kraftwerke_merit_order](assets/merit_order.jpg){.r-stretch}
+## Ablauf des Day-Ahead Markt
+:::{.column width="40%"}
 
 - Angebot nach variablen Grenzkosten
 - letztes eingesetztes Kraftwerk bestimmt Preis
 - Erneuerbare mit Grenzkosten 0€ drücken den Preis
-- Aber: EEG garantiert bestimmte Vergütung
+- Aber: EEG garantiert bestimmte Vergütung und tw. (private PV) Einspeisung $\rightarrow$ negative Preise
+- Solarspitzengesetz für privat-PV: keine Vergütung bei negativen Preisen, Begrenzung auf 70% der Maximalleistung $\rightarrow$ Speicher netzdienlich laden
 
----
+:::
 
-- ÜNB als Wächter der Netzstabilität
-  - Bilanzkreis: virtuelles Energiemengenkonto eines Energiehändlers @next_kraftwerke_bilanzkreis
-    - Einspeisung
-    - Entnahme
-  - Bilanzkreisverantwortliche reichen Fahrplan einen Tag vorher ein
-  - ÜNB überprüfen Fahrplan 
-  - Basierend auf Fahrplänen: Lastflussrechnungen identifizieren Engpässe
-  - Unstimmigkeiten: werden von ÜNB durch (teuere) Ausgleichsenergie behoben
+:::{.column width="60%"}
+
+![Merit Order @next_kraftwerke_merit_order](assets/merit_order.jpg)
+
+:::
   
 ## Redispatch
 
@@ -426,19 +431,33 @@ Kopplung von im Tagesverlauf fluktuierender erneuerbare Erzeugung mit anderen En
 - Ausgleich identifizierter Engpässe durch ÜNB
 - Kosten werden auf Netzentgelte umgelegt (steigend, 2024: ca 1.8 Mrd. €)^[zum Vergleich: ca. 50 Mrd. € Gesamtvolumen Börsenstromhandel (eigene Hochrechnung basierend auf @monitoringbericht_energie_2025) ] @monitoringbericht_energie_2025
 
+---
+
+- Gegenmaßnahmen:
+  - Netzausbau Nord-Süd
+  - Teilung von des deutschen Strommarktes in mehrere Preiszonen, die Übertragungskapazitäten berücksichtigen
+    - Druck aus EU 
+    <!-- - TODO: Quelle -->
+    - Tendenziell geringer Strompreise im Norden, höhere im Süden 
+    <!-- - TODO: Quelle -->
+    - Befürchtung: Verlagerung von energieintensiver Industrie in den Norden
+    - Preisunterschiede aber wahrscheinlich gering 
+    <!-- - TODO: Quelle -->
+
 # Energiesystem der Zukunft
 
 - dezentralisierte Erzeugung
+- digitalisierte und marktwirtschaftliche Kopplung von Erzeugung und Verbrauch
 - Flexibilisierung von Verbrauch, insbesondere durch Sektorenkopplung
-- Kurzzeitspeicher: Batterien
-- Langzeitspeicher: Wasserstoff, Bioenergie ("Kalt-Dunkel-Flaute")
+- Kurzzeitspeicher: Batterien, Wärmespeicher
+- Langzeitspeicher: Wasserstoff ("Kalt-Dunkel-Flaute")
 
 # Energiewende Zuhause
-- überschlägige Rechnung der Ökonomie
+<!-- - überschlägige Rechnung der Ökonomie
 - Lebensdauer
 - zu beachten
 - Flexibilisierung
-- Blick in die Zukunft
+- Blick in die Zukunft -->
   
 ## Smart-Meter
 :::: {.columns}
@@ -464,17 +483,39 @@ Kopplung von im Tagesverlauf fluktuierender erneuerbare Erzeugung mit anderen En
 
 ## CO2 Emmissionen / Strompreis überprüfen
 
+und Verbrauch großer Geräte (Geschirrspüler, Waschmaschine, Trockner, E-Auto, Wärmepumpe) anpassen
+
 - [smard.de](https://www.smard.de/) (Strommarkttransparenzstelle)
-- [energy-charts.info](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=3x0vvvk) (Fraunhofer ISE)
+- [energy-charts.info](https://www.energy-charts.info/charts/consumption_advice/chart.htm?l=de&c=DE) (Fraunhofer ISE), [Stromampel-App](https://www.energy-charts.info/downloads.html?l=de&c=DE)
 - [Electricity Maps](https://app.electricitymaps.com/map/zone/DE/live/fifteen_minutes) (App zu weltweiter Emissionsintensität)
 
 ## dynamische Stromtarife
 
+von wechselnden Strompreisen profitieren
+
+- macht vor allem Sinn, wenn große verschiebbare Lasten vorhanden (E-Auto, Wärmepumpe, Batteriespeicher)
+
+<!-- TODO: Octopus, Tibber, jeder muss dynamisch anbieten -->
+
 ## PV & Speicher
+
+- Kosten: ca. 15.000€ für 10kWp PV-Anlage + 10kWh Speicher
+- pro kWp: ca. 1000 kWh Strom pro Jahr
+- Speicher nicht zu groß wählen, wichtig für Eigenverbrauch. [Einfache Web-Tools hier](https://solar.htw-berlin.de/rechner/), [einfache Faustformeln hier](https://solar.htw-berlin.de/publikationen/auslegung-von-solarstromspeichern/)
+- Reduktion des Strombezuges um 80%, geringe Vergütung von 0.07/€ kWh für eingespeisten Strom
+- sehr attraktiv in Kombination mit E-Auto oder Wärmepumpe: PV-Überschussladen
+- mindestens: [prognosebasierte Ladung](https://solar.htw-berlin.de/themen/prognosebasierte-batterieladung/) 
+- oder Integration in ein virtuelles Kraftwerk, z.B. bei Anbietern wie 1KOMMA5, attraktive Vergütung $\rightarrow$ **zukünftig sinnvollstes Modell**
+- **Wichtig**: Orchestrierung & Kommunikation der Komponenten, des (dynamischen) Stromtarifes und Prognosen, viele einfache Anbieter bieten hier wenig.
+  - zum Selbermachen: z.B. clever-pv, EVCC... (IT-Affinität nötig)
 
 ## Wärmepumpe
 
 ## E-Auto
+
+- Batterien halten TODO: Studie
+- TODO: Aussage zu Rohstoffen
+- weniger Wartungskosten, geringere Betriebskosten
 
 # Quellen {.smaller}
 
@@ -484,6 +525,63 @@ Kopplung von im Tagesverlauf fluktuierender erneuerbare Erzeugung mit anderen En
 
 # Backup-Folien
 
+## Exkurs: Wandelbarkeit von Energie
+
+- Wirkungsgrad: $\eta=\frac{Nutzen}{Aufwand}$
+- Thermodynamik, N.Carnot (1824): Wärme ist nicht uneingeschränkt in Arbeit wandelbar
+- Arbeit dahingegen vollständig in Wärme wandelbar
+- Beispiele
+  - Wasserkocher: Strom (Arbeit) $\rightarrow$ Wärme: 100% Wirkungsgrad
+  - Auto mit Verbrennungsmotor: chemische Energie in Form von Wärme $\rightarrow$ Antrieb: ~30-40% Wirkungsgrad
+- je höher die Temperatur der Wärme, desto wertvoller (mehr Arbeit erzeugbar, Carnot-Faktor)
+
+## Klassiker: Kombi-Kraftwerke
+- Grundlagen: 
+  - Wärme nie uneingeschränkt in Arbeit wandelbar
+  - Arbeit dahingegen immer vollständig in Wärme wandelbar
+  - Wärme stellt (je nach Temperatur) niedrigst-wertvollste Energieform dar
+- Kraftwerke mit Wärmeauskopplung (Fernwärme)
+  - Gas-und-Dampfkraftwerk (GuD) bis ca. 65% Wirkungsgrad [@siemens_energy_combined_cycle]
+  - Blockheizkraftwerke (BHKW) bis ca. 50% Wirkungsgrad [@innio_jenbacher_j920_flextra]
+  - mit Wärmenutzung (Fernwärmenetz) bis 90% Nutzungsgrad
+  - strombasierte oder wärmebasierte Steuerung
+  - Flexibilisierung durch Wärmespeicher
+- neue Motoren und Turbinen prinzipiell mit Wasserstoff möglich
+  - 20 Vol-% Wasserstoff sind nur x% CO2-Reduktion, da $\text{H}_2$ nur x/x der Energiedichte von Erdgas hat
+  - $\rightarrow$ nur 100% Wasserstoff ist klimaneutral!
+
+## Leistung und Energie
+
+- Leistung und Energie ist etwas unterschiedliches!
+- **Energie**: Arbeit, die verrichtet wurde [in W oder kW]
+- **Leistung**: Geschwindigkeit der Arbeitsverrichtung [in Wh, kWh, MWh]
+
+- am gebräuchlichsten: kWh - **k**ilo**w**att**h**our (Kilowattstunde)
+- Zusammenhang: $E = \int P(t) dt$
+
+- Rechenbeispiele
+  - 1h E-Auto laden mit 11kW
+    - $11 \text{kW} \cdot 1\text{h} = 11 \text{kWh}$
+  - 5min Wasserkocher mit 2000W
+    - $2000 \text{W} \cdot 5/60\text{h} = 166 \text{Wh} = 0.166 \text{kWh}$
+- Strompreis privat: ca. 0.3€/kWh
+
+---
+
+- ÜNB als Wächter der Netzstabilität
+  - Bilanzkreis: virtuelles Energiemengenkonto eines Energiehändlers @next_kraftwerke_bilanzkreis
+    - Einspeisung
+    - Entnahme
+  - Bilanzkreisverantwortliche reichen Fahrplan einen Tag vorher ein
+  - ÜNB überprüfen Fahrplan 
+  - Basierend auf Fahrplänen: Lastflussrechnungen identifizieren Engpässe
+  - Unstimmigkeiten: werden von ÜNB durch (teuere) Ausgleichsenergie behoben
+
+---
+
+![[Link](https://www.bdew.de/media/documents/1_Energieflussbild_Deutschland_2023_TWh_detailliert.svg) @bdew_nutzenergiebilanz_2025](assets/1_Energieflussbild_Deutschland_2023_TWh_detailliert.svg)
+
+---
 
 ![EEG-Zahlungen @monitoringbericht_energie_2025](assets/eeg_zahlungen.png){.r-stretch}
 
