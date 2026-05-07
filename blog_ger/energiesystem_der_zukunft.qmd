@@ -93,9 +93,11 @@ format:
 ## "Primärenergie" der Zukunft
 - Photovoltaik und Wind $\rightarrow$ Strom: "All Electric Society"
 - eher nicht: 
-  - ~~Wasserstoff~~ (ineffizient, teuer, ["Champagner der Energiewende"](https://live.handelsblatt.com/wasserstoff-champagner-der-energiewende/))
+  - ~~Wasserstoff~~ (["Champagner der Energiewende"](https://live.handelsblatt.com/wasserstoff-champagner-der-energiewende/))
+  - aber Wasserstoff als saisonaler Energiespeicher und Grundstoff für Chemie und Schwerindustrie
 - ganz sicher nicht:
-  - ~~Kernenergie~~ (Energiewende jetzt nötig, nicht in 20 Jahren)
+  - ~~Kernenergie~~ (Energiewende jetzt nötig, nicht in 20 Jahren, Bauzeiten)
+  - ~~Kernfusion~~ (aus selbem Grund)
  
 ## Boom von Wind & Solar weltweit
 
@@ -194,25 +196,36 @@ Puzzlestück 1: Energieverbrauch verringern
 
 ## Elektromobilität
 
-- fossile Mobilität: 30-40% Wirkungsgrad
+:::{.column width="50%"}
+
+- fossile Mobilität: 20-40% Wirkungsgrad
 - elektrische Mobilität: 80-90% Wirkungsgrad
   - $\rightarrow$ Faktor 3 effizienter
   - Emissionsabnahme über Lebenszyklus durch fortschreitende Dekarbonisierung der Stromerzeugung
 
-TODO: Wirkungsgradvergleich, auch vs. e-fuels
+:::
+
+:::{.column width="50%"}
+![Reichweite mit 15kWh Strom @rueter_batterien_oder_e_fuels_2022](assets/e-fuels_grafik_dw.png)
+:::
 
 
 ## Wärmepumpen
 
+:::{.column width="50%"}
 - fossile Heizung: 80-90% Wirkungsgrad
 - Wärmepumpe: 300-700% Wirkungsgrad (COP 3-7)
-  - Wirkungsgraddefinition $ \text{COP} = \frac{\text{Nutzen}}{\text{Aufwand}} $, Umweltwärme kostenlos, nur Strom als Aufwand
-  - $\rightarrow$ Faktor 4-8 effizienter
+  - Wirkungsgraddefinition $\text{COP} = \frac{\text{Nutzen}}{\text{Aufwand}}$, Umweltwärme kostenlos, nur Strom als Aufwand
+  - $\rightarrow$ Faktor 4-8 effizienter als Heizung
   - Emissionsabnahme über Lebenszyklus durch fortschreitende Dekarbonisierung der Stromerzeugung
-- mit E-Fuels heizen ist "politische Nebelkerze": Wirkungsgrad xx% (TODO: genaue Zahl)
+- mit E-Fuels heizen ist "politische Nebelkerze"
+:::
 
-TODO: WP Bild & Sankey Diagram, 
-TODO: e-fuels vs. Wärmepumpe
+:::{.column width="50%"}
+
+![Funktionsweise einer Wärmepumpe: elektrische Energie wird genutzt, um die Energiedichte kostenloser Umweltwärme zu steigern @bwp_mediengalerie_grafiken_waermepumpe](assets/Infografik_WP_Funktion_RGB.jpg)
+
+:::
 
 ## Bedeutung für die Energiewende 1
 
@@ -251,8 +264,8 @@ TODO: e-fuels vs. Wärmepumpe
 :::
 
 - Wärmepumpen und Elektromobilität $\rightarrow$ Halbierung des Endenergiebedarfs in Gebäuden und Mobilität, -40% Endenergiebedarf weltweit
-- "primary energy fallacy" @rosenow_primary_energy_fallacy_2024: Das Problem wird kleiner, je mehr wir uns ihm nähern
 - Endenergiebedarf: Energie die von Verbraucher bezogen werden muss
+- "primary energy fallacy" @rosenow_primary_energy_fallacy_2024: Das Problem wird kleiner, je mehr wir uns ihm nähern
 
 # Sektorenkopplung und Speicher
 
@@ -260,46 +273,57 @@ Puzzlestück 2: Das was geht, an Erzeugung anpassen
 
 Puzzlestück 3: Energie kurz- und langfristig speichern
 
-## Speicher 1: Batterien (kurzfristig Speicherung)
+## Speicher (kurzfristig): Batterien 
 
-TODO: stark gesunkene Preise, Lebensdauer, Energieeinsat bei Produktion, Rohstoffe
+Wirkungsgrad: 95%
+
+:::{.column width="50%"}
+
+<iframe src="https://ourworldindata.org/grapher/price-of-lithium-ion-battery-cells?time=2004..latest&tab=line" loading="lazy" style="width: 80%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+@owid-battery-price-decline
+
+:::
+
+:::{.column width="50%"}
+
+![Jede Verdoppelung der Produktionskapazität hat zu 20% Preisreduktion geführt @owid-battery-price-decline](assets/battery-price-vs-production.png){width="70%"}
+
+:::
 
 ## Was ist Power-to-X / Sektorenkopplung?
 - Verknüpfung von verschiedenen Energieträgern
+- Strom, Wärme und Rohstoffindustrie nicht mehr getrennte Systeme, sondern gekoppelt
+- Dreh- und Angelpunkt: Stromnetz
 
 ## Power-to-Mobility
 - Zeitpunkt der Ladung von E-Autos, E-LKWs, E-Busse verschieben
 - meist geringe Komforteinbußen
 - "~~Marginalerzeugungsansatz~~" (z.B. VDI-Studie)
+- großes Potenzial für bidirektionales Laden: 
+  - im Jahr 2030 könnte Deutschlands Strombedarf 18h lang komplett durch E-Auto Batterien gedeckt werden^[eigene Hochrechnung basierend auf @fraunhofer_iao_bidirektionales_laden_2025 1000Gwh, zu 90% nicht genutzt, durchschnittlich 50GW Last]
 
 ## Power-to-Heat
 - Wärmepumpen.
-  - z.B. in ...
-- Großwärmepumpen
-  - z.B. in ...
+- Großwärmepumpen (Fernwärme)
 - "Tauchsieder"
 - Hochtemperaturspeicher
 
-## Speicher 2: Power-to-Gas (langfristige Speicherung)
+## Speicher (langfristige): Power-to-Gas
 - Wasserstoff-Herstellung
   - Energie-Speicher und Industrie-Rohstoff (chemische & Schwerindustrie)
-  - Effizienz
-  - 1kg Wasserstoff: ca xx kWh
-    - mit Wasserstoff-Auto: ca. 100km
-    - mit E-Auto: ca xx kWh
+  - Effizienz: ca. 65% Wirkungsgrad
+  - Rückwandlung: ca. 60% $\rightarrow$ 39% gesamt
   - Hauptkosten: Strom
   - Handhabung teuer: Flüchtigkeit, hoher Druck, Explosionsgefahr
   
 ---
 
 - weitere Gase, ggf. Herstellung Derivate
-  - Ammoniak ($\text{NH}_3$)
+  - Ammoniak ($\text{NH}_3$) (Schiffahrt)
   - Power-to-Liquid (eFuels) $\rightarrow$ Kerosin
     - Fischer-Tropsch-Verfahren
       - grob: $\text{Wasserstoff} + \text{CO}_2 \rightarrow \text{Kraftstoffe} (\text{C}_{x}H_{y})$
-    - TODO: Wirkungsgrad
-- Exkurs: Direkte Syngasherstellung
-  - Synhelion
+      - weitere Wirkungsgradverluste
 
 ## Fazit
 Kopplung von im Tagesverlauf fluktuierender erneuerbare Erzeugung mit anderen Energieformen bedarf marktwirtschaftlicher Signale, die Knappheit und Überfluss widerspiegeln können.
@@ -348,6 +372,11 @@ zentraler Drehpunkt des zukünftigen Energiesystems: Elektrizität als "Primäre
   - Kritik: kleinteilige Struktur kann ineffizient sein
   - Gegenargument: lokale Nähe und kommunale Verankerung
   - mögliche Antwort: Kooperationen und gemeinsame Plattformen
+- [Paragraf §14a EnWG](https://www.netze-bw.de/neuregelung-14a-enwg)
+  - Schutz des Verteilnetzes vor Überlastung
+  - Möglichkeit zum "Dimmen" in begrenzten Zeiträumen
+  - Im Gegenzug Reduktion der Netzentgelte
+  - Pflicht zum Netzausbau in betroffenen Gebiete
 
 ## Charakteristika des Strommarktes
 - Markt **ohne** Möglichkeit zur Lagerhaltung
@@ -376,15 +405,40 @@ zentraler Drehpunkt des zukünftigen Energiesystems: Elektrizität als "Primäre
 
 ## Strompreis- und Erneuerbare Energien
 
-### Sommer
+Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von Strom
 
-- TODO: Grafik Anteil (CO2-Emission) Erneuerbare am Stromverbrauch über Tag (energy-charts)
-- TODO: Grafik Strompreis
+---
 
 ### Winter
 
-- TODO: Grafik Anteil (CO2-Emission) Erneuerbare am Stromverbrauch über Tag (energy-charts)
-- TODO: Grafik Strompreis
+![[energy-charts:](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=ew4w3w1&week=07) Day-Ahead Börsenstrompreise über eine Woche im Winter](assets/energy_charts_strompreis_winter.svg)
+
+::: {.column width="50%"}
+- + ca. 160€/MWh Steuern, Netzentgelte und Umlagen für Privatkunden
+- Preispeaks abends und morgens
+- am Wochenende günstigere Preise 
+:::
+
+::: {.column width="50%"}
+- nachts günstigster Strom verfügbar
+- Flaute & Sturm bestimmen Preisniveau des Tages
+:::
+
+### Sommer
+
+![[energy-charts:](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=ew4w3w1&week=16) Day-Ahead Börsenstrompreise über eine Woche im Sommer](assets/energy_charts_strompreis_sommer.svg)
+
+::: {.column width="50%"}
+- + ca. 160€/MWh Steuern, Netzentgelte und Umlagen für Privatkunden
+- Solarstromspitzen sorgen relativ verlässlich für Peak zur Mittagszeit
+:::
+
+::: {.column width="50%"}
+- to
+:::
+
+---
+
 
 ## Strommarkt nach Liberalisierung
 - Entflechtung von Erzeugung und Verteilung
@@ -494,28 +548,100 @@ und Verbrauch großer Geräte (Geschirrspüler, Waschmaschine, Trockner, E-Auto,
 von wechselnden Strompreisen profitieren
 
 - macht vor allem Sinn, wenn große verschiebbare Lasten vorhanden (E-Auto, Wärmepumpe, Batteriespeicher)
-
-<!-- TODO: Octopus, Tibber, jeder muss dynamisch anbieten -->
-
+- Verpflichtung, dynamische Stromtarife (Day-Ahead-Preis) anzubieten
+- andere Tarifmodelle denkbar:
+  -  Tarife mit mehreren Preiszonen pro Tag
+  -  Tarife mit aktiver Ansteuerung des Ladevorganges bei E-Auto
+  -  noch wenig Anbieter (bisher Octopus Energy)
+  
 ## PV & Speicher
 
-- Kosten: ca. 15.000€ für 10kWp PV-Anlage + 10kWh Speicher
+- Kosten: ca. 15.000€ für 10kWp PV-Anlage, 10kWh Speicher & Elektroinstallation
 - pro kWp: ca. 1000 kWh Strom pro Jahr
 - Speicher nicht zu groß wählen, wichtig für Eigenverbrauch. [Einfache Web-Tools hier](https://solar.htw-berlin.de/rechner/), [einfache Faustformeln hier](https://solar.htw-berlin.de/publikationen/auslegung-von-solarstromspeichern/)
 - Reduktion des Strombezuges um 80%, geringe Vergütung von 0.07/€ kWh für eingespeisten Strom
 - sehr attraktiv in Kombination mit E-Auto oder Wärmepumpe: PV-Überschussladen
-- mindestens: [prognosebasierte Ladung](https://solar.htw-berlin.de/themen/prognosebasierte-batterieladung/) 
-- oder Integration in ein virtuelles Kraftwerk, z.B. bei Anbietern wie 1KOMMA5, attraktive Vergütung $\rightarrow$ **zukünftig sinnvollstes Modell**
-- **Wichtig**: Orchestrierung & Kommunikation der Komponenten, des (dynamischen) Stromtarifes und Prognosen, viele einfache Anbieter bieten hier wenig.
-  - zum Selbermachen: z.B. clever-pv, EVCC... (IT-Affinität nötig)
+
+---
+
+### Netzdienlichkeit von privaten PV Anlagen
+
+- aufgrund fester EEG Vergütung fixe Einspeisung
+- -499.99€/MWh Börsenstrompreis am 1.Mai 2026
+  - $\rightarrow$ hier wird sich etwas ändern müssen
+- heutige mögliche Lösungen
+  - mindestens: [prognosebasierte Ladung](https://solar.htw-berlin.de/themen/prognosebasierte-batterieladung/) 
+  - oder Integration in ein virtuelles Kraftwerk, z.B. bei Anbietern wie 1KOMMA5, attraktive Vergütung $\rightarrow$ **zukünftig sinnvollstes Modell**
+  - **Wichtig**: Orchestrierung & Kommunikation der Komponenten, des (dynamischen) Stromtarifes und Prognosen, viele einfache Anbieter bieten hier wenig.
+    - zum Selbermachen: z.B. clever-pv, EVCC... (IT-Affinität nötig)
+- Zukünftig:
+  - Bereitstellung von Systemdienstleistungen (Regelenergie, lokale Spannungshaltung)
+  - Diskussion: indirekten Subventionierung durch Einsparung von Netzentgelten bei nur tw. reduzierter Infrastrukturnutzung (Sozialaspekt)
+
+## Alternative: Balkonkraftwerke
+
+- steckerfertige Solaranlagen zur Selbstmontage, 4kWp PV, 4kWh Speicher für 2000€
+- Speicher können auch mit dynamischen Stromtarifen arbeiten (Winter)
+- max. 800W Einspeisung, begrenzter Nutzen für E-Autos und Wärmepumpen
+- Interessante Anbieter: 
+  - Solakon (deutsche Server)
+  - Ecoflow (flexibel platzierbar Speichermodule mit 1200W Steckdose)
 
 ## Wärmepumpe
 
+- Wärmepumpen funktionieren in fast allen Bestandsgebäuden^[[Wärmepumpen im Bestand, Blog-Serie](https://blog.innovation4e.de/2021/02/10/waermepumpen-im-bestand-eine-serie-in-12-folgen/)]
+- bei anstehendem Austausch über Laufzeit günstiger als Gasheizung
+  - Beispiel: 20.000kWh Wärmebedarf, konservative Annahmen^[Gasheizung: 0,10€/kWh Gas, 12.000€ Investition, 100€ Schornsteinfeger/Jahr, Wirkungsgrad 90%]^[Wärmepumpe: 0,30€/kWh Strom, 15.000€ Investition (50% Förderung), COP 4]:
+    - über 15 Jahre: 
+      - Gasheizung: **46.300€**^[12.000€ + (20.000kWh / 0.9 * 0,10€/kWh + 100€) * 15 Jahre = 46.300€]
+      - Wärmepumpe: **37.500€**^[15.000€ + (20.000kWh **/ 4** * 0,30€/kWh) * 15 = 37.500€]
+    - perspektiv Strom gleich teuer oder günstiger (dynamische Tarif, Solaranlage)
+    - perspektivisch Gas teurer (CO2-Preis, steigende Netzentgelte, "Biotreppe")
+- bei vorzeitigem Austausch oft auch günstiger, v.a. bei älteren Heizungen (Wirkungsgrad) oder dynamische Tarife / PV
+
+---
+
+- mein Tipp: erfahrener Betrieb & besonders effiziente Geräte (z.B. Lambda, Heliotherm)^[weitere Informationsquellen: [JAZ-Rechner](https://www.waermepumpe.de/werkzeuge/jaz-rechner/), [YouTube Kanal Henrich Schröder (Gütersloh)](https://www.youtube.com/@henrichschroeder), [YouTbe Video: 250 Lambda Wärmepumpen im Bestand](https://www.youtube.com/watch?v=Y2QwiyKPjH4)]
+
+---
+
+### Alternative: Klima-Splitgeräte
+
+- gleich Funktionsweise und Wirkungsgrad wie Wärmepumpe
+- Nachteil: Luftzug, ungleichmäßige Wärmeverteilung
+- günstige Lösung, Einzelgeräte ab 1000€ bzw. 3500€ mit Einbau
+- mögliche Low-Budget-Lösung und Zusatznutzen im Sommer (Schutz vor Hitzewellen)
+
 ## E-Auto
 
-- Batterien halten TODO: Studie
-- TODO: Aussage zu Rohstoffen
+- direkte Emissionen (aktuell): 150-200g $\text{CO}_2$/km Verbrenner vs. 60g $\text{CO}_2$/km ^[eigene Rechnung, Annahmen: 20kWh/100km, 300g $\text{CO}_2$ / kWh Strom] 60g $\text{CO}_2$ / km E-Auto
+  - "Emissionsrucksack" von 20-70kg $\text{CO}_2$/kWH Batterie (je nach Herstellungsregion, Zahlen für 2030 @green_ncap_lca_methodology_2022)
+- Lebenszyklus-Emissionen deutlich geringer als von Verbrennern, [ADAC-Tool](https://www.greenncap.com/lca-german.php)^[[ADAC-Artikel zu Lebenszyklus-Emissionen(https://www.adac.de/verkehr/tanken-kraftstoff-antrieb/alternative-antriebe/klimabilanz/#neu-die-interaktive-lca-plattform)]]
+  - 50.1t (Diesel) vs. 27.6t (E-Auto) vs. 14.9t (E-Auto nur Windstrom) @kroher_treibhausgas_bilanz_2022
+  - weiteres Absinken (effizientere Produktion, fortschreitende Emissionsreduktion des Fahrstroms)
+- Klimanutzen bei Ersatz von Bestandsfahrzeugen ab ca. 7500km/Jahr @bianchetti_kaufentscheid_elektroauto
+
+---
+
+### E-Auto: Batterien
+
+:::{.column width="50%"}
+- Lebensdauer unproblematisch
+  - Wichtig: dauerhafte Ladestände > 80% und < 20% vermeiden
+- Rohstoff-Thematik entschärft sich in Zukunft:
+  - neue Technologien (Lithium-Eisen-Phosphat (LFP), Natrium-Ionen-Batterien)
+  - Recycling
+  - meines Erachtens: geringere Umwelt- und soziale Auswirkungen als fossile Brennstoffe
 - weniger Wartungskosten, geringere Betriebskosten
+
+:::
+
+:::{.column width="50%"}
+
+![Batteriedegradation VW ID.3 mit 58kWh Batterie. Degradation je nach Fahrprofil zwischen Pendler (blau) und Autobahn- (orange) Szenario @schreiber_understanding_2025](assets/battery_aging_id3_58kwh.jpg)
+
+:::
+
 
 # Quellen {.smaller}
 
