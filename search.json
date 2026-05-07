@@ -1,66 +1,276 @@
 [
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "J. Aka, N. Panossian, & H. Laraabi. (2025). Economic storage size optimization for electric vehicle extreme-fast charging stations. 2025 IEEE Power &amp;amp; Energy Society General Meeting (PESGM). https://doi.org: 10.1109/pesgm52009.2025.11225191.\n\n\nE. Henningsson, C. Schulze, J. Aka, M. Gräber, D. Brück, E. Nahodovic, & O. Lenord. (2025). Input smoothing for faster co-simulation using FMI. Linköping Electronic Conference Proceedings. https://doi.org: 10.3384/ecp218653.\n\n\nJ. Aka, J. Brunnemann, J. Eiden, A. Speerforck, & L. Mikelsons. (2024). Balanced neural ODEs: Nonlinear model order reduction and koopman operator approximations. arXiv. https://doi.org: 10.48550/ARXIV.2410.10174.\n\n\nJ. Aka, J. Brunnemann, S. Freund, & A. Speerforck. (2023). Efficient global multi parameter calibration for complex system models using machine-learning surrogates. Modelica conferences, 107–120. https://doi.org: 10.3384/ecp204107.\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#die-klimakatastrophe",
+    "href": "blog_ger/energiesystem_der_zukunft.html#die-klimakatastrophe",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "2.1 Die Klimakatastrophe",
+    "text": "2.1 Die Klimakatastrophe\n\n\nwesentliche Treibhausgase:\n\n\\(\\text{CO}_2\\)\nMethan, ca. 80x klimaschädlicher als \\(\\text{CO}_2\\) über 20 Jahre\nweitere: Lachgas, F-Gase, …\n\nEmissionsbudget\nWesentlich mehr fossiler Brennstoffe, als die Erde verkraften kann\n\n\n\n\n(Quelle: Potsdam-Institut für Klimafolgenforschung)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Julius Aka - personal blog",
-    "section": "",
-    "text": "Hi, this is my blog. My newest posts are:\n\n\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#emissionen-weltweit",
+    "href": "blog_ger/energiesystem_der_zukunft.html#emissionen-weltweit",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "2.2 Emissionen weltweit",
+    "text": "2.2 Emissionen weltweit\n\n\nPeak ist noch nicht erreicht  [1]\n\n\n\nChina: Erfolg der EE im Stromsektor  [2]"
   },
   {
-    "objectID": "blog/welcome/index.html",
-    "href": "blog/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#aktueller-stand-der-zielerreichung",
+    "href": "blog_ger/energiesystem_der_zukunft.html#aktueller-stand-der-zielerreichung",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "2.3 aktueller Stand der Zielerreichung",
+    "text": "2.3 aktueller Stand der Zielerreichung\n\n\n\n\nStand der Energiewende in Deutschland 2025 [3]\n\n\n\n\nEnergiewirtschaft (Stromerzeugung) auf Kurs\nIndustrie: Effizienzgewinne und Verlagerung ins Ausland (Bezugsjahr 1990)\nVerkehr & Gebäude: großer Nachholbedarf\nClimate Action Tracker:\n\nDeutschland “Insufficient”, derzeitige Maßnahmen reichen fast für &lt;+2°C aus [4]\nWeltweite Maßnahmen: +2.6°C, aktuelle Ziele: +2.2°C [5]"
   },
   {
-    "objectID": "impressum.html",
-    "href": "impressum.html",
-    "title": "Impressum",
-    "section": "",
-    "text": "Impressum\nAngaben gemäß § 5 DDG\nJulius Aka\nVertreten durch: Julius Aka\nKontakt: E-Mail: thomaner@googlemail.com\nVerantwortlich für den Inhalt nach § 18 Abs. 2 MStV: Julius Aka\nVerbraucherstreitbeilegung / Universalschlichtungsstelle Wir nehmen nicht an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil und sind dazu auch nicht verpflichtet.\nHaftungsausschluss:\nHaftung für Inhalte Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 DDG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 DDG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.\nHaftung für Links Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.\nUrheberrecht Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.\n\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#primärenergie-der-zukunft",
+    "href": "blog_ger/energiesystem_der_zukunft.html#primärenergie-der-zukunft",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "3.1 “Primärenergie” der Zukunft",
+    "text": "3.1 “Primärenergie” der Zukunft\n\nPhotovoltaik und Wind \\(\\rightarrow\\) Strom: “All Electric Society”\neher nicht:\n\nWasserstoff (“Champagner der Energiewende”)\naber Wasserstoff als saisonaler Energiespeicher und Grundstoff für Chemie und Schwerindustrie\n\nganz sicher nicht:\n\nKernenergie (Energiewende jetzt nötig, nicht in 20 Jahren, Bauzeiten)\nKernfusion (aus selbem Grund)"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#boom-von-wind-solar-weltweit",
+    "href": "blog_ger/energiesystem_der_zukunft.html#boom-von-wind-solar-weltweit",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "3.2 Boom von Wind & Solar weltweit",
+    "text": "3.2 Boom von Wind & Solar weltweit\n\n\n\n[6]\n\n\nBoom von Solar und Wind weltweit\nWasserkraftspotenziale in Deutschland ausgeschöpft\n\nVorteile:\n\nRegelbarkeit\nin begrenzten Umfang Speicherfähigkeit"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#solar-wind-sind-am-günstigsten",
+    "href": "blog_ger/energiesystem_der_zukunft.html#solar-wind-sind-am-günstigsten",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "3.3 Solar & Wind sind am günstigsten",
+    "text": "3.3 Solar & Wind sind am günstigsten\n\n\n\n\nKosten pro erzeugter kWh Strom [7]\n\n\n\n\nSolar und Wind sind in Deutschland am günstigsten\nBiogas nach Nuklearenergie teuerste Form der Stromerzeugung\n\nFolgen für Biodiversität & Konkurrenz mit weltweiter Nahrungsmittelproduktion\n\nmeine Meinung:\n\nbesser PV (32x mehr Strom) bzw. Wind (850x mehr) [8]\nggf. in Kombination mit Wasserstoffproduktion"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#wind",
+    "href": "blog_ger/energiesystem_der_zukunft.html#wind",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "3.4 Wind",
+    "text": "3.4 Wind\n\n\n\n\nWochenverlauf stark abhängig von Wetter [9]\n\n\n\n\n\n\nProduktion pro Tag im bisherigen 2026 [9]\n\n\n\n\\(\\rightarrow\\) Starkwindphasen über mehrere Tage senken den Börsen-Strompreis deutlich\n\\(\\rightarrow\\) Flauten erhöhen den Strompreis deutlich (v.a. im Winter)"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#sonne",
+    "href": "blog_ger/energiesystem_der_zukunft.html#sonne",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "3.5 Sonne",
+    "text": "3.5 Sonne\n\n\n\n\nProduktion mit Peak am Mittag [9]\n\n\n\n\n\n\nProduktion pro Tag im bisherigen 2026 [9]\n\n\n\n\\(\\rightarrow\\) täglicher Peak der PV Erzeugung\n\\(\\rightarrow\\) im Sommer regelmäßig mittags geringste Börsen-Strompreise"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#bioenergie",
+    "href": "blog_ger/energiesystem_der_zukunft.html#bioenergie",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "3.6 Bioenergie",
+    "text": "3.6 Bioenergie\n\nBiogaserzeugung & fossile Kraftwerke vs. Börsenstrompreis: fixe EEG-Vergütung verhindert Flexibilisierung [9]\nungenutztes Potenzial: keine Flexibilisierung durch fehlende Anreize bei Bestandsanlagen (EEG-Vergütung zeitlich konstant)\nhohe Umrüstungskosten (zusätzliche BHKW und Gasspeicher)"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#elektromobilität",
+    "href": "blog_ger/energiesystem_der_zukunft.html#elektromobilität",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "4.1 Elektromobilität",
+    "text": "4.1 Elektromobilität\n\n\nfossile Mobilität: 20-40% Wirkungsgrad\nelektrische Mobilität: 80-90% Wirkungsgrad\n\n\\(\\rightarrow\\) Faktor 3 effizienter\nEmissionsabnahme über Lebenszyklus durch fortschreitende Dekarbonisierung der Stromerzeugung\n\n\n\n\n\n\nReichweite mit 15kWh Strom [10]"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#wärmepumpen",
+    "href": "blog_ger/energiesystem_der_zukunft.html#wärmepumpen",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "4.2 Wärmepumpen",
+    "text": "4.2 Wärmepumpen\n\n\nfossile Heizung: 80-90% Wirkungsgrad\nWärmepumpe: 300-700% Wirkungsgrad (COP 3-7)\n\nWirkungsgraddefinition \\(\\text{COP} = \\frac{\\text{Nutzen}}{\\text{Aufwand}}\\), Umweltwärme kostenlos, nur Strom als Aufwand\n\\(\\rightarrow\\) Faktor 4-8 effizienter als Heizung\nEmissionsabnahme über Lebenszyklus durch fortschreitende Dekarbonisierung der Stromerzeugung\n\nmit E-Fuels heizen ist “politische Nebelkerze”\n\n\n\n\n\nFunktionsweise einer Wärmepumpe: elektrische Energie wird genutzt, um die Energiedichte kostenloser Umweltwärme zu steigern [11]"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#bedeutung-für-die-energiewende-1",
+    "href": "blog_ger/energiesystem_der_zukunft.html#bedeutung-für-die-energiewende-1",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "4.3 Bedeutung für die Energiewende 1",
+    "text": "4.3 Bedeutung für die Energiewende 1\n\n\nEnergieerhaltung\n\n\\(\\sum E_{in} = \\sum E_{out}\\)\n\nEnergieflussdiagramm:\n\nPrimärenergie: Energie vor erster Umwandlung\nNutzenergie: Energie, die Aufgaben erfüllt (z.B. Heizen, Fahren)\n\n\n\n\n\n\nLink zur Grafik [12]\n\n\n\n46% Verlust von Primär- zu Nutzenergie in Deutschland:\n\nVerkehr, Kraftwerke, (Gebäudeheizung)\n\n“Erneuerbare Energien erreichen 19% am Primärenergiebedarf” [12]"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#bedeutung-für-die-energiewende-2",
+    "href": "blog_ger/energiesystem_der_zukunft.html#bedeutung-für-die-energiewende-2",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "4.4 Bedeutung für die Energiewende 2",
+    "text": "4.4 Bedeutung für die Energiewende 2\n\n\n\n\nPre- und Post Transformation Nutzenergiebedarf [13]\n\n\n\n\n\n\nEffizienzgewinne in Industrie, Gebäude und Verkehr [13]\n\n\n\nWärmepumpen und Elektromobilität \\(\\rightarrow\\) Halbierung des Endenergiebedarfs in Gebäuden und Mobilität, -40% Endenergiebedarf weltweit\nEndenergiebedarf: Energie die von Verbraucher bezogen werden muss\n“primary energy fallacy” [14]: Das Problem wird kleiner, je mehr wir uns ihm nähern"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#speicher-kurzfristig-batterien",
+    "href": "blog_ger/energiesystem_der_zukunft.html#speicher-kurzfristig-batterien",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "5.1 Speicher (kurzfristig): Batterien",
+    "text": "5.1 Speicher (kurzfristig): Batterien\nWirkungsgrad: 95%\n\n\n\n[15]\n\n\n\n\nJede Verdoppelung der Produktionskapazität hat zu 20% Preisreduktion geführt [15]"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#was-ist-power-to-x-sektorenkopplung",
+    "href": "blog_ger/energiesystem_der_zukunft.html#was-ist-power-to-x-sektorenkopplung",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "5.2 Was ist Power-to-X / Sektorenkopplung?",
+    "text": "5.2 Was ist Power-to-X / Sektorenkopplung?\n\nVerknüpfung von verschiedenen Energieträgern\nStrom, Wärme und Rohstoffindustrie nicht mehr getrennte Systeme, sondern gekoppelt\nDreh- und Angelpunkt: Stromnetz"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#power-to-mobility",
+    "href": "blog_ger/energiesystem_der_zukunft.html#power-to-mobility",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "5.3 Power-to-Mobility",
+    "text": "5.3 Power-to-Mobility\n\nZeitpunkt der Ladung von E-Autos, E-LKWs, E-Busse verschieben\nmeist geringe Komforteinbußen\n“Marginalerzeugungsansatz” (in einigen Studien)\ngroßes Potenzial für bidirektionales Laden:\n\nim Jahr 2030 könnte Deutschlands Strombedarf 18h lang komplett durch E-Auto Batterien gedeckt werden1\n\n\neigene Hochrechnung basierend auf [16] 1000Gwh, zu 90% nicht genutzt, durchschnittlich 50GW Last"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#power-to-heat",
+    "href": "blog_ger/energiesystem_der_zukunft.html#power-to-heat",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "5.4 Power-to-Heat",
+    "text": "5.4 Power-to-Heat\n\nWärmepumpen privat\nGroßwärmepumpen (Fernwärme)\nPower-to-heat mittels Elektrodenheizung (Fernwärme)\n\ngeringer Wirkungsgrad, aber auch geringe Investition \\(\\rightarrow\\) negative Strompreise, Engpassmanagement\n\nHochtemperaturspeicher zum Puffern"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#speicher-langfristige-power-to-gas",
+    "href": "blog_ger/energiesystem_der_zukunft.html#speicher-langfristige-power-to-gas",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "5.5 Speicher (langfristige): Power-to-Gas",
+    "text": "5.5 Speicher (langfristige): Power-to-Gas\n\nWasserstoff-Herstellung\n\nEnergie-Speicher und Industrie-Rohstoff (chemische & Schwerindustrie)\nEffizienz: ca. 65% Wirkungsgrad\nRückwandlung mit Brennstoffzelle: ca. 60%\n\n\\(\\rightarrow\\) &gt;40% Gesamtwirkungsgrad\n\nHauptkosten: Strom\nHandhabung teuer: Flüchtigkeit, hoher Druck, Explosionsgefah"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#fazit",
+    "href": "blog_ger/energiesystem_der_zukunft.html#fazit",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "5.6 Fazit",
+    "text": "5.6 Fazit\nKopplung von fluktuierender erneuerbare Erzeugung mit flexiblen Verbrauchern und Speichern\n\\(\\rightarrow\\) marktwirtschaftlicher Signale nötig, die Knappheit und Überfluss widerspiegeln"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#aufbau-der-stromnetze",
+    "href": "blog_ger/energiesystem_der_zukunft.html#aufbau-der-stromnetze",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "6.1 Aufbau der Stromnetze",
+    "text": "6.1 Aufbau der Stromnetze\n\nAufbau des Stromnetzes [17]"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#europäisches-verbundnetz",
+    "href": "blog_ger/energiesystem_der_zukunft.html#europäisches-verbundnetz",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "6.2 Europäisches Verbundnetz",
+    "text": "6.2 Europäisches Verbundnetz\n\nEuropäisches Verbundnetz [18]\ngrößte Maschine der Welt\nVorteile:\n\ngeringere Preise\ngrößere Systemstabilität"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#verteilnetzbetreiber-vnb",
+    "href": "blog_ger/energiesystem_der_zukunft.html#verteilnetzbetreiber-vnb",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "6.3 Verteilnetzbetreiber (VNB)",
+    "text": "6.3 Verteilnetzbetreiber (VNB)\n\nVerteilnetzbetreiber: 851 Unternehmen [20]\n\nKritik: kleinteilige Struktur kann ineffizient sein\nGegenargument: lokale Nähe und kommunale Verankerung\nmögliche Antwort: Kooperationen und gemeinsame Plattformen\n\nParagraf §14a EnWG - Auswirkungen auf Verbraucher\n\nSchutz des Verteilnetzes vor Überlastung\nMöglichkeit zum “Dimmen” in begrenzten Zeiträumen\nIm Gegenzug Reduktion der Netzentgelte\nPflicht zum Netzausbau in betroffenen Gebiete"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#charakteristika-des-strommarktes",
+    "href": "blog_ger/energiesystem_der_zukunft.html#charakteristika-des-strommarktes",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "6.4 Charakteristika des Strommarktes",
+    "text": "6.4 Charakteristika des Strommarktes\n\nMarkt ohne Möglichkeit zur Lagerhaltung\n\nBedingung: Erzeugung = Verbrauch\nAbweichung: Veränderung der Netzfrequenz von 50Hz\n\nVerbrauch ist netzgebunden - Monopol des Stromnetzbetreibers\nkeine eindeutige Zuordnung von Verbraucher zu Erzeuger\nStrom ist (zumeist) Kuppelprodukt:\n\nelektrische Energie + jederzeitige Verfügbarkeit der Energie"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#typischer-lastgang-deutschland",
+    "href": "blog_ger/energiesystem_der_zukunft.html#typischer-lastgang-deutschland",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "6.5 typischer Lastgang Deutschland",
+    "text": "6.5 typischer Lastgang Deutschland\n\nLastgang der KW 16 2026 von energy-charts.info (Fraunhofer) [9]\n\nLast in der Nacht niedrig\nsteigt bis zum Mittag an\nAbflachen zum Nachmittag\n\n\n\nAnstieg zum Abend\nniedriger am Wochenende\nzw. 40-70 GW"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#strompreis--und-erneuerbare-energien",
+    "href": "blog_ger/energiesystem_der_zukunft.html#strompreis--und-erneuerbare-energien",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "6.6 Strompreis- und Erneuerbare Energien",
+    "text": "6.6 Strompreis- und Erneuerbare Energien\nBörsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von Strom"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#strommarkt-nach-liberalisierung",
+    "href": "blog_ger/energiesystem_der_zukunft.html#strommarkt-nach-liberalisierung",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "6.7 Strommarkt nach Liberalisierung",
+    "text": "6.7 Strommarkt nach Liberalisierung\n\nEntflechtung von Erzeugung und Verteilung\nStrom handelbar über:\n\nTermingeschäfte, Power-Purchase Agreements (PPA) (langfristig, z.B. Jahre im Vorraus) [21]\nDay-Ahead-Markt(in 15min Stücken, Gebotabgabe bis 12 Uhr am Vortag)\nIntraday-Markt (in 15min Stücken, bis 30/5min vor Lieferung)\n\nbasierend auf Last- und Erzeugungsprognose (Wettervorhersage)"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#ablauf-des-day-ahead-markt",
+    "href": "blog_ger/energiesystem_der_zukunft.html#ablauf-des-day-ahead-markt",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "6.8 Ablauf des Day-Ahead Markt",
+    "text": "6.8 Ablauf des Day-Ahead Markt\n\n\nAngebot nach variablen Grenzkosten\nletztes eingesetztes Kraftwerk bestimmt Preis\nErneuerbare mit Grenzkosten 0€ drücken den Preis\nAber: EEG garantiert bestimmte Vergütung und tw. (private PV) Einspeisung \\(\\rightarrow\\) negative Preise\nSolarspitzengesetz für privat-PV: keine Vergütung bei negativen Preisen, Begrenzung auf 70% der Maximalleistung \\(\\rightarrow\\) Speicher netzdienlich laden\n\n\n\n\n\nMerit Order [22]"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#redispatch",
+    "href": "blog_ger/energiesystem_der_zukunft.html#redispatch",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "6.9 Redispatch",
+    "text": "6.9 Redispatch\n\n\n\n\n\nHöchstspannungsnetz [23]\n\n\n\n\n\n\nRedispatch [24]\n\n\n\n\nStromhandel: Deutschland = eine Preiszone\nVernachlässigung der Übertragungskapazitäten (“Kupferplatte”)\nAusgleich identifizierter Engpässe durch ÜNB\nKosten werden auf Netzentgelte umgelegt (steigend, 2024: ca 1.8 Mrd. €)1 [25]\n\nzum Vergleich: ca. 50 Mrd. € Gesamtvolumen Börsenstromhandel (eigene Hochrechnung basierend auf [25])"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#smart-meter",
+    "href": "blog_ger/energiesystem_der_zukunft.html#smart-meter",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "8.1 Smart-Meter",
+    "text": "8.1 Smart-Meter\n\n\n\nSmart-Meter nötig für dynamische Stromtarife\nstockender Smart-Meter Rollout\n\nDeutschland 5.5% [26]\nEuropa 63% Quote, Skandinavien, Frankeich, Spanien &gt; 90% [27]\n“500 der ca. 900 VNB hätten keine Smart-Meter installiert” [27]\n\n\n\n\n\n\nSmart-Meter [28]\n\n\n\n\nGründe:\n\npolitisch bewusst verschleppter Rollout, Vorwand Datenschutzbedenken\nIneffizienzen bei kleinen VNB"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#co2-emmissionen-strompreis-überprüfen",
+    "href": "blog_ger/energiesystem_der_zukunft.html#co2-emmissionen-strompreis-überprüfen",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "8.2 CO2 Emmissionen / Strompreis überprüfen",
+    "text": "8.2 CO2 Emmissionen / Strompreis überprüfen\nund Verbrauch großer Geräte (Geschirrspüler, Waschmaschine, Trockner, E-Auto, Wärmepumpe) anpassen\n\nsmard.de (Strommarkttransparenzstelle)\nenergy-charts.info (Fraunhofer ISE), Stromampel-App\nElectricity Maps (App zu weltweiter Emissionsintensität)"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#dynamische-stromtarife",
+    "href": "blog_ger/energiesystem_der_zukunft.html#dynamische-stromtarife",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "8.3 dynamische Stromtarife",
+    "text": "8.3 dynamische Stromtarife\nvon wechselnden Strompreisen profitieren\n\nmacht vor allem Sinn, wenn große verschiebbare Lasten vorhanden (E-Auto, Wärmepumpe, Batteriespeicher)\nVerpflichtung, dynamische Stromtarife (Day-Ahead-Preis) anzubieten\nandere Tarifmodelle denkbar:\n\nTarife mit mehreren Preiszonen pro Tag\nTarife mit aktiver Ansteuerung des Ladevorganges bei E-Auto\nnoch wenig Anbieter (bisher Octopus Energy)"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#pv-speicher",
+    "href": "blog_ger/energiesystem_der_zukunft.html#pv-speicher",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "8.4 PV & Speicher",
+    "text": "8.4 PV & Speicher\n\nKosten: ca. 15.000€ für 10kWp PV-Anlage, 10kWh Speicher & Elektroinstallation\npro kWp: ca. 1000 kWh Strom pro Jahr\nSpeicher nicht zu groß wählen, wichtig für Eigenverbrauch. Einfache Web-Tools hier, einfache Faustformeln hier\nReduktion des Strombezuges um 80%, geringe Vergütung von 0.07/€ kWh für eingespeisten Strom\nsehr attraktiv in Kombination mit E-Auto oder Wärmepumpe: PV-Überschussladen"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#alternative-balkonkraftwerke",
+    "href": "blog_ger/energiesystem_der_zukunft.html#alternative-balkonkraftwerke",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "8.5 Alternative: Balkonkraftwerke",
+    "text": "8.5 Alternative: Balkonkraftwerke\n\nsteckerfertige Solaranlagen zur Selbstmontage, 4kWp PV, 4kWh Speicher für 2000€\nSpeicher können auch mit dynamischen Stromtarifen arbeiten (Winter)\nmax. 800W Einspeisung, begrenzter Nutzen für E-Autos und Wärmepumpen\nInteressante Anbieter:\n\nSolakon (deutsche Server)\nEcoflow (flexibel platzierbar Speichermodule mit 1200W Steckdose)"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#wärmepumpe",
+    "href": "blog_ger/energiesystem_der_zukunft.html#wärmepumpe",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "8.6 Wärmepumpe",
+    "text": "8.6 Wärmepumpe\n\nWärmepumpen funktionieren in fast allen Bestandsgebäuden1\nbei anstehendem Austausch über Laufzeit günstiger als Gasheizung\n\nBeispiel: 20.000kWh Wärmebedarf, konservative Annahmen23:\n\nüber 15 Jahre:\n\nGasheizung: 46.300€4\nWärmepumpe: 37.500€5\n\nperspektiv Strom gleich teuer oder günstiger (dynamische Tarif, Solaranlage)\nperspektivisch Gas teurer (CO2-Preis, steigende Netzentgelte, “Biotreppe”)\n\n\nbei vorzeitigem Austausch oft auch günstiger, v.a. bei älteren Heizungen (Wirkungsgrad) oder dynamische Tarife / PV\n\nWärmepumpen im Bestand, Blog-SerieGasheizung: 0,10€/kWh Gas, 12.000€ Investition, 100€ Schornsteinfeger/Jahr, Wirkungsgrad 90%Wärmepumpe: 0,30€/kWh Strom, 15.000€ Investition (50% Förderung), COP 412.000€ + (20.000kWh / 0.9 * 0,10€/kWh + 100€) * 15 Jahre = 46.300€15.000€ + (20.000kWh / 4 * 0,30€/kWh) * 15 = 37.500€"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#e-auto",
+    "href": "blog_ger/energiesystem_der_zukunft.html#e-auto",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "8.7 E-Auto",
+    "text": "8.7 E-Auto\n\ndirekte Emissionen (aktuell): 150-200g \\(\\text{CO}_2\\)/km Verbrenner vs. 60g \\(\\text{CO}_2\\)/km 1 60g \\(\\text{CO}_2\\) / km E-Auto\n\n“Emissionsrucksack” von 20-70kg \\(\\text{CO}_2\\)/kWH Batterie (je nach Herstellungsregion, Zahlen für 2030 [29])\n\nLebenszyklus-Emissionen deutlich geringer als von Verbrennern, ADAC-Tool2\n\n50.1t (Diesel) vs. 27.6t (E-Auto) vs. 14.9t (E-Auto nur Windstrom) [30]\nweiteres Absinken (effizientere Produktion, fortschreitende Emissionsreduktion des Fahrstroms)\n\nKlimanutzen bei Ersatz von Bestandsfahrzeugen ab ca. 7500km/Jahr [31]\n\neigene Rechnung, Annahmen: 20kWh/100km, 300g \\(\\text{CO}_2\\) / kWh Strom ADAC-Artikel zu Lebenszyklus-Emissionen"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#exkurs-wandelbarkeit-von-energie",
+    "href": "blog_ger/energiesystem_der_zukunft.html#exkurs-wandelbarkeit-von-energie",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "10.1 Exkurs: Wandelbarkeit von Energie",
+    "text": "10.1 Exkurs: Wandelbarkeit von Energie\n\nWirkungsgrad: \\(\\eta=\\frac{Nutzen}{Aufwand}\\)\nThermodynamik, N.Carnot (1824): Wärme ist nicht uneingeschränkt in Arbeit wandelbar\nArbeit dahingegen vollständig in Wärme wandelbar\nBeispiele\n\nWasserkocher: Strom (Arbeit) \\(\\rightarrow\\) Wärme: 100% Wirkungsgrad\nAuto mit Verbrennungsmotor: chemische Energie in Form von Wärme \\(\\rightarrow\\) Antrieb: ~30-40% Wirkungsgrad\n\nje höher die Temperatur der Wärme, desto wertvoller (mehr Arbeit erzeugbar, Carnot-Faktor)"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#klassiker-kombi-kraftwerke",
+    "href": "blog_ger/energiesystem_der_zukunft.html#klassiker-kombi-kraftwerke",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "10.2 Klassiker: Kombi-Kraftwerke",
+    "text": "10.2 Klassiker: Kombi-Kraftwerke\n\nGrundlagen:\n\nWärme nie uneingeschränkt in Arbeit wandelbar\nArbeit dahingegen immer vollständig in Wärme wandelbar\nWärme stellt (je nach Temperatur) niedrigst-wertvollste Energieform dar\n\nKraftwerke mit Wärmeauskopplung (Fernwärme)\n\nGas-und-Dampfkraftwerk (GuD) bis ca. 65% Wirkungsgrad [33]\nBlockheizkraftwerke (BHKW) bis ca. 50% Wirkungsgrad [34]\nmit Wärmenutzung (Fernwärmenetz) bis 90% Nutzungsgrad\nstrombasierte oder wärmebasierte Steuerung\nFlexibilisierung durch Wärmespeicher\n\nneue Motoren und Turbinen prinzipiell mit Wasserstoff möglich\n\n20 Vol-% Wasserstoff sind nur x% CO2-Reduktion, da \\(\\text{H}_2\\) nur x/x der Energiedichte von Erdgas hat\n\\(\\rightarrow\\) nur 100% Wasserstoff ist klimaneutral!"
+  },
+  {
+    "objectID": "blog_ger/energiesystem_der_zukunft.html#leistung-und-energie",
+    "href": "blog_ger/energiesystem_der_zukunft.html#leistung-und-energie",
+    "title": "Das Energiesystem der Zukunft - und was man als Privatperson tun kann",
+    "section": "10.3 Leistung und Energie",
+    "text": "10.3 Leistung und Energie\n\nLeistung und Energie ist etwas unterschiedliches!\nEnergie: Arbeit, die verrichtet wurde [in W oder kW]\nLeistung: Geschwindigkeit der Arbeitsverrichtung [in Wh, kWh, MWh]\nam gebräuchlichsten: kWh - kilowatthour (Kilowattstunde)\nZusammenhang: \\(E = \\int P(t) dt\\)\nRechenbeispiele\n\n1h E-Auto laden mit 11kW\n\n\\(11 \\text{kW} \\cdot 1\\text{h} = 11 \\text{kWh}\\)\n\n5min Wasserkocher mit 2000W\n\n\\(2000 \\text{W} \\cdot 5/60\\text{h} = 166 \\text{Wh} = 0.166 \\text{kWh}\\)\n\n\nStrompreis privat: ca. 0.3€/kWh"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
     "section": "",
     "text": "under construction…\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
-  },
-  {
-    "objectID": "blog_ger.html",
-    "href": "blog_ger.html",
-    "title": "Blog (auf Deutsch)",
-    "section": "",
-    "text": "No matching items\n© 2025 Julius Aka. All rights reserved. Impressum"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 30, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 2, 2025\n\n\nHarlow Malloc\n\n\n\n\n\nNo matching items\n© 2025 Julius Aka. All rights reserved. Impressum"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "under construction…\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
   },
   {
     "objectID": "blog/post-with-code/index.html",
@@ -70,10 +280,66 @@
     "text": "This is a post with executable code.\n\n    print('hello world')\n\nhello world\n\n\nThis is a simple example of how code is used in quarto.\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
   },
   {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
     "text": "under construction…\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 30, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 2, 2025\n\n\nHarlow Malloc\n\n\n\n\n\nNo matching items\n© 2025 Julius Aka. All rights reserved. Impressum"
+  },
+  {
+    "objectID": "blog_ger.html",
+    "href": "blog_ger.html",
+    "title": "Blog (auf Deutsch)",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nDas Energiesystem der Zukunft - und was man als Privatperson tun kann\n\n\n\n\n\n\n\n\nJulius Aka\n\n\n\n\n\nNo matching items\n© 2025 Julius Aka. All rights reserved. Impressum"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "under construction…\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
+  },
+  {
+    "objectID": "impressum.html",
+    "href": "impressum.html",
+    "title": "Impressum",
+    "section": "",
+    "text": "Impressum\nAngaben gemäß § 5 DDG\nJulius Aka\nVertreten durch: Julius Aka\nKontakt: E-Mail: thomaner@googlemail.com\nVerantwortlich für den Inhalt nach § 18 Abs. 2 MStV: Julius Aka\nVerbraucherstreitbeilegung / Universalschlichtungsstelle Wir nehmen nicht an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil und sind dazu auch nicht verpflichtet.\nHaftungsausschluss:\nHaftung für Inhalte Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 DDG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 DDG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.\nHaftung für Links Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.\nUrheberrecht Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.\n\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
+  },
+  {
+    "objectID": "blog/welcome/index.html",
+    "href": "blog/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Julius Aka - personal blog",
+    "section": "",
+    "text": "Hi, this is my blog. My newest posts are:\n\n\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "J. Aka, N. Panossian, & H. Laraabi. (2025). Economic storage size optimization for electric vehicle extreme-fast charging stations. 2025 IEEE Power &amp;amp; Energy Society General Meeting (PESGM). https://doi.org: 10.1109/pesgm52009.2025.11225191.\n\n\nE. Henningsson, C. Schulze, J. Aka, M. Gräber, D. Brück, E. Nahodovic, & O. Lenord. (2025). Input smoothing for faster co-simulation using FMI. Linköping Electronic Conference Proceedings. https://doi.org: 10.3384/ecp218653.\n\n\nJ. Aka, J. Brunnemann, J. Eiden, A. Speerforck, & L. Mikelsons. (2024). Balanced neural ODEs: Nonlinear model order reduction and koopman operator approximations. arXiv. https://doi.org: 10.48550/ARXIV.2410.10174.\n\n\nJ. Aka, J. Brunnemann, S. Freund, & A. Speerforck. (2023). Efficient global multi parameter calibration for complex system models using machine-learning surrogates. Modelica conferences, 107–120. https://doi.org: 10.3384/ecp204107.\n\n\n\n© 2025 Julius Aka. All rights reserved. Impressum"
   }
 ]

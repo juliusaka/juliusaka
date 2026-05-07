@@ -1,13 +1,15 @@
 [
   {
-    "listing": "/blog_ger.html",
-    "items": []
-  },
-  {
     "listing": "/blog.html",
     "items": [
       "/blog/welcome/index.html",
       "/blog/post-with-code/index.html"
+    ]
+  },
+  {
+    "listing": "/blog_ger.html",
+    "items": [
+      "/blog_ger/energiesystem_der_zukunft.html"
     ]
   }
 ]
