@@ -40,7 +40,7 @@ format:
 :::{.column width="50%"}
 - wesentliche Treibhausgase:
   - $\text{CO}_2$
-  - Methan, ca 80x klimaschädlicher als $\text{CO}_2$ über 20 Jahre
+  - Methan, ca. 80x klimaschädlicher als $\text{CO}_2$ über 20 Jahre
   - weitere: Lachgas, F-Gase, ...
 - Emissionsbudget
 - Wesentlich mehr fossiler Brennstoffe, als die Erde verkraften kann
@@ -140,7 +140,7 @@ format:
 
 ---
 
-![erneuerbare Stromerzeugung in Deutschland 2024](assets/ee_stromerzeugung_2024.svg)
+![[erneuerbare Stromerzeugung](https://www.energy-charts.info/charts/energy/chart.htm?l=de&c=DE&interval=month&year=2024&month=-1&legendItems=1x30he) in Deutschland 2024 @energy_charts_deutschland](assets/ee_stromerzeugung_2024.svg)
 
 - Wind & Solarenergie ergänzen sich im Jahresverlauf
 - jedoch: Wind deutlich volatiler, Feb. 2025 z.B. 9GWh anstatt 16GWh 2024
@@ -151,13 +151,13 @@ format:
 
 :::{.column width="50%"}
 
-![[Wochenverlauf](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=ew2w6&week=11): stark abhängig von Wetter @energy_charts_deutschland](assets/wind_woche.svg)
+![[Wochenverlauf](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=ew2w6&week=11) stark abhängig von Wetter @energy_charts_deutschland](assets/wind_woche.svg)
 
 :::
 
 :::{.column width="50%"}
 
-![[Produktion](https://www.energy-charts.info/charts/energy/chart.htm?l=de&c=DE&interval=day&legendItems=fw2w2) pro Tag @energy_charts_deutschland](assets/wind_anfang_2026.svg)
+![[Produktion](https://www.energy-charts.info/charts/energy/chart.htm?l=de&c=DE&interval=day&legendItems=fw2w2) pro Tag im bisherigen 2026 @energy_charts_deutschland](assets/wind_anfang_2026.svg)
 
 :::
 
@@ -174,13 +174,12 @@ format:
 
 :::{.column width="50%"}
 
-![[Produktion](https://www.energy-charts.info/charts/energy/chart.htm?l=de&c=DE&interval=day&legendItems=jyh) pro Tag @energy_charts_deutschland](assets/solar_anfang_2026.svg)
+![[Produktion](https://www.energy-charts.info/charts/energy/chart.htm?l=de&c=DE&interval=day&legendItems=jyh) pro Tag im bisherigen 2026 @energy_charts_deutschland](assets/solar_anfang_2026.svg)
 
 :::
 
-- $\rightarrow$ täglicher Peak: ganzjährig Börsenstrompreis mittags am niedrigsten
-- $\rightarrow$ im Sommer regelmäßig mittags negative Strompreise
-  - Gründe: starre EEG-Vergütung, geringe Flexibilisierung, fehlende Speicher
+- $\rightarrow$ täglicher Peak der PV Erzeugung
+- $\rightarrow$ im Sommer regelmäßig mittags geringste Börsen-Strompreise
 
 ## Bioenergie
 
@@ -241,7 +240,7 @@ Puzzlestück 1: Energieverbrauch verringern
 
 :::{.column width="50%"}
 
-![[Link](https://www.bdew.de/media/documents/2_Energieflussbild_Deutschland_2023_TWh_vereinfacht.svg) @bdew_nutzenergiebilanz_2025](assets/2_Energieflussbild_Deutschland_2023_TWh_vereinfacht.svg)
+![[Link zur Grafik](https://www.bdew.de/media/documents/2_Energieflussbild_Deutschland_2023_TWh_vereinfacht.svg) @bdew_nutzenergiebilanz_2025](assets/2_Energieflussbild_Deutschland_2023_TWh_vereinfacht.svg)
 
 - 46% Verlust von Primär- zu Nutzenergie in Deutschland:
   - Verkehr, Kraftwerke, (Gebäudeheizung)
@@ -298,35 +297,45 @@ Wirkungsgrad: 95%
 ## Power-to-Mobility
 - Zeitpunkt der Ladung von E-Autos, E-LKWs, E-Busse verschieben
 - meist geringe Komforteinbußen
-- "~~Marginalerzeugungsansatz~~" (z.B. VDI-Studie)
+- "~~Marginalerzeugungsansatz~~" (in einigen Studien)
 - großes Potenzial für bidirektionales Laden: 
   - im Jahr 2030 könnte Deutschlands Strombedarf 18h lang komplett durch E-Auto Batterien gedeckt werden^[eigene Hochrechnung basierend auf @fraunhofer_iao_bidirektionales_laden_2025 1000Gwh, zu 90% nicht genutzt, durchschnittlich 50GW Last]
 
 ## Power-to-Heat
-- Wärmepumpen.
+
+- Wärmepumpen privat
 - Großwärmepumpen (Fernwärme)
-- "Tauchsieder"
-- Hochtemperaturspeicher
+- Power-to-heat mittels Elektrodenheizung (Fernwärme)
+  - geringer Wirkungsgrad, aber auch geringe Investition $\rightarrow$ negative Strompreise, Engpassmanagement
+- Hochtemperaturspeicher zum Puffern
 
 ## Speicher (langfristige): Power-to-Gas
+
 - Wasserstoff-Herstellung
   - Energie-Speicher und Industrie-Rohstoff (chemische & Schwerindustrie)
   - Effizienz: ca. 65% Wirkungsgrad
-  - Rückwandlung: ca. 60% $\rightarrow$ 39% gesamt
+  - Rückwandlung mit Brennstoffzelle: ca. 60%
+    - $\rightarrow$ >40% Gesamtwirkungsgrad 
   - Hauptkosten: Strom
-  - Handhabung teuer: Flüchtigkeit, hoher Druck, Explosionsgefahr
+  - Handhabung teuer: Flüchtigkeit, hoher Druck, Explosionsgefah
   
 ---
 
 - weitere Gase, ggf. Herstellung Derivate
+  - Umwandlung zu Methan
   - Ammoniak ($\text{NH}_3$) (Schiffahrt)
   - Power-to-Liquid (eFuels) $\rightarrow$ Kerosin
     - Fischer-Tropsch-Verfahren
       - grob: $\text{Wasserstoff} + \text{CO}_2 \rightarrow \text{Kraftstoffe} (\text{C}_{x}H_{y})$
       - weitere Wirkungsgradverluste
+- Deutschland besitzt große Menge Gaskavernenspeicher (noch Erdgas): 
+  - 250TWh, zum Vergleich: 600TWh Strombedarf in Deutschland
 
 ## Fazit
-Kopplung von im Tagesverlauf fluktuierender erneuerbare Erzeugung mit anderen Energieformen bedarf marktwirtschaftlicher Signale, die Knappheit und Überfluss widerspiegeln können.
+
+Kopplung von fluktuierender erneuerbare Erzeugung mit flexiblen Verbrauchern und Speichern
+
+$\rightarrow$ marktwirtschaftlicher Signale nötig, die Knappheit und Überfluss widerspiegeln 
 
 
 # Strommarkt
@@ -372,7 +381,7 @@ zentraler Drehpunkt des zukünftigen Energiesystems: Elektrizität als "Primäre
   - Kritik: kleinteilige Struktur kann ineffizient sein
   - Gegenargument: lokale Nähe und kommunale Verankerung
   - mögliche Antwort: Kooperationen und gemeinsame Plattformen
-- [Paragraf §14a EnWG](https://www.netze-bw.de/neuregelung-14a-enwg)
+- [Paragraf §14a EnWG](https://www.netze-bw.de/neuregelung-14a-enwg) - Auswirkungen auf Verbraucher
   - Schutz des Verteilnetzes vor Überlastung
   - Möglichkeit zum "Dimmen" in begrenzten Zeiträumen
   - Im Gegenzug Reduktion der Netzentgelte
@@ -411,10 +420,10 @@ Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von S
 
 ### Winter
 
-![[energy-charts:](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=ew4w3w1&week=07) Day-Ahead Börsenstrompreise über eine Woche im Winter](assets/energy_charts_strompreis_winter.svg)
+![[energy-charts:](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=ew4w3w1&week=07) Day-Ahead Börsenstrompreise über eine Woche im Winter @energy_charts_deutschland](assets/energy_charts_strompreis_winter.svg)
 
 ::: {.column width="50%"}
-- + ca. 160€/MWh Steuern, Netzentgelte und Umlagen für Privatkunden
+- + ca. 160€/MWh Steuern, Netzentgelte und Umlagen
 - Preispeaks abends und morgens
 - am Wochenende günstigere Preise 
 :::
@@ -424,17 +433,22 @@ Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von S
 - Flaute & Sturm bestimmen Preisniveau des Tages
 :::
 
+---
+
 ### Sommer
 
-![[energy-charts:](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=ew4w3w1&week=16) Day-Ahead Börsenstrompreise über eine Woche im Sommer](assets/energy_charts_strompreis_sommer.svg)
+![[energy-charts:](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=ew4w3w1&week=16) Day-Ahead Börsenstrompreise über eine Woche im Sommer @energy_charts_deutschland](assets/energy_charts_strompreis_sommer.svg)
 
 ::: {.column width="50%"}
-- + ca. 160€/MWh Steuern, Netzentgelte und Umlagen für Privatkunden
-- Solarstromspitzen sorgen relativ verlässlich für Peak zur Mittagszeit
+- plus ca. 160€/MWh Steuern, Netzentgelte und Umlagen
+- Solarstromspitzen sorgen verlässlich für Minimum zur Mittagszeit
+- ausgeprägterer Peak abends, da rasches Absinken der PV-Erzeugung
 :::
 
 ::: {.column width="50%"}
-- to
+- PV-Überschüsse führen regelmäßig an Wochenende zu Null- oder Negativpreisen
+- Feiertage / lange Wochenenden stellen zunehmend Problem dar
+  - Gründe: starre EEG-Vergütung, geringe Flexibilisierung, fehlende Speicher
 :::
 
 ---
@@ -601,7 +615,7 @@ von wechselnden Strompreisen profitieren
 
 ---
 
-- mein Tipp: erfahrener Betrieb & besonders effiziente Geräte (z.B. Lambda, Heliotherm)^[weitere Informationsquellen: [JAZ-Rechner](https://www.waermepumpe.de/werkzeuge/jaz-rechner/), [YouTube Kanal Henrich Schröder (Gütersloh)](https://www.youtube.com/@henrichschroeder), [YouTbe Video: 250 Lambda Wärmepumpen im Bestand](https://www.youtube.com/watch?v=Y2QwiyKPjH4)]
+- mein Tipp: erfahrener Betrieb & besonders effiziente Geräte (z.B. Lambda, Heliotherm)^[weitere Informationsquellen: [JAZ-Rechner](https://www.waermepumpe.de/werkzeuge/jaz-rechner/), [YouTube Kanal Henrich Schröder (Gütersloh)](https://www.youtube.com/@henrichschroeder), [YouTube Video: 250 Lambda Wärmepumpen im Bestand](https://www.youtube.com/watch?v=Y2QwiyKPjH4)]
 
 ---
 
@@ -616,7 +630,7 @@ von wechselnden Strompreisen profitieren
 
 - direkte Emissionen (aktuell): 150-200g $\text{CO}_2$/km Verbrenner vs. 60g $\text{CO}_2$/km ^[eigene Rechnung, Annahmen: 20kWh/100km, 300g $\text{CO}_2$ / kWh Strom] 60g $\text{CO}_2$ / km E-Auto
   - "Emissionsrucksack" von 20-70kg $\text{CO}_2$/kWH Batterie (je nach Herstellungsregion, Zahlen für 2030 @green_ncap_lca_methodology_2022)
-- Lebenszyklus-Emissionen deutlich geringer als von Verbrennern, [ADAC-Tool](https://www.greenncap.com/lca-german.php)^[[ADAC-Artikel zu Lebenszyklus-Emissionen(https://www.adac.de/verkehr/tanken-kraftstoff-antrieb/alternative-antriebe/klimabilanz/#neu-die-interaktive-lca-plattform)]]
+- Lebenszyklus-Emissionen deutlich geringer als von Verbrennern, [ADAC-Tool](https://www.greenncap.com/lca-german.php)^[ [ADAC-Artikel zu Lebenszyklus-Emissionen](https://www.adac.de/verkehr/tanken-kraftstoff-antrieb/alternative-antriebe/klimabilanz/#neu-die-interaktive-lca-plattform) ]
   - 50.1t (Diesel) vs. 27.6t (E-Auto) vs. 14.9t (E-Auto nur Windstrom) @kroher_treibhausgas_bilanz_2022
   - weiteres Absinken (effizientere Produktion, fortschreitende Emissionsreduktion des Fahrstroms)
 - Klimanutzen bei Ersatz von Bestandsfahrzeugen ab ca. 7500km/Jahr @bianchetti_kaufentscheid_elektroauto
@@ -639,6 +653,8 @@ von wechselnden Strompreisen profitieren
 :::{.column width="50%"}
 
 ![Batteriedegradation VW ID.3 mit 58kWh Batterie. Degradation je nach Fahrprofil zwischen Pendler (blau) und Autobahn- (orange) Szenario @schreiber_understanding_2025](assets/battery_aging_id3_58kwh.jpg)
+
+- bei Kauf eines E-Autos Batteriezertifikat (z.B. von [aviloo](https://aviloo.com/de/)) anfordern
 
 :::
 
@@ -705,7 +721,7 @@ von wechselnden Strompreisen profitieren
 
 ---
 
-![[Link](https://www.bdew.de/media/documents/1_Energieflussbild_Deutschland_2023_TWh_detailliert.svg) @bdew_nutzenergiebilanz_2025](assets/1_Energieflussbild_Deutschland_2023_TWh_detailliert.svg)
+![[Link zur Grafik](https://www.bdew.de/media/documents/1_Energieflussbild_Deutschland_2023_TWh_detailliert.svg) @bdew_nutzenergiebilanz_2025](assets/1_Energieflussbild_Deutschland_2023_TWh_detailliert.svg)
 
 ---
 
@@ -734,15 +750,3 @@ Das "Atomenergie-Paradox"
 Energieeffizienz bewirkt größere Fortschritte als man denkt
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7261647198113644544?collapsed=1" height="672" width="504" frameborder="0" allowfullscreen="" title="Eingebetteter Beitrag"></iframe>
-
-## aktuelle Entwicklungen
-
-### PV-Produktion an Feiertagen im Frühjahr
-
----
-
-### Groß-Batteriespeicher
-
----
-
-### Redispatch-Vorbehalt
