@@ -1,0 +1,12 @@
+{
+  "hash": "42beb11e17be807c64e75585204ba0a0",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Post With Code\"\nauthor: \"Harlow Malloc\"\ndate: \"2025-01-02\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\n---\n\nThis is a post with executable code.\n\n::: {#04d5afd6 .cell execution_count=1}\n``` {.python .cell-code}\n    print('hello world')\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nhello world\n```\n:::\n:::\n\n\nThis is a simple example of how code is used in quarto.\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

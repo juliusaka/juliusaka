@@ -1,0 +1,56 @@
+project:
+  type: website
+
+execute: # only render locally
+  freeze: auto
+
+website:
+  description: "A blog built with Quarto"
+  site-url: "https://www.juliusaka.de"
+  title: "juliusaka.de"
+  google-analytics: 
+    tracking-id: "G-6DDCYRJNSW"
+    anonymize-ip: false
+    storage: cookies
+  cookie-consent:
+    enabled: true
+    style: headline
+  navbar:
+    background: white
+    search: true
+    left: 
+      - text: Home
+        href: index.qmd
+      - text: Blog
+        href: blog.qmd
+      - text: Blog (DE)
+        href: blog_ger.qmd
+      - text: CV
+        href: cv.qmd
+      - text: Publications
+        href: publications.qmd
+      # - text: Talks
+      #   href: talks.qmd
+      # - text: Projects
+      #   href: projects.qmd
+      
+    right:
+      - about.qmd
+      - text: Blog Archive
+        href: http://wordpress-archive.juliusaka.de/
+      - icon: github
+        href: https://github.com/
+      - icon: linkedin
+        href: https://www.linkedin.com/in/juliusaka/"
+
+  body-footer: "© 2025 Julius Aka. All rights reserved. [Impressum](impressum.qmd)"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+
+
+

@@ -1,0 +1,18 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/julius-aka/
+    - icon: github
+      text: Github
+      href: https://github.com/juliusaka
+    - icon: website
+      text: Work
+      href: https://www.uni-augsburg.de/de/fakultaet/fai/informatik/prof/imech/team/julius-aka/
+---
+
+About this blog
