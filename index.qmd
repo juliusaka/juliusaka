@@ -26,7 +26,7 @@ listing:
   sort: "date desc"
   type: grid
   max-items: 2
-  fields: [image, date, title, description]
+  fields: [image, date, title, subtitle, description]
   feed: false
 ---
 
