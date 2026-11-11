@@ -43,7 +43,7 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/juliusaka/"
 
-  body-footer: "© 2025 Julius Aka. All rights reserved. [Impressum](impressum.qmd)"
+  body-footer: "© 2025 Julius Aka. All rights reserved. [Impressum](/impressum.qmd)"
 
 format:
   html:
