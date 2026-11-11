@@ -10,14 +10,14 @@
 <atom:link href="https://www.juliusaka.de/blog_ger.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.11.9</generator>
-<lastBuildDate>Wed, 11 Nov 2026 14:14:53 GMT</lastBuildDate>
+<lastBuildDate>Wed, 11 Nov 2026 14:30:13 GMT</lastBuildDate>
 <item>
   <title></title>
   <dc:creator>Julius Aka</dc:creator>
   <link>https://www.juliusaka.de/blog_ger/energiesystem_der_zukunft_una.html</link>
   <description><![CDATA[ undefined ]]></description>
   <guid>https://www.juliusaka.de/blog_ger/energiesystem_der_zukunft_una.html</guid>
-  <pubDate>Wed, 11 Nov 2026 14:14:53 GMT</pubDate>
+  <pubDate>Wed, 11 Nov 2026 14:30:13 GMT</pubDate>
 </item>
 <item>
   <title></title>
@@ -25,7 +25,7 @@
   <link>https://www.juliusaka.de/blog_ger/energiesystem_der_zukunft.html</link>
   <description><![CDATA[ undefined ]]></description>
   <guid>https://www.juliusaka.de/blog_ger/energiesystem_der_zukunft.html</guid>
-  <pubDate>Wed, 11 Nov 2026 14:14:53 GMT</pubDate>
+  <pubDate>Wed, 11 Nov 2026 14:30:13 GMT</pubDate>
 </item>
 </channel>
 </rss>
