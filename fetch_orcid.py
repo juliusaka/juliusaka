@@ -9,6 +9,7 @@
 # to run this script using uv, run: 
 # uv run fetch_orcid.py 
 # this will automatically create a virtual environment with the required dependencies if not already present.
+import html
 import json
 import requests
 from tqdm import tqdm
@@ -46,6 +47,31 @@ def _extract_year_from_bibtex_string(bibtex_str):
     m = re.search(r"year\s*=\s*[{\"]?\s*(1\d{3}|20\d{2})", bibtex_str, re.IGNORECASE)
     return int(m.group(1)) if m else None
 
+# --- Helpers: clean text fields coming from ORCID ---
+TEXT_FIELDS = ("title", "journal", "booktitle", "author", "publisher")
+
+def _clean_text(value):
+    """Undo (possibly repeated) HTML escaping, e.g. '&amp;amp;' -> '&',
+    and escape bare ampersands for BibTeX ('&' -> '\\&')."""
+    if not isinstance(value, str):
+        return value
+    prev = None
+    while prev != value:
+        prev, value = value, html.unescape(value)
+    return re.sub(r"(?<!\\)&", r"\\&", value)
+
+def _clean_entry(entry):
+    for field in TEXT_FIELDS:
+        if field in entry:
+            entry[field] = _clean_text(entry[field])
+    # IEEE titles sometimes carry a trailing footnote marker, e.g. "... System *"
+    if "title" in entry:
+        entry["title"] = re.sub(r"\s*\*+\s*$", "", entry["title"])
+    # Drop empty fields like "doi = {}" (would render as broken links)
+    for field in [k for k, v in entry.items() if isinstance(v, str) and not v.strip()]:
+        del entry[field]
+    return entry
+
 # --- Check cache ---
 if CACHEFILE.exists():
     try:
@@ -77,7 +103,7 @@ for group in tqdm(works, desc="Fetching ORCID citations"):
     work_detail = resp.json()
 
     # Get DOI correctly from external-ids
-    external_ids = work_detail.get("external-ids", {}).get("external-id", [])
+    external_ids = (work_detail.get("external-ids") or {}).get("external-id") or []
     doi = None
     url = None
     for ex in external_ids:
@@ -109,6 +135,7 @@ for group in tqdm(works, desc="Fetching ORCID citations"):
                 entry["doi"] = doi
             elif url and not entry.get("url"):
                 entry["url"] = url
+            _clean_entry(entry)
 
             writer = BibTexWriter()
             writer.indent = "  "
@@ -157,7 +184,7 @@ for group in tqdm(works, desc="Fetching ORCID citations"):
         elif url:
             entry["url"] = url
 
-        db.entries = [entry]
+        db.entries = [_clean_entry(entry)]
 
         writer = BibTexWriter()
         writer.indent = "  "
