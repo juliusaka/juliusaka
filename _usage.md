@@ -16,7 +16,7 @@ To run a script with uv, use the command:
 uv run <my_script.py>
 ```
 
-To build a environment reflecting the dependencies in `pyproject.toml`, use:
+To build an environment reflecting the dependencies in `pyproject.toml`, use:
 ```bash
 uv sync
 ```
@@ -35,11 +35,11 @@ To render the site locally, you can use the following command:
 ```bash
 quarto render
 ```
-This will generate the static files for the site in the `_site` directory. Additionally, it will save the results of computatations in the `_freeze` directory, that should be checked into version control, such that the site can be deployed (e.g. with GitHub Actions) without re-running computations.
+This will generate the static files for the site in the `_site` directory. Additionally, it will save the results of computations in the `_freeze` directory, that should be checked into version control, such that the site can be deployed (e.g. with GitHub Actions) without re-running computations.
 
 ## Deploy the Site
 
-Documentation for deploying the site on github pages can be found in [quarto's documentation](https://quarto.org/docs/publishing/github-pages.html).
+Documentation for deploying the site on GitHub Pages can be found in [quarto's documentation](https://quarto.org/docs/publishing/github-pages.html).
 
 Briefly, to deploy the site, you can push the changes to your GitHub repository if you have set up GitHub Pages or any other hosting service. Make sure to commit and push all changes before deployment.
 ```bash
@@ -49,8 +49,7 @@ git push origin main
 ```
 ### Publish via GitHub Actions
 
-Is done using the CI workflow defined in `.github/workflows/deploy.yml`, which is triggered on pushes to the `main` branch. This can be done only, if at least one time the  ```quarto publish gh-pages
-``` (see quarto documentation) command has been run locally to set up the `gh-pages` branch.
+Publishing is done by the CI workflow defined in `.github/workflows/deploy.yml`, which is triggered on pushes to the `main` branch. This only works if the `quarto publish gh-pages` command (see Quarto documentation) has been run locally at least once to set up the `gh-pages` branch.
 
 ### Publish locally to GitHub Pages
 
@@ -71,6 +70,6 @@ uv run fetch_orcid.py
 - https://quarto.org/docs/publishing/github-pages.html
 - https://www.schminkel.de/articles/github-pages-with-strato
 
-### Insert list of publications hosted on orcid
+### Insert list of publications hosted on ORCID
 
-see `fetch_orcid.py` and the corresponding github workflow `.github\workflows\update_orcid.yml`
+see `fetch_orcid.py` and the corresponding GitHub workflow `.github\workflows\update_orcid.yml`

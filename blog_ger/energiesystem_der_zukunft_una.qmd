@@ -27,23 +27,23 @@ resources:
 # Vorstellung
 
 - Julius Aka, 29 Jahre alt
-- Doktorand am Lehrstuhl für Mechatronk der Universität Augsburg
+- Doktorand am Lehrstuhl für Mechatronik der Universität Augsburg
 - Thema: Energiesystemsimulation und Scientific Machine Learning ("KI")
 - Master in Energietechnik (Maschinenbau), TU Hamburg
   - Auslandsjahr an UC Berkeley, Kalifornien
-- Bachelor in Allgemeine Ingenieurwissenschaften, TU Hamburg
+- Bachelor in Allgemeinen Ingenieurwissenschaften, TU Hamburg
   - Vertiefung Energie- und Umwelttechnik
 
 - Tätigkeiten bei XRG-Simulation, Siemens Gamesa, Institut für technische Thermodynamik
-- Deutschlandstipendien 2017-2022, VDI-Preis Hamburg, (BA & MA), bidt graduate center Stipendiant
+- Deutschlandstipendien 2017-2022, VDI-Preis Hamburg (BA & MA), bidt graduate center Stipendiat
 
 # Einführung
 
 ::: {style="font-size:0.6em"}
 Ich habe versucht, möglichst umfassend mit Quellen und Verweisen zu arbeiten (wissenschaftlicher Stand, weiterführende Informationen).
-Einige Punkte konnte ich aus Zeitgründen nicht belgen, auf Nachfrage liefere ich dies aber gerne nach.
+Einige Punkte konnte ich aus Zeitgründen nicht belegen, auf Nachfrage liefere ich dies aber gerne nach.
 
-Für die im Teil "Energiewende Zuhause" erwähnte Produkte und Anbieter übernehme ich keine Haftung, sie sind Empfehlungen nach bestem Gewissen in einem (für Laien) teilweise sehr unübersichtlichen Markt. 
+Für die im Teil "Energiewende Zuhause" erwähnten Produkte und Anbieter übernehme ich keine Haftung, sie sind Empfehlungen nach bestem Gewissen in einem (für Laien) teilweise sehr unübersichtlichen Markt. 
 
 Vollständige Präsentation zum Nach- und Weiterlesen auf [juliusaka.de](https://www.juliusaka.de/blog_ger.html).
 :::
@@ -57,7 +57,7 @@ Vollständige Präsentation zum Nach- und Weiterlesen auf [juliusaka.de](https:/
   - Methan, ca. 80x klimaschädlicher als $\text{CO}_2$ über 20 Jahre
   - weitere: Lachgas, F-Gase, ...
 - Emissionsbudget
-- Wesentlich mehr fossiler Brennstoffe, als die Erde verkraften kann
+- Wesentlich mehr fossile Brennstoffe, als die Erde verkraften kann
 :::   
 
 :::{.column width="50%"}
@@ -111,7 +111,7 @@ Vollständige Präsentation zum Nach- und Weiterlesen auf [juliusaka.de](https:/
   - aber Wasserstoff als saisonaler Energiespeicher und Grundstoff für Chemie und Schwerindustrie
 - ganz sicher nicht:
   - ~~Kernenergie~~ (Energiewende jetzt nötig, nicht in 20 Jahren, Bauzeiten)
-  - ~~Kernfusion~~ (aus selbem Grund)
+  - ~~Kernfusion~~ (aus demselben Grund)
  
 ## Boom von Wind & Solar weltweit
 
@@ -129,7 +129,7 @@ Vollständige Präsentation zum Nach- und Weiterlesen auf [juliusaka.de](https:/
 - Wasserkraftspotenziale in Deutschland ausgeschöpft
   - Vorteile:
     - Regelbarkeit
-    - in begrenzten Umfang Speicherfähigkeit
+    - in begrenztem Umfang Speicherfähigkeit
 
 :::
 
@@ -156,10 +156,10 @@ Vollständige Präsentation zum Nach- und Weiterlesen auf [juliusaka.de](https:/
 
 ![[erneuerbare Stromerzeugung](https://www.energy-charts.info/charts/energy/chart.htm?l=de&c=DE&interval=month&year=2024&month=-1&legendItems=1x30he) in Deutschland 2024 @energy_charts_deutschland](assets/ee_stromerzeugung_2024.svg)
 
-- Wind & Solarenergie ergänzen sich im Jahresverlauf
-- jedoch: Wind deutlich volatiler, Feb. 2025 z.B. 9GWh anstatt 16GWh 2024
+- Wind- & Solarenergie ergänzen sich im Jahresverlauf
+- jedoch: Wind deutlich volatiler, Feb. 2025 z.B. 9TWh anstatt 16TWh 2024
 
-<!-- Ich gehe im folgenden nicht auf Preise (ausreichend gering) und Emissionen (ausreichend gering) ein -->
+<!-- Ich gehe im Folgenden nicht auf Preise (ausreichend gering) und Emissionen (ausreichend gering) ein -->
 
 ## Wind
 
@@ -171,7 +171,7 @@ Vollständige Präsentation zum Nach- und Weiterlesen auf [juliusaka.de](https:/
 
 :::{.column width="50%"}
 
-![[Produktion](https://www.energy-charts.info/charts/energy/chart.htm?l=de&c=DE&interval=day&legendItems=fw2w2) pro Tag im bisherigen 2026 @energy_charts_deutschland](assets/wind_anfang_2026.svg)
+![[Produktion](https://www.energy-charts.info/charts/energy/chart.htm?l=de&c=DE&interval=day&legendItems=fw2w2) pro Tag im bisherigen Jahr 2026 @energy_charts_deutschland](assets/wind_anfang_2026.svg)
 
 :::
 
@@ -188,11 +188,11 @@ Vollständige Präsentation zum Nach- und Weiterlesen auf [juliusaka.de](https:/
 
 :::{.column width="50%"}
 
-![[Produktion](https://www.energy-charts.info/charts/energy/chart.htm?l=de&c=DE&interval=day&legendItems=jyh) pro Tag im bisherigen 2026 @energy_charts_deutschland](assets/solar_anfang_2026.svg)
+![[Produktion](https://www.energy-charts.info/charts/energy/chart.htm?l=de&c=DE&interval=day&legendItems=jyh) pro Tag im bisherigen Jahr 2026 @energy_charts_deutschland](assets/solar_anfang_2026.svg)
 
 :::
 
-- $\rightarrow$ täglicher Peak der PV Erzeugung
+- $\rightarrow$ täglicher Peak der PV-Erzeugung
 - $\rightarrow$ im Sommer regelmäßig mittags geringste Börsen-Strompreise
 
 ## Bioenergie
@@ -203,7 +203,7 @@ Vollständige Präsentation zum Nach- und Weiterlesen auf [juliusaka.de](https:/
 - hohe Umrüstungskosten (zusätzliche BHKW und Gasspeicher)
 
 # Wärmepumpen und Elektromobilität
-"Das beste was der Effizienz je passiert ist"
+"Das Beste, was der Effizienz je passiert ist"
 
 Puzzlestück 1: Energieverbrauch verringern
 
@@ -284,12 +284,12 @@ Puzzlestück 1: Energieverbrauch verringern
 :::
 
 - Wärmepumpen und Elektromobilität $\rightarrow$ Halbierung des Endenergiebedarfs in Gebäuden und Mobilität, -40% Endenergiebedarf weltweit
-- Endenergiebedarf: Energie die von Verbraucher bezogen werden muss
+- Endenergiebedarf: Energie, die vom Verbraucher bezogen werden muss
 - "primary energy fallacy" @rosenow_primary_energy_fallacy_2024: Das Problem wird kleiner, je mehr wir uns ihm nähern
 
 # Sektorenkopplung und Speicher
 
-Puzzlestück 2: Das was geht, an Erzeugung anpassen
+Puzzlestück 2: Das, was geht, an die Erzeugung anpassen
 
 Puzzlestück 3: Energie kurz- und langfristig speichern
 
@@ -316,21 +316,21 @@ Wirkungsgrad: 95%
 - Dreh- und Angelpunkt: Stromnetz
 
 ## Power-to-Mobility
-- Zeitpunkt der Ladung von E-Autos, E-LKWs, E-Busse verschieben
+- Zeitpunkt der Ladung von E-Autos, E-LKWs, E-Bussen verschieben
 - meist geringe Komforteinbußen
 - "~~Marginalerzeugungsansatz~~" (in einigen Studien)
 - großes Potenzial für bidirektionales Laden: 
-  - im Jahr 2030 könnte Deutschlands Strombedarf 18h lang komplett durch E-Auto Batterien gedeckt werden^[eigene Hochrechnung basierend auf @fraunhofer_iao_bidirektionales_laden_2025 1000Gwh, zu 90% nicht genutzt, durchschnittlich 50GW Last]
+  - im Jahr 2030 könnte Deutschlands Strombedarf 18h lang komplett durch E-Auto-Batterien gedeckt werden^[eigene Hochrechnung basierend auf @fraunhofer_iao_bidirektionales_laden_2025 1000GWh, zu 90% nicht genutzt, durchschnittlich 50GW Last]
 
 ## Power-to-Heat
 
 - Wärmepumpen privat
 - Großwärmepumpen (Fernwärme)
-- Power-to-heat mittels Elektrodenheizung (Fernwärme)
+- Power-to-Heat mittels Elektrodenheizung (Fernwärme)
   - geringer Wirkungsgrad, aber auch geringe Investition $\rightarrow$ negative Strompreise, Engpassmanagement
 - Hochtemperaturspeicher zum Puffern
 
-## Speicher (langfristige): Power-to-Gas
+## Speicher (langfristig): Power-to-Gas
 
 - Wasserstoff-Herstellung
   - Energie-Speicher und Industrie-Rohstoff (chemische & Schwerindustrie)
@@ -338,25 +338,25 @@ Wirkungsgrad: 95%
   - Rückwandlung mit Brennstoffzelle: ca. 60%
     - $\rightarrow$ >40% Gesamtwirkungsgrad 
   - Hauptkosten: Strom
-  - Handhabung teuer: Flüchtigkeit, hoher Druck, Explosionsgefah
+  - Handhabung teuer: Flüchtigkeit, hoher Druck, Explosionsgefahr
   
 ---
 
-- weitere Gase, ggf. Herstellung Derivate
+- weitere Gase, ggf. Herstellung von Derivaten
   - Umwandlung zu Methan
-  - Ammoniak ($\text{NH}_3$) (Schiffahrt)
+  - Ammoniak ($\text{NH}_3$) (Schifffahrt)
   - Power-to-Liquid (eFuels) $\rightarrow$ Kerosin
     - Fischer-Tropsch-Verfahren
       - grob: $\text{Wasserstoff} + \text{CO}_2 \rightarrow \text{Kraftstoffe} (\text{C}_{x}H_{y})$
       - weitere Wirkungsgradverluste
-- Deutschland besitzt große Menge Gaskavernenspeicher (noch Erdgas): 
+- Deutschland besitzt eine große Menge an Gaskavernenspeichern (noch Erdgas): 
   - 250TWh, zum Vergleich: 600TWh Strombedarf in Deutschland
 
 ## Fazit
 
-Kopplung von fluktuierender erneuerbare Erzeugung mit flexiblen Verbrauchern und Speichern
+Kopplung von fluktuierender erneuerbarer Erzeugung mit flexiblen Verbrauchern und Speichern
 
-$\rightarrow$ marktwirtschaftlicher Signale nötig, die Knappheit und Überfluss widerspiegeln 
+$\rightarrow$ marktwirtschaftliche Signale nötig, die Knappheit und Überfluss widerspiegeln 
 
 
 # Strommarkt (gekürzt)
@@ -371,7 +371,7 @@ zentraler Drehpunkt des zukünftigen Energiesystems: Elektrizität als "Primäre
   - außer Import/Export ins Ausland
   - Deutschland: eine Handelszone
 - Übertragungsnetzbetreiber überprüfen am Vortag eingereichte Pläne der Versorger
-  - sichern Versorgungsnetzbetreiber durch Schalthandlungen und Redispatch
+  - sichern Übertragungsnetzbetreiber durch Schalthandlungen und Redispatch
   - Handel bis 5min vor Lieferung möglich
 
 ## typischer Lastgang Deutschland
@@ -390,7 +390,7 @@ zentraler Drehpunkt des zukünftigen Energiesystems: Elektrizität als "Primäre
 - zw. 40-70 GW
 :::
 
-## Strompreis- und Erneuerbare Energien
+## Strompreis und erneuerbare Energien
 
 Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von Strom
 
@@ -398,7 +398,7 @@ Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von S
 
 ### Winter
 
-![[energy-charts:](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=ew4w3w1&week=07) Day-Ahead Börsenstrompreise über eine Woche im Winter @energy_charts_deutschland](assets/energy_charts_strompreis_winter.svg)
+![[energy-charts:](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=ew4w3w1&week=07) Day-Ahead-Börsenstrompreise über eine Woche im Winter @energy_charts_deutschland](assets/energy_charts_strompreis_winter.svg)
 
 ::: {.column width="50%"}
 - + ca. 160€/MWh Steuern, Netzentgelte und Umlagen
@@ -415,7 +415,7 @@ Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von S
 
 ### Sommer
 
-![[energy-charts:](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=ew4w3w1&week=16) Day-Ahead Börsenstrompreise über eine Woche im Sommer @energy_charts_deutschland](assets/energy_charts_strompreis_sommer.svg)
+![[energy-charts:](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=ew4w3w1&week=16) Day-Ahead-Börsenstrompreise über eine Woche im Sommer @energy_charts_deutschland](assets/energy_charts_strompreis_sommer.svg)
 
 ::: {.column width="50%"}
 - plus ca. 160€/MWh Steuern, Netzentgelte und Umlagen
@@ -424,12 +424,12 @@ Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von S
 :::
 
 ::: {.column width="50%"}
-- PV-Überschüsse führen regelmäßig an Wochenende zu Null- oder Negativpreisen
-- Feiertage / lange Wochenenden stellen zunehmend Problem dar
+- PV-Überschüsse führen regelmäßig an Wochenenden zu Null- oder Negativpreisen
+- Feiertage / lange Wochenenden stellen zunehmend ein Problem dar
   - Gründe: starre EEG-Vergütung, geringe Flexibilisierung, fehlende Speicher
 :::
 
-## Ablauf des Day-Ahead Markt
+## Ablauf des Day-Ahead-Marktes
 :::{.column width="40%"}
 
 - Angebot nach variablen Grenzkosten
@@ -464,11 +464,11 @@ Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von S
 
 - Stromhandel kann zu Lastflüssen führen, die **physikalisch nicht** realisierbar sind
 - Ausgleich identifizierter Engpässe durch Übertragungsnetzbetreiber
-- Kosten werden auf Netzentgelte umgelegt (steigend, 2024: ca 1.8 Mrd. €)^[zum Vergleich: ca. 50 Mrd. € Gesamtvolumen Börsenstromhandel (eigene Hochrechnung basierend auf @monitoringbericht_energie_2025) ] @monitoringbericht_energie_2025
+- Kosten werden auf Netzentgelte umgelegt (steigend, 2024: ca. 1.8 Mrd. €)^[zum Vergleich: ca. 50 Mrd. € Gesamtvolumen Börsenstromhandel (eigene Hochrechnung basierend auf @monitoringbericht_energie_2025) ] @monitoringbericht_energie_2025
 
 - Gegenmaßnahmen:
   - Netzausbau Nord-Süd
-  - Teilung von des deutschen Strommarktes in mehrere Preiszonen, die Übertragungskapazitäten berücksichtigen
+  - Teilung des deutschen Strommarktes in mehrere Preiszonen, die Übertragungskapazitäten berücksichtigen
 
 # Energiesystem der Zukunft
 
@@ -485,7 +485,7 @@ Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von S
 - Flexibilisierung
 - Blick in die Zukunft -->
 
-## Einordnung: Pro-Kopf Emissionen in Deutschland
+## Einordnung: Pro-Kopf-Emissionen in Deutschland
 :::: {.columns}
 ::: {.column width="50%"}
 - "carbon footprint" umstritten, popularisiert durch British Petroleum (BP) @kaufman_carbon_footprint_sham
@@ -503,14 +503,14 @@ Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von S
 
 ::::
 
-## Elektronischer (smarte) Heizkörper Thermostate
+## Elektronische (smarte) Heizkörperthermostate
 :::: {.columns}
 ::: {.column width="50%"}
 - Typische Nachtabsenkung funktioniert nicht: 
-  - Senken der Vorlauftemperatur durch Thermostatköpfe kompensiert
+  - Senken der Vorlauftemperatur wird durch Thermostatköpfe kompensiert
 - mit elektronischen Thermostaten "echte" Absenkung möglich
-- Einsparung individuell, diese Untersuchung 15,5% @LennertsKropp2023_1000157856
-- Einfache Gerät ab 9€ pro Stück, "smarte" ab ca. 30€
+- Einsparung individuell, diese Untersuchung 15.5% @LennertsKropp2023_1000157856
+- Einfache Geräte ab 9€ pro Stück, "smarte" ab ca. 30€
 :::
 
 ::: {.column width="50%"}
@@ -519,7 +519,7 @@ Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von S
 
 ::::
 
-## akutelle CO2-Emissionen Strommix
+## Aktuelle CO2-Emissionen des Strommixes
 
 Überprüfen und Verbrauch großer Geräte (Geschirrspüler, Waschmaschine, Trockner, E-Auto, Wärmepumpe) anpassen.
 Strompreis guter Indikator für Anteil fossiler Energien
@@ -533,9 +533,9 @@ Strompreis guter Indikator für Anteil fossiler Energien
 
 ::: {.column width="50%"}
 - Smart-Meter nötig für dynamische Stromtarife
-- stockender Smart-Meter Rollout
+- stockender Smart-Meter-Rollout
   - Deutschland 5.5% @bnetza_imsys_rollout_q42025
-  - Europa 63% Quote, Skandinavien, Frankeich, Spanien > 90% @bakkenbuell_smart_meter_2025
+  - Europa 63% Quote, Skandinavien, Frankreich, Spanien > 90% @bakkenbuell_smart_meter_2025
   - "500 der ca. 900 VNB hätten keine Smart-Meter installiert" @bakkenbuell_smart_meter_2025
 :::
 
@@ -558,25 +558,25 @@ von wechselnden Strompreisen profitieren
 - Verpflichtung, dynamische Stromtarife (Day-Ahead-Preis) anzubieten
 - andere Tarifmodelle denkbar:
   -  Tarife mit mehreren Preiszonen pro Tag
-  -  Tarife mit aktiver Ansteuerung des Ladevorganges bei E-Auto
-  -  noch wenig Anbieter (bisher Octopus Energy)
+  -  Tarife mit aktiver Ansteuerung des Ladevorganges beim E-Auto
+  -  noch wenige Anbieter (bisher Octopus Energy)
   
 ## PV & Speicher
 
-- Kosten: ca. 15.000€ für 10kWp PV-Anlage, 10kWh Speicher & Elektroinstallation
+- Kosten: ca. 15000€ für 10kWp PV-Anlage, 10kWh Speicher & Elektroinstallation
 - pro kWp: ca. 1000 kWh Strom pro Jahr
 - Speicher nicht zu groß wählen, wichtig für Eigenverbrauch. [Einfache Web-Tools hier](https://solar.htw-berlin.de/rechner/), [einfache Faustformeln hier](https://solar.htw-berlin.de/publikationen/auslegung-von-solarstromspeichern/)
-- Reduktion des Strombezuges um 80%, Vergütung von 0.07/€ kWh für eingespeisten Strom
-- EEG-Reform lässt ab 2027 Förderung auslaufen, dann Direktvermarktung über Anbieter zu Marktwert (ca. 5ct/kWh, abhängig von Marktenwicklung (Großspeicher))
+- Reduktion des Strombezuges um 80%, Vergütung von 0.07€/kWh für eingespeisten Strom
+- EEG-Reform lässt ab 2027 Förderung auslaufen, dann Direktvermarktung über Anbieter zu Marktwert (ca. 5ct/kWh, abhängig von Marktentwicklung (Großspeicher))
 - sehr attraktiv in Kombination mit E-Auto oder Wärmepumpe: PV-Überschuss nutzen
 
 ---
 
-### Netzdienlichkeit von privaten PV Anlagen
+### Netzdienlichkeit von privaten PV-Anlagen
 
-- bisher: fixe EEG Vergütung = fixe Einspeisung
+- bisher: fixe EEG-Vergütung = fixe Einspeisung
 - 2025: 16% des erzeugten Solarstroms zu negativen Preisen, Juni und Mai >40% @willuhn_pv_negative_strompreise_2026. Differenz wird durch EEG-Konto (Steuerzahler) ausgeglichen
-- -499.99€/MWh Börsenstrompreis am 1.Mai 2026 $\rightarrow$ Systemstabilität
+- -499.99€/MWh Börsenstrompreis am 1. Mai 2026 $\rightarrow$ Systemstabilität
 - Solarspitzengesetz (Ende Februar 2025): keine Vergütung bei negativen Strompreisen @ken_solarspitzengesetz_2025
 - negative Strompreise durch Bestandsanlagen verursacht
  
@@ -589,7 +589,7 @@ von wechselnden Strompreisen profitieren
     - [prognosebasierte Ladung von Heimspeichern](https://solar.htw-berlin.de/themen/prognosebasierte-batterieladung/) 
     - Steuerung der Verbraucher und Speicher nach dynamischem Stromtarif und Erzeugungs- und Lastprognosen
 - Diskussion: 
-  - indirekten Subventionierung durch Einsparung von Netzentgelten bei (teilweise/nicht) reduzierter Infrastrukturnutzung.
+  - indirekte Subventionierung durch Einsparung von Netzentgelten bei (teilweise/nicht) reduzierter Infrastrukturnutzung.
   - Kosten verlagert auf Verbraucher, die keine PV-Anlage betreiben können
   - Meinungsbeitrag: *Eigenverbrauch – ein Steuersparmodell* @hirth_eigenverbrauch_steuersparmodell_2025
 
@@ -607,27 +607,27 @@ von wechselnden Strompreisen profitieren
 
 - Messung des Strombedarfs: Smart-Meter, Zwischenstecker, Schätzung nach Zeitplan
 - max. 800W Einspeisung: begrenzter Nutzen für E-Autos und Wärmepumpen
-- **Wichtig**: Offene, lokale Schnittstellen bei Batteriespeicher (Zukunftssicherheit)
+- **Wichtig**: Offene, lokale Schnittstellen bei Batteriespeichern (Zukunftssicherheit)
 - Interessante Anbieter: 
   - chinesische Hersteller: Solakon (deutsche Server), Indevolt, sunenergyXT
-  - Maxxisun (deutscher Hersteller): 2300W Einspeisung mit ready2plugin Technologie
+  - Maxxisun (deutscher Hersteller): 2300W Einspeisung mit ready2plugin-Technologie
 
 ## Wärmepumpe
 
 - Standard in Neubauten
 - Wärmepumpen funktionieren in fast allen Bestandsgebäuden^[[Wärmepumpen im Bestand, Blog-Serie](https://blog.innovation4e.de/2021/02/10/waermepumpen-im-bestand-eine-serie-in-12-folgen/)]
 - bei anstehendem Austausch der Heizung über Laufzeit günstiger als Gasheizung
-  - Beispiel: 20.000kWh Wärmebedarf, konservative Annahmen^[Gasheizung: 0,10€/kWh Gas, 12.000€ Investition, 100€ Schornsteinfeger/Jahr, Wirkungsgrad 90%]^[Wärmepumpe: 0,30€/kWh Strom, 15.000€ Investition (50% Förderung), COP 4]:
+  - Beispiel: 20000kWh Wärmebedarf, konservative Annahmen^[Gasheizung: 0.10€/kWh Gas, 12000€ Investition, 100€ Schornsteinfeger/Jahr, Wirkungsgrad 90%]^[Wärmepumpe: 0.30€/kWh Strom, 15000€ Investition (50% Förderung), COP 4]:
     - über 15 Jahre: 
-      - Gasheizung: **46.300€**^[12.000€ + (20.000kWh / 0.9 * 0,10€/kWh + 100€) * 15 Jahre = 46.300€]
-      - Wärmepumpe: **37.500€**^[15.000€ + (20.000kWh **/ 4** * 0,30€/kWh) * 15 = 37.500€]
-    - perspektiv Strom gleich teuer oder günstiger (dynamische Tarif, Solaranlage)
+      - Gasheizung: **46300€**^[12000€ + (20000kWh / 0.9 * 0.10€/kWh + 100€) * 15 Jahre = 46300€]
+      - Wärmepumpe: **37500€**^[15000€ + (20000kWh **/ 4** * 0.30€/kWh) * 15 = 37500€]
+    - perspektivisch Strom gleich teuer oder günstiger (dynamischer Tarif, Solaranlage)
     - perspektivisch Gas teurer (CO2-Preis, steigende Netzentgelte, "Biotreppe")
 
 ---
 
 - bei vorzeitigem Austausch: Nullsummenspiel bis wirtschaftlich herausfordernd
-  - Gründe es trotzdem zu machen: 
+  - Gründe, es trotzdem zu machen: 
     - Unsicherheit Preisentwicklung fossiler Energieträger
     - Fit-Machen des Heizungssystems (Verlässlichkeit)
     - ggf. Kühlung möglich (Zusatznutzen)
@@ -639,31 +639,31 @@ von wechselnden Strompreisen profitieren
 ::: {style="font-size:0.6em"}
 - weitere Informationsquellen: 
   - [Jahres-Arbeitszahl-Rechner](https://www.waermepumpe.de/werkzeuge/jaz-rechner/)
-  - [YouTube Kanal Henrich Schröder (Gütersloh)](https://www.youtube.com/@henrichschroeder)
-  - [YouTube Video: 250 Lambda Wärmepumpen im Bestand](https://www.youtube.com/watch?v=Y2QwiyKPjH4)
+  - [YouTube-Kanal Henrich Schröder (Gütersloh)](https://www.youtube.com/@henrichschroeder)
+  - [YouTube-Video: 250 Lambda-Wärmepumpen im Bestand](https://www.youtube.com/watch?v=Y2QwiyKPjH4)
 :::
 ---
 
 ### Absurde Kosten: Marktversagen und Vorschriften
 - Kosten von Monoblock-Geräten für typisches Einfamilienhaus:
   - [chinesischer Hersteller](https://www.hofman-energy.com/waermepumpe-avarma-290-luft-wasser-mit-invertertechnik-monoblock-r290-6-40-22kw-230-400v-v03-hofman-energy-63425-de) derzeit ca. 3000€
-  - [Deutscher Hersteller:](https://www.hornbach.de/p/vaillant-waermepumpe-luft-wasser-arotherm-plus-vwl-105-6-a-s2-0010021120/12575658/?utm_source=price_search_engines&utm_medium=idealo_ads&utm_campaign=product_hei&utm_content=feed) ca. 8800€
+  - [deutscher Hersteller:](https://www.hornbach.de/p/vaillant-waermepumpe-luft-wasser-arotherm-plus-vwl-105-6-a-s2-0010021120/12575658/?utm_source=price_search_engines&utm_medium=idealo_ads&utm_campaign=product_hei&utm_content=feed) ca. 8800€
 - Angebote mit Auslegung, Einbau und Upgrade der Anlagentechnik: 
-  - typischerweise 30.000-45.000€.
+  - typischerweise 30000-45000€.
 - Wie ist das möglich? [Analyse von schlau energiesparen (YouTube)](https://www.youtube.com/watch?v=zyo93AC6Ewg)
   - Nachfrageüberhang: Unternehmen sind ausgelastet
   - Einfluss von anteilig gezahlten Subventionen
   - Gesetzgebung / Normen: z.B. Normen für Elektroinstallation, aufbereitetes Heizungswasser, Heizstab
   - wenig Vorfertigung 
-  - Vergleich: Kosten in Großbritannien (Deutscher Hersteller): 9000€ inkl. Einbau
+  - Vergleich: Kosten in Großbritannien (deutscher Hersteller): 9000€ inkl. Einbau
 
 ---
 
 ### Auswege
 - Fachkräftemangel beheben
-- Effizienteren Prozesse, Digitalisierung: durch Systemanbieter oder Großunternehmen
+- Effizientere Prozesse, Digitalisierung: durch Systemanbieter oder Großunternehmen
 - Höhere Vorfertigung: 
-  - [Viessmann Hydroframe](https://www.viessmann.de/de/produkte/zubehoer/vitoset-hydroframe.html) & weitere Komponenten [Installation in 1,5  statt 4 Tagen](https://www.youtube.com/watch?v=OYGE7ROjcn8)
+  - [Viessmann Hydroframe](https://www.viessmann.de/de/produkte/zubehoer/vitoset-hydroframe.html) & weitere Komponenten [Installation in 1.5 statt 4 Tagen](https://www.youtube.com/watch?v=OYGE7ROjcn8)
   - [Selfio ThermCube](https://www.selfio.de/heizung/thermcube/): Vormontage aller Innenkomponenten in Schrank
 - Industrielle Fertigung des Gesamtsystems in außenstehender Box
   - Beispiel: [elephant power](https://elephant-power.ai/de/) inkl. Batteriespeicher für PV-Anlage ([Video](https://www.youtube.com/watch?v=cSBQJiSFA0I)), ähnliche Lösungen für Mehrfamilienhäuser [EnerCube](https://www.enercube.at)
@@ -684,9 +684,9 @@ von wechselnden Strompreisen profitieren
 
 ## E-Auto
 
-- direkte Emissionen (aktuell): 150-200g $\text{CO}_2$/km Verbrenner vs. 60g $\text{CO}_2$/km ^[eigene Rechnung, Annahmen: 20kWh/100km, 300g $\text{CO}_2$ / kWh Strom] 60g $\text{CO}_2$ / km E-Auto
-  - "Emissionsrucksack" von 20-70kg $\text{CO}_2$/kWH Batterie (je nach Herstellungsregion, Zahlen für 2030 @green_ncap_lca_methodology_2022)
-- Lebenszyklus-Emissionen deutlich geringer als von Verbrennern, [ADAC-Tool](https://www.greenncap.com/lca-german.php)^[ [ADAC-Artikel zu Lebenszyklus-Emissionen](https://www.adac.de/verkehr/tanken-kraftstoff-antrieb/alternative-antriebe/klimabilanz/#neu-die-interaktive-lca-plattform) ]
+- direkte Emissionen (aktuell): 150-200g $\text{CO}_2$/km Verbrenner vs. 60g $\text{CO}_2$/km E-Auto^[eigene Rechnung, Annahmen: 20kWh/100km, 300g $\text{CO}_2$ / kWh Strom]
+  - "Emissionsrucksack" von 20-70kg $\text{CO}_2$/kWh Batterie (je nach Herstellungsregion, Zahlen für 2030 @green_ncap_lca_methodology_2022)
+- Lebenszyklus-Emissionen deutlich geringer als die von Verbrennern, [ADAC-Tool](https://www.greenncap.com/lca-german.php)^[ [ADAC-Artikel zu Lebenszyklus-Emissionen](https://www.adac.de/verkehr/tanken-kraftstoff-antrieb/alternative-antriebe/klimabilanz/#neu-die-interaktive-lca-plattform) ]
   - 50.1t (Diesel) vs. 27.6t (E-Auto) vs. 14.9t (E-Auto nur Windstrom) @kroher_treibhausgas_bilanz_2022
   - weiteres Absinken (effizientere Produktion, fortschreitende Emissionsreduktion des Fahrstroms)
 - Klimanutzen bei Ersatz von Bestandsfahrzeugen ab ca. 7500km/Jahr @bianchetti_kaufentscheid_elektroauto
@@ -747,7 +747,7 @@ von wechselnden Strompreisen profitieren
 ### Exkurs: Wandelbarkeit von Energie
 
 - Wirkungsgrad: $\eta=\frac{Nutzen}{Aufwand}$
-- Thermodynamik, N.Carnot (1824): Wärme ist nicht uneingeschränkt in Arbeit wandelbar
+- Thermodynamik, N. Carnot (1824): Wärme ist nicht uneingeschränkt in Arbeit wandelbar
 - Arbeit dahingegen vollständig in Wärme wandelbar
 - Beispiele
   - Wasserkocher: Strom (Arbeit) $\rightarrow$ Wärme: 100% Wirkungsgrad
@@ -758,22 +758,22 @@ von wechselnden Strompreisen profitieren
 - Grundlagen: 
   - Wärme nie uneingeschränkt in Arbeit wandelbar
   - Arbeit dahingegen immer vollständig in Wärme wandelbar
-  - Wärme stellt (je nach Temperatur) niedrigst-wertvollste Energieform dar
+  - Wärme stellt (je nach Temperatur) am wenigsten wertvolle Energieform dar
 - Kraftwerke mit Wärmeauskopplung (Fernwärme)
-  - Gas-und-Dampfkraftwerk (GuD) bis ca. 65% Wirkungsgrad [@siemens_energy_combined_cycle]
+  - Gas-und-Dampf-Kraftwerk (GuD) bis ca. 65% Wirkungsgrad [@siemens_energy_combined_cycle]
   - Blockheizkraftwerke (BHKW) bis ca. 50% Wirkungsgrad [@innio_jenbacher_j920_flextra]
   - mit Wärmenutzung (Fernwärmenetz) bis 90% Nutzungsgrad
   - strombasierte oder wärmebasierte Steuerung
   - Flexibilisierung durch Wärmespeicher
 - neue Motoren und Turbinen prinzipiell mit Wasserstoff möglich
-  - 20 Vol-% Wasserstoff sind nur x% CO2-Reduktion, da $\text{H}_2$ nur x/x der Energiedichte von Erdgas hat
+  - 20 Vol-% Wasserstoff sind nur ca. 6-7% CO2-Reduktion @fraunhofer_iee_h2_blending_2022, da $\text{H}_2$ nur ca. 1/3 der volumetrischen Energiedichte von Erdgas hat
   - $\rightarrow$ nur 100% Wasserstoff ist klimaneutral!
 
 ### Leistung und Energie
 
-- Leistung und Energie ist etwas unterschiedliches!
-- **Energie**: Arbeit, die verrichtet wurde [in W oder kW]
-- **Leistung**: Geschwindigkeit der Arbeitsverrichtung [in Wh, kWh, MWh]
+- Leistung und Energie sind etwas Unterschiedliches!
+- **Energie**: Arbeit, die verrichtet wurde [in Wh, kWh, MWh]
+- **Leistung**: Geschwindigkeit der Arbeitsverrichtung [in W oder kW]
 
 - am gebräuchlichsten: kWh - **k**ilo**w**att**h**our (Kilowattstunde)
 - Zusammenhang: $E = \int P(t) dt$
@@ -787,7 +787,7 @@ von wechselnden Strompreisen profitieren
 
 ---
 
-### Energiebilanz Deutschland detailiert
+### Energiebilanz Deutschland detailliert
 
 ![[Link zur Grafik](https://www.bdew.de/media/documents/1_Energieflussbild_Deutschland_2023_TWh_detailliert.svg) @bdew_nutzenergiebilanz_2025](https://www.bdew.de/media/documents/1_Energieflussbild_Deutschland_2023_TWh_detailliert.svg)
 
@@ -846,11 +846,11 @@ zentraler Drehpunkt des zukünftigen Energiesystems: Elektrizität als "Primäre
   - Kritik: kleinteilige Struktur kann ineffizient sein
   - Gegenargument: lokale Nähe und kommunale Verankerung
   - mögliche Antwort: Kooperationen und gemeinsame Plattformen
-- [Paragraf §14a EnWG](https://www.netze-bw.de/neuregelung-14a-enwg) - Auswirkungen auf Verbraucher
+- [§14a EnWG](https://www.netze-bw.de/neuregelung-14a-enwg) - Auswirkungen auf Verbraucher
   - Schutz des Verteilnetzes vor Überlastung
   - Möglichkeit zum "Dimmen" in begrenzten Zeiträumen
   - Im Gegenzug Reduktion der Netzentgelte
-  - Pflicht zum Netzausbau in betroffenen Gebiete
+  - Pflicht zum Netzausbau in betroffenen Gebieten
 
 ---
 
@@ -861,7 +861,7 @@ zentraler Drehpunkt des zukünftigen Energiesystems: Elektrizität als "Primäre
 - Bilanzkreisverantwortliche reichen Fahrplan einen Tag vorher ein
 - ÜNB überprüfen Fahrplan 
 - Basierend auf Fahrplänen: Lastflussrechnungen identifizieren Engpässe
-- Unstimmigkeiten: werden von ÜNB durch (teuere) Ausgleichsenergie behoben
+- Unstimmigkeiten: werden von ÜNB durch (teure) Ausgleichsenergie behoben
 
 ## Charakteristika des Strommarktes
 - Markt **ohne** Möglichkeit zur Lagerhaltung
@@ -888,7 +888,7 @@ zentraler Drehpunkt des zukünftigen Energiesystems: Elektrizität als "Primäre
 - zw. 40-70 GW
 :::
 
-## Strompreis- und Erneuerbare Energien
+## Strompreis und erneuerbare Energien
 
 Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von Strom
 
@@ -896,7 +896,7 @@ Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von S
 
 ### Winter
 
-![[energy-charts:](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=ew4w3w1&week=07) Day-Ahead Börsenstrompreise über eine Woche im Winter @energy_charts_deutschland](assets/energy_charts_strompreis_winter.svg)
+![[energy-charts:](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=ew4w3w1&week=07) Day-Ahead-Börsenstrompreise über eine Woche im Winter @energy_charts_deutschland](assets/energy_charts_strompreis_winter.svg)
 
 ::: {.column width="50%"}
 - + ca. 160€/MWh Steuern, Netzentgelte und Umlagen
@@ -913,7 +913,7 @@ Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von S
 
 ### Sommer
 
-![[energy-charts:](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=ew4w3w1&week=16) Day-Ahead Börsenstrompreise über eine Woche im Sommer @energy_charts_deutschland](assets/energy_charts_strompreis_sommer.svg)
+![[energy-charts:](https://www.energy-charts.info/charts/power/chart.htm?l=de&c=DE&legendItems=ew4w3w1&week=16) Day-Ahead-Börsenstrompreise über eine Woche im Sommer @energy_charts_deutschland](assets/energy_charts_strompreis_sommer.svg)
 
 ::: {.column width="50%"}
 - plus ca. 160€/MWh Steuern, Netzentgelte und Umlagen
@@ -922,8 +922,8 @@ Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von S
 :::
 
 ::: {.column width="50%"}
-- PV-Überschüsse führen regelmäßig an Wochenende zu Null- oder Negativpreisen
-- Feiertage / lange Wochenenden stellen zunehmend Problem dar
+- PV-Überschüsse führen regelmäßig an Wochenenden zu Null- oder Negativpreisen
+- Feiertage / lange Wochenenden stellen zunehmend ein Problem dar
   - Gründe: starre EEG-Vergütung, geringe Flexibilisierung, fehlende Speicher
 :::
 
@@ -933,19 +933,19 @@ Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von S
 ## Strommarkt nach Liberalisierung
 - Entflechtung von Erzeugung und Verteilung
 - Strom handelbar über:
-  - Termingeschäfte, Power-Purchase Agreements (PPA) (langfristig, z.B. Jahre im Vorraus) @next_kraftwerke_ppa
-  - Day-Ahead-Markt(in 15min Stücken, Gebotabgabe bis 12 Uhr am Vortag)
-  - Intraday-Markt (in 15min Stücken, bis 30/5min vor Lieferung)
+  - Termingeschäfte, Power-Purchase Agreements (PPA) (langfristig, z.B. Jahre im Voraus) @next_kraftwerke_ppa
+  - Day-Ahead-Markt (in 15-min-Stücken, Gebotsabgabe bis 12 Uhr am Vortag)
+  - Intraday-Markt (in 15-min-Stücken, bis 30/5min vor Lieferung)
 - basierend auf Last- und Erzeugungsprognose (Wettervorhersage)
 
-## Ablauf des Day-Ahead Markt
+## Ablauf des Day-Ahead-Marktes
 :::{.column width="40%"}
 
 - Angebot nach variablen Grenzkosten
 - letztes eingesetztes Kraftwerk bestimmt Preis
 - Erneuerbare mit Grenzkosten 0€ drücken den Preis
 - Aber: EEG garantiert bestimmte Vergütung und tw. (private PV) Einspeisung $\rightarrow$ negative Preise
-- Solarspitzengesetz für privat-PV: keine Vergütung bei negativen Preisen, Begrenzung auf 70% der Maximalleistung $\rightarrow$ Speicher netzdienlich laden
+- Solarspitzengesetz für private PV: keine Vergütung bei negativen Preisen, Begrenzung auf 70% der Maximalleistung $\rightarrow$ Speicher netzdienlich laden
 
 :::
 
@@ -973,16 +973,16 @@ Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von S
 - Stromhandel: Deutschland = eine Preiszone
 - Vernachlässigung der Übertragungskapazitäten ("Kupferplatte")
 - Ausgleich identifizierter Engpässe durch ÜNB
-- Kosten werden auf Netzentgelte umgelegt (steigend, 2024: ca 1.8 Mrd. €)^[zum Vergleich: ca. 50 Mrd. € Gesamtvolumen Börsenstromhandel (eigene Hochrechnung basierend auf @monitoringbericht_energie_2025) ] @monitoringbericht_energie_2025
+- Kosten werden auf Netzentgelte umgelegt (steigend, 2024: ca. 1.8 Mrd. €)^[zum Vergleich: ca. 50 Mrd. € Gesamtvolumen Börsenstromhandel (eigene Hochrechnung basierend auf @monitoringbericht_energie_2025) ] @monitoringbericht_energie_2025
 
 ---
 
 - Gegenmaßnahmen:
   - Netzausbau Nord-Süd
-  - Teilung von des deutschen Strommarktes in mehrere Preiszonen, die Übertragungskapazitäten berücksichtigen
+  - Teilung des deutschen Strommarktes in mehrere Preiszonen, die Übertragungskapazitäten berücksichtigen
     - Druck aus EU 
     <!-- - TODO: Quelle -->
-    - Tendenziell geringer Strompreise im Norden, höhere im Süden 
+    - Tendenziell geringere Strompreise im Norden, höhere im Süden 
     <!-- - TODO: Quelle -->
     - Befürchtung: Verlagerung von energieintensiver Industrie in den Norden
     - Preisunterschiede aber wahrscheinlich gering 
@@ -999,7 +999,7 @@ Börsenstrompreis (Day-Ahead) als Indikator für Knappheit oder Überfluss von S
 
 ---
 
-![Strom Aufkommen 2024 @monitoringbericht_energie_2025, Lizenz: [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)](assets/strom_aufkommen_2024.png){.r-stretch}
+![Stromaufkommen 2024 @monitoringbericht_energie_2025, Lizenz: [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)](assets/strom_aufkommen_2024.png){.r-stretch}
 
 ---
 
