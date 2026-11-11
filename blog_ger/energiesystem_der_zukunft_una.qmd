@@ -2,6 +2,7 @@
 title: "Das Energiesystem der Zukunft - und was man als Privatperson tun kann"
 subtitle: "Universität Augsburg, 11.11.2026"
 author: "Julius Aka"
+image: assets/energiesystem_der_zukunft.jpg
 bibliography: energiesystem.bib
 link-citations: true
 csl: ieee.csl
