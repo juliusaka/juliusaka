@@ -5,7 +5,7 @@ execute: # only render locally
   freeze: auto
 
 website:
-  description: "A blog built with Quarto"
+  description: "Julius Aka – PhD candidate in system simulation and scientific machine learning for sustainable energy systems. Blog on the energy transition, research and AI agents."
   site-url: "https://www.juliusaka.de"
   title: "juliusaka.de"
   google-analytics: 
@@ -35,15 +35,14 @@ website:
       #   href: projects.qmd
       
     right:
-      - about.qmd
       - text: Blog Archive
         href: http://wordpress-archive.juliusaka.de/
       - icon: github
-        href: https://github.com/
+        href: https://github.com/juliusaka
       - icon: linkedin
-        href: https://www.linkedin.com/in/juliusaka/"
+        href: https://www.linkedin.com/in/julius-aka/
 
-  body-footer: "© 2025 Julius Aka. All rights reserved. [Impressum](/impressum.qmd)"
+  body-footer: "© 2026 Julius Aka. All rights reserved. [Impressum](/impressum.qmd)"
 
 format:
   html:

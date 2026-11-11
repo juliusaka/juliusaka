@@ -1,4 +1,58 @@
 ---
 title: "Curriculum Vitae"
 ---
-under construction...
+
+## Research & Work
+
+**Doctoral Candidate** · University of Augsburg, Chair of Mechatronics\
+*May 2024 – present · Augsburg*
+
+PhD research on methods that combine system simulation and scientific machine learning to design and operate sustainable energy systems more efficiently, within the European research project [OpenSCALING](https://itea4.org/project/openscaling.html).
+
+**Working Student Research & Development** · XRG Simulation GmbH\
+*Oct 2022 – Apr 2024 · Hamburg*
+
+Applied probabilistic machine learning in the research project [PHyMoS](https://phymos.de/). Led a contribution to the Modelica Conference 2023 (*Efficient Global Multi Parameter Calibration for Complex System Models Using Machine-Learning Surrogates*), gave an internal machine-learning training, and wrote my master's thesis.
+
+**Lab Affiliate** · Lawrence Berkeley National Laboratory\
+*2022 · Berkeley, USA*
+
+Energy Analysis & Environmental Impacts Division. Supported the project [GEMINI-XFC](https://www.energy.gov/eere/vehicles/articles/grid-enhanced-mobility-integrated-network-infrastructures-extreme-fast-0) by developing a controller for charging depots of automated on-demand vehicle fleets.
+
+**Student Intern** · Siemens Gamesa\
+*Apr 2021 – Jul 2021 · Hamburg*
+
+Research & development team for ETES (Electric Thermal Energy Storage).
+
+**Research Student Assistant** · Institute of Engineering Thermodynamics, TUHH\
+*Sep 2019 – Sep 2020 · Hamburg*
+
+Heating system simulation with Modelica and Dymola.
+
+**Tutor** · Hamburg University of Technology\
+*Oct 2018 – Jan 2021 · Hamburg*
+
+Tutor for Technical Thermodynamics (2020/21) and StartING tutor at the Student Counseling Center, helping first-year students get started professionally and socially.
+
+## Education
+
+**M.Sc. Energy Systems** · Hamburg University of Technology (TUHH)\
+*2021 – 2023*
+
+- Master's thesis: *Latent ODEs for Surrogate Modeling of Physical Systems*, in cooperation with XRG Simulation, the Chair of Mechatronics (University of Augsburg) and the Institute of Engineering Thermodynamics (TUHH)
+- Project thesis: *Development of an Economic Storage Size Optimization Method and a Simulation Framework for Modeling Extreme-Fast-Charging Stations with Behind-the-Meter Energy Storage*, in cooperation with Lawrence Berkeley National Laboratory, the National Renewable Energy Laboratory and UC Berkeley
+- Student initiative: EnerConnectING
+
+**Exchange Year** · University of California, Berkeley\
+*Aug 2021 – May 2022*
+
+Courses in model predictive control, machine learning, data science for energy, alternative fuels, climate justice and energy-efficient architecture.
+
+**B.Sc. General Engineering Science – Energy and Environmental Engineering** · Hamburg University of Technology (TUHH)\
+*2017 – 2021*
+
+- Bachelor's thesis: *Development and Validation of a Simulation Model of the Heating System of the Administration Building Neuenfelder Straße*
+
+## Publications
+
+See the [publications page](publications.qmd).

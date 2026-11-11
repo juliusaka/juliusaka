@@ -1,18 +1,60 @@
 ---
-title: "Julius Aka - personal blog"
-# listing:
-#   contents: blog
-#   feed: true
-#   sort: "date desc"
-#   type: default
-#   categories: true
-#   sort-ui: true
-#   filter-ui: true
-#   max-items: 4
+title: "Julius Aka"
+subtitle: "Energy systems · System simulation · Scientific machine learning"
+image: https://github.com/juliusaka.png?size=460
 page-layout: full
-title-block-banner: true
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:thomaner@googlemail.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/julius-aka/
+    - icon: github
+      text: GitHub
+      href: https://github.com/juliusaka
+listing:
+  id: latest-posts
+  contents:
+    - blog
+    - blog_ger
+  sort: "date desc"
+  type: grid
+  max-items: 2
+  fields: [image, date, title, description]
+  feed: false
 ---
 
-Hi, this is my blog. My newest posts are:
+::: {#about}
 
-\
+## Hi, I'm Julius 👋
+
+I'm a PhD candidate working on how we can design and operate the energy systems of a climate-neutral future more efficiently. My research sits at the intersection of **system simulation** and **scientific machine learning**: I combine physics-based models with machine learning, for example as fast surrogate models, to make optimization of technical assets practical at scale. Part of this work happens in the European research project [OpenSCALING](https://itea4.org/project/openscaling.html).
+
+I came to this field through energy engineering. I studied **Energy Systems** at the Hamburg University of Technology (TUHH) and spent an exchange year at **UC Berkeley**. Along the way, I built machine-learning surrogates for complex system models at XRG Simulation in the research project [PHyMoS](https://phymos.de/), developed a charging-depot controller for automated vehicle fleets at **Berkeley Lab** in the project [GEMINI-XFC](https://www.energy.gov/eere/vehicles/articles/grid-enhanced-mobility-integrated-network-infrastructures-extreme-fast-0), worked on thermal energy storage at **Siemens Gamesa**, and taught first-year students as a tutor. The full story is in my [CV](cv.qmd).
+
+### What this blog is about
+
+Mostly the **energy transition**: how the energy system of the future could work, and what each of us can do about it. Besides that, I'll write about my **research** and about something I've been tinkering with a lot lately, **AI agents**. Some posts are in English, some in [German](blog_ger.qmd).
+
+:::
+
+## Latest posts
+
+::: {#latest-posts}
+:::
+
+[All English posts →](blog.qmd) · [Alle deutschen Beiträge →](blog_ger.qmd)
+
+## Publications
+
+I publish on different techniques that I hope will improve and enable more widespread use of simulation and optimization in energy systems. You can find the list on the [publications page](publications.qmd).
+
+## Get in touch
+
+I'm always happy to talk about energy systems, simulation and machine learning, whether you're a researcher, someone from industry or just curious. Write me a mail, or connect with me on [LinkedIn](https://www.linkedin.com/in/julius-aka/). 
