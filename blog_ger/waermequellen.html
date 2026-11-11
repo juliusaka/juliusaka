@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<!--
+  Wärmequellen für Wärmepumpen – interaktive Übersicht
+  Autor: Julius Aka, mit Claude Opus 5.5
+  Lizenz: CC BY 4.0
+  Eigenständige Datei ohne externe Abhängigkeiten.
+
+  URL-Parameter (optional, z. B. im iframe-src):
+    ?filter=etage|neu|best|budget Filter vorauswählen
+    &layers=hl,net,cool           Ebenen einblenden (Besonderheiten, Netzdienlichkeit, Kühlung)
+    &sel=gw                       Eintrag vorauswählen (IDs siehe ITEMS unten)
+    &controls=0                   Bedienleiste ausblenden
+    &zoom=0.9                     Gesamte Grafik skalieren
+-->
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wärmequellen für Wärmepumpen</title>
+<style>
+:root{
+  --text:#222; --muted:#6b6b6b; --faint:#9a9a9a;
+  --accent:#2a76dd; --accent-bg:#e8f1fc;
+  --border:#dcdcdc; --border-strong:#b5b5b5; --surface:#f7f7f7;
+  --danger:#a32d2d; --danger-bg:#fcebeb;
+  --success:#3b6d11; --success-bg:#eaf3de;
+  --warn:#854f0b; --warn-bg:#faeeda;
+  --warm:#ba7517; --cold:#378add; --air:#888780;
+  --ground:#f3e6cf; --sun:#ef9f27; --line:#555;
+  --font:"Source Sans Pro","Source Sans 3",Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:transparent;color:var(--text);font-family:var(--font)}
+body{padding:6px}
+.bar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 6px}
+.bar .lbl{font-size:13px;color:var(--muted);min-width:52px}
+.btn{font:inherit;font-size:14px;padding:3px 10px;border-radius:6px;border:1px solid var(--border-strong);background:#fff;color:var(--text);cursor:pointer}
+.btn.on{background:var(--accent-bg);color:var(--accent);border-color:var(--accent)}
+.no-controls .bars{display:none}
+.main{display:grid;grid-template-columns:1fr 1fr 1fr 290px;gap:10px;align-items:start;margin-top:8px}
+.card{border:1px solid var(--border);border-radius:10px;padding:10px 12px;background:var(--surface)}
+.card h3{margin:0;font-size:18px;font-weight:600}
+.card .sub{font-size:13px;color:var(--faint);margin:0 0 6px}
+.grp{font-size:12px;color:var(--muted);margin:6px 0 1px}
+.sg{font-size:12px;color:var(--faint);margin:6px 0 1px 14px}
+.sp{border:1px dashed var(--border-strong);border-radius:6px;padding:4px 6px;margin-top:6px}
+.sp .grp{margin-top:0}
+.item{font-size:14px;line-height:1.3;padding:2px 7px;border-radius:6px;margin:1px 0;cursor:pointer;border:1px solid transparent;transition:opacity .2s,background .2s}
+.item:hover{border-color:var(--border-strong)}
+.item.sel{border-color:var(--accent)}
+.item.ind{margin-left:14px}
+.item small{font-size:12px;color:var(--faint)}
+.hl{display:block;font-size:12px;color:var(--accent);margin-top:1px}
+.nohl .hl,.nonet .ov-net,.nocool .ov-cool{display:none}
+.dim .item:not(.hit){opacity:.3}
+.item.hit{background:var(--accent-bg)}
+.ov{font-size:12px;line-height:1.35;padding:5px 8px;margin-top:8px;border-radius:6px}
+.ov.r{background:var(--danger-bg);color:var(--danger)}
+.ov.g{background:var(--success-bg);color:var(--success)}
+.ov.o{background:var(--warn-bg);color:var(--warn)}
+.ov.top{margin:4px 0 6px}
+.hl.o{color:var(--warm)}
+.ov.n{background:#fff;color:var(--muted);border:1px solid var(--border)}
+.det{position:sticky;top:6px;border:1px solid var(--border);border-radius:10px;padding:10px 12px;background:#fff}
+.det .name{font-size:18px;font-weight:600;margin-top:6px}
+.det .info{font-size:14px;margin-top:4px}
+.det .row{font-size:14px;color:var(--muted);margin-top:4px}
+.det .cost b{color:var(--text);font-weight:400}
+.det .cost i{color:var(--border-strong);font-style:normal}
+.det .note{font-size:12px;color:var(--faint);margin-top:6px}
+.legend{font-size:12px;color:var(--faint);line-height:1.35;margin-top:2px}
+@media (max-width:900px){.main{grid-template-columns:1fr}.det{position:static;order:-1}}
+</style>
+</head>
+<body>
+<div class="bars">
+  <div class="bar"><span class="lbl">Filter</span>
+    <button class="btn flt on" data-f="">Alle</button>
+    <button class="btn flt" data-f="etage">Ersatz Etagenheizung</button>
+    <button class="btn flt" data-f="neu">Neubau</button>
+    <button class="btn flt" data-f="best">Bestand</button>
+    <button class="btn flt" data-f="budget">Kleiner Geldbeutel</button>
+  </div>
+  <div class="bar"><span class="lbl">Ebenen</span>
+    <button class="btn ly" data-l="hl">Besonderheiten</button>
+    <button class="btn ly" data-l="net">Netzdienlichkeit</button>
+    <button class="btn ly" data-l="cool">Kühlung</button>
+  </div>
+</div>
+<div class="main nohl nonet nocool" id="main"></div>
+
+<script>
+/* ---------- Inhalte ----------
+   t: Filter-Tags (etage, neu, best)
+   c: Kosten 1–4, 'na' = k. A., null = offen;  cn: Zusatz zu den Kosten
+   info: Text im Detailkasten;  p: Piktogramm-Typ                       */
+const ITEMS={
+  mono:{n:"Monoblock",s:"Kältekreis komplett außen",hl2:"Am populärsten",hl:"Teils als Außenwandgerät montierbar",t:"etage neu best",temp:"Außenluft, ca. −20 … +35 °C",c:2,p:"out"},
+  split:{n:"Split",s:"Kompressor innen",hl:"Eher auslaufend, Kältekreis aufwendiger",t:"",temp:"Außenluft, ca. −20 … +35 °C",c:2,p:"split"},
+  innen:{n:"Innen aufgestellt",s:"Luftkanäle durch Wand",t:"etage best",temp:"Außenluft, ca. −20 … +35 °C",c:2,p:"in"},
+  abluft:{n:"Abluft-WP",s:"gut gedämmter Neubau",t:"neu",temp:"Abluft, ca. 20 … 24 °C",c:2,p:"exh"},
+  dual:{n:"Dual Mode",s:"Abluft + Außenluft",t:"etage best",temp:"Abluft ca. 20 … 24 °C, dazu Außenluft",c:2,p:"dual"},
+  bw:{n:"Brauchwasser-WP",s:"Abluft, unbeheizter Keller, Außenluft",hl:"Günstig, vereinfacht die Systemhydraulik, entfeuchtet feuchte Räume; Raumluft im Wohnbereich eher mäßig sinnvoll (Energiequelle: bestehende Heizung, im Sommer Kühlung des Wohnraums)",t:"etage neu best budget",temp:"Keller ca. 8 … 15 °C, Abluft ca. 20 °C, Außenluft",c:1,p:"dhw"},
+  aa:{n:"Split-Klimageräte",s:"Innengerät an der Wand",hl:"Günstige Ergänzung zum bestehenden Heizsystem, das erhalten bleibt; Zusatznutzen: Kühlung im Sommer",t:"etage best budget",temp:"Außenluft, ca. −20 … +35 °C",c:1,p:"aa",dn:"Split-Klimageräte (Luft/Luft)"},
+  koll:{n:"Erdwärmekollektoren",s:"horizontal, ca. 1,2–1,5 m",t:"neu best",temp:"Erdreich ca. 0 … 15 °C, saisonal",c:3,p:"coll"},
+  graben:{n:"Energiegräben",ind:1,t:"neu best",temp:"Erdreich ca. 0 … 15 °C, saisonal",c:3,p:"trench"},
+  korb:{n:"Erdwärmekörbe",ind:1,t:"neu best",temp:"Erdreich ca. 0 … 15 °C, saisonal",c:3,p:"basket"},
+  sonde:{n:"Erdwärmesonden",s:"bis 100 m",hl:"Investition für Generationen (ca. 100 Jahre)",t:"neu best",temp:"Erdreich ca. 10 … 13 °C, nahezu konstant",c:4,p:"probe"},
+  gw:{n:"Grundwasser-WP",s:"Förder- + Schluckbrunnen",t:"neu best",temp:"Grundwasser ca. 8 … 12 °C, ganzjährig",c:4,p:"well"},
+  kombi:{n:"Kombisystem gesamt",hl:"Höchste Effizienz",t:"neu best",temp:"je nach Speicher und Quellen",c:4,p:"kombi"},
+  eis:{n:"Eisspeicher",ind:1,t:"neu best",temp:"ca. 0 °C (Phasenwechsel) … 20 °C",c:3,p:"ice"},
+  erdakt:{n:"Erdreichaktivierung",s:"unter dem Gebäude",ind:1,t:"neu best",temp:"Erdreich unter dem Gebäude, saisonal geladen",c:2,cn:"je nachdem, ob Erdarbeiten ohnehin anstehen",p:"erdakt"},
+  geo:{n:"Geothermie",ind:1,t:"neu best",temp:"Erdreich ca. 10 … 13 °C",c:4,p:"geo"},
+  absorber:{n:"Solar-Luftabsorber",s:"PE-Rohre auf dem Dach",ind:1,t:"neu best",temp:"Außenluft + Strahlung, ca. −15 … +40 °C",c:1,p:"roof"},
+  zaun:{n:"Energiezaun",s:"PE-Rohre als Zaun im Garten",ind:1,t:"neu best",temp:"Außenluft + Strahlung, ca. −15 … +40 °C",c:1,p:"zaun"},
+  pvt:{n:"PVT-Module",s:"Photovoltaik-Thermie",ind:1,t:"neu best",temp:"Außenluft + Strahlung, ca. −15 … +50 °C",c:2,p:"pvt",info:"PV-Module mit rückseitigem Wärmeübertrager: Strom und Wärme von derselben Fläche."},
+  kuehl:{n:"Kühlung im Sommer",s:"Gebäudewärme regeneriert",ind:1,t:"neu best",temp:"Raumwärme ca. 22 … 26 °C",c:1,p:"cool"},
+  abw:{n:"Abwasser",ind:1,t:"",temp:"Abwasser ca. 10 … 20 °C",c:"na",p:"sewer"},
+  hydro:{n:"Hydrothermie",s:"Fließgewässer, Seen",ind:1,t:"",temp:"Gewässer ca. 2 … 20 °C, saisonal",c:"na",p:"river"},
+  ind:{n:"Industrieabwärme",ind:1,t:"",temp:"je nach Prozess",c:"na",p:"ind"},
+  knw:{n:"Kalte Nahwärme",s:"ungedämmte Niedrigtemperatur-Wärmenetze",hl:"Neubaugebiete und Bestand (Mehrfamilienhäuser) mit begrenzter Außenfläche; Kühlung im Sommer möglich",t:"etage neu best",temp:"Netz ca. 0 … 20 °C",c:2,p:"net",info:"Wärmetransport bei niedrigen Temperaturen in ungedämmten Rohren, dezentrale Wärmepumpe in jedem Gebäude. Speist sich aus Quellen wie oben, zusätzlich ist Industrieabwärme möglich."}
+};
+const CARDS=[
+  {h:"Luft",sub:"Luft/Wasser-Wärmepumpen",secs:[
+    {h:"Außenluft, Außenaufstellung",i:["mono","split"]},
+    {h:"Außenluft, Innenaufstellung",i:["innen"]},
+    {h:"Abluft",i:["abluft","dual"]},
+    {h:"Sonderrolle: nur Warmwasser",box:1,i:["bw"]},
+    {h:"Luft/Luft-Wärmepumpen",i:["aa"]}],
+   net:["r","Netzdienlichkeit: niedrigste Effizienz bei tiefen Außentemperaturen, also genau zur Spitzenlast. Trotzdem wirtschaftlich."],
+   net2:[["o","Entlastung durch: Batteriespeicher; zeitliche Verlagerung des Betriebs (nicht morgens und abends; Pufferspeicher, Fußbodenheizung oder gute Dämmung notwendig)"]],
+   cool:["n","Kühlung: aktiv möglich (reversibler Betrieb), bei Split-Klimageräten direkt über die Raumluft."]},
+  {h:"Erdreich & Grundwasser",sub:"Oberflächennahe Geothermie",secs:[
+    {h:"Sole/Wasser",i:["koll","graben","korb","sonde"]},
+    {h:"Wasser/Wasser",i:["gw"]}],
+   net:["g","Netzdienlichkeit: hohe Effizienz auch bei Frost, entlastet das Stromnetz zur Spitzenlast."],
+   cool:["g","Kühlung: besonders effizient, passiv, nur Pumpenergie. Bei Erdwärmesonden regeneriert die Kühlung im Sommer das Erdreich und hält die Quellentemperatur langfristig hoch, besonders wichtig bei knapper Auslegung."]},
+  {h:"Multi-Quellen & Netze",sub:"Kombination aus Energiespeichern und Energiequellen",secs:[
+    {i:["kombi"]},
+    {h:"Saisonale Energiespeicher",i:["eis","erdakt"]},
+    {h:"Energiequellen",i:["geo","absorber","zaun","pvt","kuehl"]},
+    {h:"Sonderfälle",sg:1,i:["abw","hydro","ind"]},
+    {h:"Möglichkeit für Wärmenetze",box:1,i:["knw"]}],
+   net:["g","Netzdienlichkeit: Der Speicher hält die Quellentemperatur bei niedrigen Außentemperaturen hoch; Sonnentage im Winter und die Sommerperiode regenerieren ihn wieder."],
+   cool:["g","Kühlung: beim Eisspeicher besonders effizient durch das Eis aus dem Winter."]}
+];
+
+/* ---------- Piktogramme (viewBox 240 × 130) ---------- */
+/* Farben direkt aus der :root-Regel lesen: getComputedStyle liefert in einem iframe auf einer
+   (noch) versteckten reveal.js-Folie je nach Browser leere Werte → Piktogramme ohne Farbe */
+const ROOT=(()=>{try{for(const sh of document.styleSheets)for(const r of sh.cssRules)if(r.selectorText===':root')return r.style;}catch(e){}return null;})();
+const css=n=>((ROOT&&ROOT.getPropertyValue(n))||getComputedStyle(document.documentElement).getPropertyValue(n)).trim();
+const K={a:css('--warm'),b:css('--cold'),g:css('--air'),y:css('--sun')};
+const L=`stroke="${css('--line')}" stroke-width="1" fill="none"`;
+const UF=`fill="${css('--accent-bg')}" stroke="${css('--accent')}" stroke-width="1"`;
+const WF=`fill="${css('--accent-bg')}" stroke="${css('--accent')}" stroke-width="0.8"`;
+const AC=`stroke="${css('--accent')}" stroke-width="1.2" fill="none"`;
+const DEFS='<defs>'+Object.entries(K).map(([k,c])=>
+  `<marker id="pm${k}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M2 1L8 5L2 9" fill="none" stroke="${c}" stroke-width="1.6" stroke-linecap="round"/></marker>`+
+  `<marker id="pf${k}" viewBox="0 0 10 10" refX="4" refY="5" markerWidth="3" markerHeight="3" orient="auto"><path d="M0 0L10 5L0 10Z" fill="${c}"/></marker>`).join('')+'</defs>';
+const A=(d,k)=>`<path d="${d}" stroke="${K[k]}" stroke-width="1.5" fill="none" marker-end="url(#pm${k})"/>`;   /* Luft */
+const B=(d,k)=>`<path d="${d}" stroke="${K[k]}" stroke-width="3" fill="none" stroke-linejoin="round" marker-end="url(#pf${k})"/>`; /* Wärmestrom */
+const BASE=()=>`<rect x="0" y="70" width="240" height="60" fill="${css('--ground')}"/><line x1="0" y1="70" x2="240" y2="70" ${L}/><polygon points="22,30 65,8 108,30" ${L}/><rect x="30" y="30" width="70" height="40" ${L}/><rect x="30" y="70" width="70" height="30" ${L} stroke-dasharray="3 2"/>`;
+const u=(x,y)=>`<rect x="${x}" y="${y}" width="18" height="14" rx="2" ${UF}/>`;
+const UB=(x,y)=>`<rect x="${x}" y="${y}" width="24" height="16" rx="2" ${UF}/>`;
+const T=(x,y,s)=>`<text x="${x}" y="${y}" font-size="11" font-family="${css('--font').replace(/"/g,"'")}" fill="${css('--muted')}">${s}</text>`;
+const SUN=(x,y,rays)=>`<circle cx="${x}" cy="${y}" r="7" fill="${K.y}"/>`+rays.map(d=>`<path d="${d}" stroke="${K.y}" stroke-width="1.3" stroke-dasharray="3 2" fill="none" marker-end="url(#pmy)"/>`).join('');
+const OUT=()=>A('M172 40L141 54','a')+A('M139 64H182','b');
+const PROBE=()=>`<path d="M150 83V126M156 126V83" ${L}/>`+B('M128 112H143','a')+B('M180 100H164','a')+T(166,122,'100 m');
+const ROOF=()=>B('M112 32V60H106','a');
+const P={
+  out:()=>`<path d="M100 62H114" ${L}/>`+UB(114,54)+OUT(),
+  split:()=>u(70,52)+`<path d="M88 60H114" ${L} stroke-dasharray="2 2"/>`+UB(114,54)+OUT(),
+  aa:()=>`<rect x="58" y="34" width="30" height="8" rx="2" ${UF}/><path d="M88 38H107V62H114" ${L} stroke-dasharray="2 2"/>`+UB(114,54)+OUT()+A('M70 44L56 60','a')+A('M80 44L80 62','a'),
+  in:()=>UB(64,50)+`<rect x="98" y="50" width="4" height="7" ${L}/><rect x="98" y="59" width="4" height="7" ${L}/>`+A('M136 53H91','a')+A('M90 62H136','b'),
+  exh:()=>UB(64,50)+A('M36 38Q50 40 62 52','a')+A('M90 52L126 34','b')+A('M2 48H32','g'),
+  dual:()=>UB(64,50)+A('M36 38Q50 40 62 52','a')+A('M90 52L126 34','b')+A('M2 48H32','g')+A('M136 63H91','a'),
+  dhw:()=>`<rect x="56" y="80" width="16" height="18" rx="3" ${UF}/><rect x="54" y="73" width="20" height="8" rx="2" ${UF}/>`+A('M34 77H51','a')+A('M76 77H96','b')+A('M16 90H27','a')+A('M114 90H103','a')+A('M44 114V103','a')+A('M86 114V103','a'),
+  coll:()=>u(70,76)+`<path d="M88 83H110V88H220V94H110V100H220" ${L}/>`+B('M140 124V108','a')+B('M190 124V108','a')+B('M165 72V80','a'),
+  trench:()=>u(70,76)+`<path d="M88 83H120" ${L}/><rect x="120" y="74" width="90" height="40" fill="none" stroke="${css('--faint')}" stroke-dasharray="2 2" stroke-width=".8"/><path d="M125 94c5-14 10-14 15 0s10 14 15 0 10-14 15 0 10 14 15 0 10-14 15 0" ${L}/>`+B('M236 94H218','a')+B('M165 128V120','a')+B('M104 104H114','a'),
+  basket:()=>u(70,76)+`<path d="M88 83H210" ${L}/>`+[130,165,200].map(x=>`<polygon points="${x-12},86 ${x+12},86 ${x},116" ${L}/>`).join('')+B('M147 128V112','a')+B('M182 128V112','a'),
+  probe:()=>u(70,76)+`<path d="M88 83H150" ${L}/>`+PROBE(),
+  well:()=>`<rect x="0" y="104" width="240" height="26" ${WF}/>`+u(70,76)+`<path d="M88 80H130V124M88 86H200V124" ${L}/>`+B('M122 124V96','a')+B('M208 94V122','b')+T(134,99,'Förder')+`<text x="196" y="120" text-anchor="end" font-size="11" fill="${css('--muted')}">Schluck</text>`,
+  kombi:()=>u(70,76)+`<rect x="140" y="84" width="50" height="30" rx="4" ${WF}/><path d="M88 83H140" ${L}/><path d="M66 12L104 32" stroke="${css('--accent')}" stroke-width="3" fill="none"/><path d="M104 31V83" ${L}/>`+B('M112 92H134','a')+B('M136 104H112','a'),
+  ice:()=>`<rect x="130" y="82" width="56" height="32" rx="4" ${WF}/>`+B('M126 88H106','a')+B('M104 104H124','a')+T(192,102,'Eis'),
+  erdakt:()=>`<path d="M105 106H25V112H105V118H25V124H105" ${AC}/>`+B('M52 104V88','a')+B('M78 86V102','a'),
+  geo:()=>`<path d="M150 83V78" ${L}/>`+B('M150 78H106','a')+PROBE(),
+  roof:()=>`<path d="M68 12L104 30M70 17L96 30" ${AC}/>`+SUN(226,12,['M216 14L106 16','M217 19L104 25'])+A('M172 46L122 36','a')+A('M60 3H24','b')+ROOF()+T(124,64,'PE-Rohre'),
+  zaun:()=>`<path d="M140 68V38M210 68V38" ${L}/><path d="M140 42H210V48H140V54H210V60H140V66H210" ${AC}/>`+SUN(226,10,['M219 17L211 36','M229 19L225 40'])+A('M238 50H216','a')+A('M136 48H110','b')+B('M175 70V86H106','a')+T(142,32,'Energiezaun'),
+  pvt:()=>`<g transform="rotate(27 66 10)"><rect x="68" y="6" width="38" height="5" ${UF}/><rect x="68" y="12" width="38" height="3" fill="none" stroke="${css('--accent')}" stroke-width=".8"/></g>`+SUN(226,12,['M216 14L106 16','M217 19L104 25'])+A('M172 46L122 36','a')+A('M60 3H24','b')+ROOF()+T(116,64,'PV + Wärmeübertrager'),
+  cool:()=>A('M36 44H58','b')+B('M78 46V90H134','a')+`<rect x="140" y="84" width="50" height="30" rx="4" ${WF}/>`+T(120,50,'Sommer'),
+  net:()=>u(70,76)+`<path d="M0 116H240" stroke="${css('--accent')}" stroke-width="3"/>`+B('M79 114V96','a')+T(140,110,'Netz, ungedämmt'),
+  sewer:()=>`<rect x="130" y="104" width="100" height="14" rx="7" ${WF}/>`+B('M150 102V86H106','a')+B('M108 111H128','a')+B('M184 111H226','b'),
+  river:()=>`<path d="M160 70Q180 94 240 94V70Z" ${WF}/>`+B('M170 80H106','a')+B('M200 85H234','b'),
+  ind:()=>`<path d="M150 70V44L168 54V44L186 54V30H198V70" ${L}/>`+A('M192 26V12','a')+B('M170 72V86H106','a')+T(150,98,'Betrieb')
+};
+const pic=(p,label)=>`<svg viewBox="0 0 240 130" width="100%" role="img" aria-label="Piktogramm ${label}">${DEFS}${BASE()}${p?P[p]():''}</svg>`;
+
+/* ---------- Aufbau ---------- */
+const main=document.getElementById('main');
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+function itemHTML(id,forceInd){const d=ITEMS[id];
+  return `<div class="item${d.ind||forceInd?' ind':''}" data-id="${id}" data-t="${d.t||''}" role="button" tabindex="0">${esc(d.n)}${d.s?` <small>${esc(d.s)}</small>`:''}${d.hl2?`<span class="hl o">${esc(d.hl2)}</span>`:''}${d.hl?`<span class="hl">${esc(d.hl)}</span>`:''}</div>`;}
+main.innerHTML=CARDS.map(c=>`<div class="card"><h3>${esc(c.h)}</h3><p class="sub">${esc(c.sub)}</p>`+
+  [c.net].concat(c.net2||[]).map(n=>`<div class="ov top ov-net ${n[0]}">${esc(n[1])}</div>`).join('')+
+  c.secs.map(s=>{const head=s.h?`<div class="${s.sg?'sg':'grp'}">${esc(s.h)}</div>`:'';const body=s.i.map(id=>itemHTML(id)).join('');
+    return s.box?`<div class="sp">${head}${body}</div>`:head+body;}).join('')+
+  `<div class="ov ov-cool ${c.cool[0]}">${esc(c.cool[1])}</div></div>`).join('')+
+  `<div class="det" aria-live="polite"><div id="pic">${pic(null,'Haus')}</div>
+   <div class="legend">Dünne Pfeile: Luft · breite Pfeile: Wärmestrom<br>Orange: Wärme rein · blau: abgekühlt raus · gelb: Sonne</div>
+   <div class="name" id="dn">Eintrag anklicken</div><div class="info" id="di"></div>
+   <div class="row" id="dt"></div><div class="row cost" id="dc"></div>
+   <div class="note">Richtwerte</div></div>`;
+
+function cost(c,n){if(c==='na')return 'Kosten: k. A.';if(c==null)return 'Kosten: noch offen';
+  return `Kosten: <b>${'€'.repeat(c)}</b><i>${'€'.repeat(4-c)}</i>`+(n?` <span style="font-size:12px">(${esc(n)})</span>`:'');}
+function show(id){const d=ITEMS[id];if(!d)return;
+  document.getElementById('pic').innerHTML=pic(d.p,d.n);
+  document.getElementById('dn').textContent=d.dn||d.n;
+  document.getElementById('di').textContent=d.info||'';
+  document.getElementById('dt').textContent='Quellentemperatur: '+d.temp;
+  document.getElementById('dc').innerHTML=cost(d.c,d.cn);
+  main.querySelectorAll('.item').forEach(i=>i.classList.toggle('sel',i.dataset.id===id));}
+function setFilter(f){document.querySelectorAll('.flt').forEach(b=>b.classList.toggle('on',b.dataset.f===(f||'')));
+  main.classList.toggle('dim',!!f);
+  main.querySelectorAll('.item').forEach(i=>i.classList.toggle('hit',!!f&&i.dataset.t.split(' ').includes(f)));}
+function setLayer(l,on){main.classList.toggle('no'+l,!on);document.querySelector(`.ly[data-l="${l}"]`).classList.toggle('on',on);}
+/* Fokus nach Klick an reveal.js zurückgeben, damit die Pfeiltasten weiter die Folien steuern */
+const refocus=()=>{try{document.activeElement&&document.activeElement.blur();window.parent&&window.parent!==window&&window.parent.focus();}catch(e){}};
+
+main.querySelectorAll('.item').forEach(i=>{
+  i.addEventListener('click',()=>{show(i.dataset.id);refocus();});
+  i.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();show(i.dataset.id);}});});
+document.querySelectorAll('.flt').forEach(b=>b.addEventListener('click',()=>{setFilter(b.dataset.f);refocus();}));
+document.querySelectorAll('.ly').forEach(b=>b.addEventListener('click',()=>{setLayer(b.dataset.l,!b.classList.contains('on'));refocus();}));
+
+/* URL-Parameter */
+const q=new URLSearchParams(location.search||location.hash.replace(/^#/,''));
+if(q.get('filter'))setFilter(q.get('filter'));
+(q.get('layers')||'').split(',').filter(Boolean).forEach(l=>setLayer(l,true));
+if(q.get('sel'))show(q.get('sel'));
+if(q.get('zoom'))document.body.style.zoom=q.get('zoom');
+if(q.get('controls')==='0')document.body.classList.add('no-controls');
+</script>
+</body>
+</html>
